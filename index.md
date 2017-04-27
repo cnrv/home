@@ -10,7 +10,7 @@ layout: default
 
 ## 最新活动
 
-[SiFive](https://www.sifive.com/)会在6th RISC-V Workshop之后的周六下午（5月13日）在张江办一场线下的活动，届时SiFive的主要成员包括RISC-V的主要发明者Krste教授和FE310/Hifive1的主要设计者都会来。感兴趣的朋友请及时关注本页面，正式的活动注册信息会尽快发出。
+[SiFive](https://www.sifive.com/)会在6th RISC-V Workshop之后的周六下午2点（5月13日）在张江办一场线下的活动，届时SiFive的主要成员包括RISC-V的主要发明者U.C. Berkeley的Krste Asanović教授和FE310/Hifive1的主要设计者首席工程师Megan Wachs都会到场。感兴趣的朋友请及时关注本页面，正式的活动注册信息会尽快发出。
 
 ----
 
@@ -30,7 +30,7 @@ layout: default
 ```
 $ tar xzvf freedom.tar.gz
 $ cd freedom
-$ git submodule update --init
+$ git submodule update --init --recursive
 
 # 如果需要更新到最新，可以执行
 $ git pull origin master

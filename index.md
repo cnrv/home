@@ -8,14 +8,14 @@ layout: default
 
 ----
 
-## 最新活动
+## RISC-V双周简报
 
-[SiFive](https://www.sifive.com/)会在6th RISC-V Workshop之后的周六下午2点（5月13日）在张江办一场线下的活动，届时SiFive的主要成员包括RISC-V的主要发明者U.C. Berkeley的Krste Asanović教授和FE310/Hifive1的主要设计者首席工程师Megan Wachs都会到场。感兴趣的朋友请及时关注本页面，正式的活动注册信息会尽快发出。
+- 2017-07-06: [ARM~ARM~你不要怕~](bi-week-rpts/2017-07-06)
+- 2017-06-21: [你们心心念念的RV32E终于来了~](bi-week-rpts/2017-06-21)
 
 ----
 
 ## 资源列表
-
 
 ### freedom/rocket-chip/riscv-tools完整压缩包
 
@@ -27,18 +27,18 @@ layout: default
 - [百度网盘freedom-e-sdk完整打包文件](https://pan.baidu.com/s/1mhGVe1U)
 - [百度网盘freedom-u-sdk完整打包文件](https://pan.baidu.com/s/1nvLnaZn)
 
-```
+~~~
 $ tar xzvf freedom.tar.gz
 $ cd freedom
 $ git submodule update --init --recursive
 
 # 如果需要更新到最新，可以执行
 $ git pull origin master
-```
+~~~
 
-----
+### oschina镜像服务
 
-## FAQ
-
-TBD
+在提供压缩包的同时，我们在[oschina](http://git.oschina.net)上镜像了主要的RISC-V工程。 我们利用国外服务器定期同步oschina上的镜像，方便大家获得最新的更新。
+相比压缩包，镜像服务器同步了更多的RISC-V相关GitHub工程，包括freechipsproject, riscv, ucb-bar和lowrisc的所有工程。
+镜像服务器的具体使用方法请参考[clone-helpers](https://github.com/cnrv/clone-helpers/blob/master/README.md)工程。
 

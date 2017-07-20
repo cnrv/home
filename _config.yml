@@ -1,7 +1,7 @@
-title: 中国RISC-V用户组
-description: China RISC-V User Group
+title: CNRV
+description: 中国RISC-V用户组
 show_downloads: false
-google_analytics:
+google_analytics: UA-102898438-1
 theme: 
 markdown: redcarpet
 redcarpet:

@@ -19,6 +19,8 @@ layout: default
 
 ## 资源列表
 
+### [RISC-V 资料搜集页面](resource.md)
+
 ### freedom/rocket-chip/riscv-tools完整压缩包
 
 因为国内用户访问github比较慢，而且clone过后submodule更加慢，以下的压缩包是在clone了[freedom](https://github.com/sifive/freedom)之后，执行`git submoudle update --init --recursive`之后打包的。所以已经以submodule的形式包含了rocket-chip和riscv-tools以及下面的诸多submodules。

@@ -75,6 +75,9 @@ layout: default
 + SHAKTI：印度IIT-Madras的RISC-V处理器系列，Bluespec, BSD Licensed。
   [[Bitbucket](https://bitbucket.org/casl/shakti_public)]
 
++ Sodor: 教学用的RISC-V处理器。Chisel, BSD Licensed。
+  [[GitHub](https://github.com/ucb-bar/riscv-sodor)]
+
 + uRV: 针对FPGA的RV32微处理器。Verilog，LGPLv3 Licensed.
   [[ohwr](http://www.ohwr.org/projects/urv-core)]
 

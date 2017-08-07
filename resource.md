@@ -99,6 +99,11 @@ layout: default
     [[PDF](https://content.riscv.org/wp-content/uploads/2017/05/riscv-privileged-v1.10.pdf)]
     [[GitHub](https://github.com/riscv/riscv-isa-manual)]
 
++ Chisel
+
+  - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
+  - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
+
 ## 其他
 
 + [CNRV中国镜像](https://github.com/cnrv/clone-helpers/blob/master/README.md): 提供大量RISC-V相关工程的国内下载镜像。

@@ -65,6 +65,8 @@ layout: default
   - lowRISC：Chisel+SystemVerilog，Solderpad Licensed, 从剑桥大学发起的非盈利组织。
     [[GitHub](https://github.com/lowrisc/lowrisc-chip)]
     [[Web](http://www.lowrisc.org)]
+  - RoCC: the Rocket customized coprocessor interface 和Rocket处理器紧密互联的的协处理器接口。
+    [[BSG](https://bitbucket.org/taylor-bsg/bsg_riscv)]
 
 + RV12: RoaLogic的RV32微处理器。Verilog, RoaLogic non-commercial Licensed。
   [[GitHub](https://github.com/RoaLogic/RV12)]

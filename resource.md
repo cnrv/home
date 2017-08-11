@@ -96,6 +96,10 @@ layout: default
 
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
++ Simulator/Translator
+
+  - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
+
 
 ## 文档
 
@@ -112,6 +116,11 @@ layout: default
 
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
+
++ 教学课程
+  - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
+
+
 
 ## 其他
 

@@ -92,6 +92,10 @@ layout: default
 
 ## 开发工具
 
++ GNU GCC
+
+  - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
+
 
 ## 文档
 

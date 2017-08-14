@@ -93,7 +93,7 @@ layout: default
 
 + Linux
 
-  - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的32位Linux。
+  - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的RISC-V Linux emulator。
   - [JSLinux](https://bellard.org/jslinux/): Fabrice Bellard维护的可在浏览器里运行的RISC-V操作系统。
 
 ## 开发工具

@@ -89,17 +89,26 @@ layout: default
 + YARVI: Tommy Thorn设计的RV32I微处理器，Verilog，GPL2v Licensed。
   [[GitHub](https://github.com/tommythorn/yarvi)]
 
+## 操作系统
+
++ Linux
+
+  - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的32位Linux。
+  - [JSLinux](https://bellard.org/jslinux/): Fabrice Bellard维护的可在浏览器里运行的RISC-V操作系统。
 
 ## 开发工具
 
-+ GNU GCC
++ GNU工具链
 
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
-+ Simulator/Translator
++ 运行和软件仿真
 
   - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
 
++ 在线调试
+
+  - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。
 
 ## 文档
 

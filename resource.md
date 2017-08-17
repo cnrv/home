@@ -89,6 +89,11 @@ layout: default
 + YARVI: Tommy Thorn设计的RV32I微处理器，Verilog，GPL2v Licensed。
   [[GitHub](https://github.com/tommythorn/yarvi)]
 
+## 其他硬件模块
+
++ RISCV-FPU：王逵的FPU设计。
+  [[GitHub](https://github.com/cnrv/RISCV-FPU)]
+
 ## 操作系统
 
 + Linux
@@ -100,7 +105,8 @@ layout: default
 
 + GNU工具链
 
-  - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
+  - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
+  - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
 + 运行和软件仿真
 

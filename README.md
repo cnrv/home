@@ -1,1 +1,1 @@
-China RISC-V User Group
+CNRV website powered by Github Pages.

@@ -4,7 +4,7 @@ layout: default
 
 # RISC-V资源列表
 
-## 处理器设计
+## 处理器实现
 
 + BOOM: Christopher Celio的RV64乱序处理器实现。Chisel, BSD Licensed。
   [[GitHub](https://github.com/ucb-bar/riscv-boom)]
@@ -143,6 +143,7 @@ layout: default
 + [RISC-V wiki](https://github.com/riscv/riscv-wiki/wiki): 由Arun维护的近官方RISC-V维科页面。
 
 ------------------------
-**如果本页中的连接失效，请联系CNRV更新，或直接向网页源码发送PR修正。**
+
+**如果本页中的连接失效，请联系CNRV更新，或直接向网页源码[发送PR](https://github.com/cnrv/home/pulls)修正。**
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可。

@@ -20,7 +20,7 @@ layout: default
 
 ## 资源列表
 
-### [RISC-V 资料搜集页面](resource.md)
+### [RISC-V 资料搜集页面](/resource.md)
 
 ### freedom/rocket-chip/riscv-tools完整压缩包
 

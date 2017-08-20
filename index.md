@@ -10,6 +10,8 @@ layout: default
 
 ## RISC-V双周简报
 
+国内的RISC-V爱好者利用Github写作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
+
 - 2017-08-17: [感觉RV就要引爆了！小编手已断!](bi-week-rpts/2017-08-17)
 - 2017-08-03: [光有Chisel还不够，又来一个SpinalHDL，Scala我真心看不懂啊！](bi-week-rpts/2017-08-03)
 - 2017-07-20: [进主线这事儿能走后门吗?](bi-week-rpts/2017-07-20)
@@ -22,15 +24,30 @@ layout: default
 
 ### [RISC-V 资料搜集页面](resource)
 
-### freedom/rocket-chip/riscv-tools完整压缩包
+----
+
+## 如何在国内快速搭建SiFive的Freedom环境
+
+### 下载freedom/rocket-chip/riscv-tools完整压缩包
 
 因为国内用户访问github比较慢，而且clone过后submodule更加慢，以下的压缩包是在clone了[freedom](https://github.com/sifive/freedom)之后，执行`git submoudle update --init --recursive`之后打包的。所以已经以submodule的形式包含了rocket-chip和riscv-tools以及下面的诸多submodules。
 
 网盘中还新增了[freedom-e-sdk](https://github.com/sifive/freedom-e-sdk)和[freedom-u-sdk](https://github.com/sifive/freedom-u-sdk)的完整压缩包。
 
-- [百度网盘freedom/rocket-chip/riscv-tools完整打包文件](https://pan.baidu.com/s/1eSvIPgA)
-- [百度网盘freedom-e-sdk完整打包文件](https://pan.baidu.com/s/1mhGVe1U)
-- [百度网盘freedom-u-sdk完整打包文件](https://pan.baidu.com/s/1nvLnaZn)
+- [百度网盘freedom/rocket-chip/riscv-tools完整打包文件](https://pan.baidu.com/s/1eR80gMY)
+    - GitHash: [ec70d85](https://github.com/sifive/freedom/commit/ec70d85cbc03ce5b497b58d1b0f50f39a3e2a4e3)
+    - MD5Sum: b3643841ff41083f004871359dd3ffe4
+    - 打包时间: 2017-Aug-19
+- [百度网盘freedom-e-sdk完整打包文件](https://pan.baidu.com/s/1qYa6fd6)
+    - GitHash: [fcbcd44](https://github.com/sifive/freedom-e-sdk/commit/fcbcd440a0556b90bb7f6a739ac567d5f8e93fa2)
+    - MD5Sum: 1b5c97dd71918cfaa1c43fb7f38ecade
+    - 打包时间: 2017-Aug-20
+- [百度网盘freedom-u-sdk完整打包文件](https://pan.baidu.com/s/1mi9kjiw)
+    - GitHash: [b38f7c9](https://github.com/sifive/freedom-u-sdk/commit/b38f7c9)
+    - MD5Sum: ec7f3f73c23f228a2dfa5fd5030dfffd
+    - 打包时间: 2017-Aug-10
+
+下载成功之后执行：
 
 ~~~
 $ tar xzvf freedom.tar.gz
@@ -41,9 +58,33 @@ $ git submodule update --init --recursive
 $ git pull origin master
 ~~~
 
-### oschina镜像服务
+### 利用国内镜像加速sbt
+
+目前Aliyun提供了Maven的镜像可以用来加速在构建`rocket-chip`或是`freedom`过程中的`sbt`的运行。
+
+可以在Ubuntu上的~/.sbt/repositories中加入以下内容
+
+~~~
+[repositories]
+  local
+  aliyun: http://maven.aliyun.com/nexus/content/groups/public/
+  central: http://repo1.maven.org/maven2/
+~~~
+
+参考： [Scala 的构建工具 SBT 镜像设置](http://www.jianshu.com/p/c8c48b0b3866)
+
+**以上sbt镜像功能还需要充分验证，请各位给出反馈**
+
+----
+
+## oschina镜像服务
 
 在提供压缩包的同时，我们在[oschina](http://git.oschina.net)上镜像了主要的RISC-V工程。 我们利用国外服务器定期同步oschina上的镜像，方便大家获得最新的更新。
 相比压缩包，镜像服务器同步了更多的RISC-V相关GitHub工程，包括freechipsproject, riscv, ucb-bar和lowrisc的所有工程。
 镜像服务器的具体使用方法请参考[clone-helpers](https://github.com/cnrv/clone-helpers/blob/master/README.md)工程。
 
+----
+
+**欢迎关注微信公众号CNRV，接收最新最时尚的RISC-V讯息！**
+
+![CNRV微信公众号](/assets/images/cnrv_qr.png)

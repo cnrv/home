@@ -128,6 +128,7 @@ layout: default
   - [SiFive platforms](https://www.sifive.com/documentation/)
   - [lowRISC SoCs](http://www.lowrisc.org/docs/)
   - [TileLink](https://www.sifive.com/documentation/tilelink/tilelink-spec/)
+  - [Rocket-chip阅读笔记](https://github.com/cnrv/rocket-chip-read)
 
 
 + 教学课程
@@ -143,6 +144,7 @@ layout: default
 
 + [CNRV中国镜像](https://github.com/cnrv/clone-helpers/blob/master/README.md): 提供大量RISC-V相关工程的国内下载镜像。
 + [RISC-V wiki](https://github.com/riscv/riscv-wiki/wiki): 由Arun维护的近官方RISC-V维科页面。
++ [What Every Programmer Should Know About Floating-Point Arithmetic](http://floating-point-gui.de/)
 
 ------------------------
 

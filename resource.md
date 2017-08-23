@@ -44,7 +44,6 @@ layout: default
   [[GitHub](https://github.com/skordal/potato)]
 
 + RI5CY：支持RV32的开源微处理器
-
   - PULPino: SystemVerilog，Solderpad Licensed, 来源于苏黎世理工和博洛尼亚大学的PULP项目。
     [[GitHub](https://github.com/pulp-platform/pulpino)]
     [[Web](http://www.pulp-platform.org/)]
@@ -56,7 +55,6 @@ layout: default
   [[GitHub](https://github.com/sergeykhbr/riscv_vhdl)]
 
 + Rocket: 支持RV64/32的开源处理器
-
   - Rocket-Chip: Chisel，BSD Licensed, Free chips project, UC Berkeley分离的开源工程。
     [[GitHub](https://github.com/freechipsproject/rocket-chip)]
   - Freedom: Chisel，Apache Licensed, SiFive, UC Berkeley分离的初创企业。
@@ -97,29 +95,24 @@ layout: default
 ## 操作系统
 
 + Linux
-
-  - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的RISC-V Linux emulator。
+  - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的RISC-V Linux emulator。
   - [JSLinux](https://bellard.org/jslinux/): Fabrice Bellard维护的可在浏览器里运行的RISC-V操作系统。
 
 ## 开发工具
 
 + GNU工具链
-
   - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
 + 运行和软件仿真
-
   - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
 
 + 在线调试
-
   - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。
 
 ## 文档
 
 + 标准文档
-
   - RISC-V User Spec V 2.20
     [[PDF](https://content.riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)]
     [[GitHub](https://github.com/riscv/riscv-isa-manual)]
@@ -128,13 +121,22 @@ layout: default
     [[GitHub](https://github.com/riscv/riscv-isa-manual)]
 
 + Chisel
-
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
 
-+ 教学课程
-  - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
++ Rocket
+  - [SiFive platforms](https://www.sifive.com/documentation/)
+  - [lowRISC SoCs](http://www.lowrisc.org/docs/)
+  - [TileLink](https://www.sifive.com/documentation/tilelink/tilelink-spec/)
 
+
++ 教学课程
+  - Cornell ECE 4750 [Computer Architecture](http://www.csl.cornell.edu/courses/ece4750/2016f/handouts.html)
+  - MIT 6.175 [Constructive Computer Architecture](http://csg.csail.mit.edu/6.175/)
+  - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
+
++ 书籍
+  - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 
 
 ## 其他

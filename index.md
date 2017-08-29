@@ -75,6 +75,10 @@ $ git pull origin master
 
 **以上sbt镜像功能还需要充分验证，请各位给出反馈**
 
+### 二进制包
+
+- [百度网盘 riscv32-unknown-gcc-6.1.0](https://pan.baidu.com/s/1kV7QJkj) *provided by 胡振波*
+
 ----
 
 ## oschina镜像服务

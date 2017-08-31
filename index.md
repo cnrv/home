@@ -92,4 +92,4 @@ $ git pull origin master
 
 **欢迎关注微信公众号CNRV，接收最新最时尚的RISC-V讯息！**
 
-![CNRV微信公众号](assets/images/cnrv_qr.png)
+![CNRV微信公众号](https://cnrv.io/assets/images/cnrv_qr.png)

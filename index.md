@@ -17,7 +17,8 @@ layout: default
 - 2017-08-03: [光有Chisel还不够，又来一个SpinalHDL，Scala我真心看不懂啊！](bi-week-rpts/2017-08-03)
 - 2017-07-20: [进主线这事儿能走后门吗?](bi-week-rpts/2017-07-20)
 - 2017-07-06: [ARM~ARM~你不要怕~](bi-week-rpts/2017-07-06)
-- 2017-06-21: [你们心心念念的RV32E终于来了~](bi-week-rpts/2017-06-21)
+
+[往期存档](biweekly-archive)
 
 ----
 

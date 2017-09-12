@@ -101,6 +101,9 @@ layout: default
 ## 开发工具
 
 + GNU工具链
+  - RISC-V GNU GCC [riscv-gnu-toolchain](https://github.com/riscv/riscv-gnu-toolchain)
+  - Andes LLVM port [riscv-llvm-toolchain](https://github.com/andestech/riscv-llvm-toolchain)
+  - lowRISC LLVM dev [riscv-llvm](https://github.com/lowRISC/riscv-llvm)
   - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 

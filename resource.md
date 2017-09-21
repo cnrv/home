@@ -114,6 +114,16 @@ layout: default
 + 在线调试
   - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。
 
+## 形式化验证
+
++ 指令集的形式化模型
+  - Prashant Mundkur (SRI) 的[L3模型](https://github.com/pmundkur/l3riscv)
+  - Clifford Wolf 的[Verilog模型](https://github.com/cliffordwolf/riscv-formal)和[文档](http://www.clifford.at/papers/2017/riscv-formal/slides.pdf)
+  - Rishiyur Nikhil (Bluespec, Inc.)的[BSV模型](https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV)
+  - Peter Sewell (Cambridge)的[SAIL模型](https://bitbucket.org/Peter_Sewell/sail/src/07fad742df72ff6e7bfb948c1c353a2cf12f5e28/risc-v/riscv.sail?fileviewer=file-view-default)
+
+
+
 ## 文档
 
 + 标准文档

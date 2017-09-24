@@ -4,3 +4,6 @@ set -e
 
 gem install bundler
 bundle install
+
+wget -nc http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1504508602547/ossutil64 -O ossutil
+chmod +x ossutil

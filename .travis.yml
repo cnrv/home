@@ -1,8 +1,10 @@
 language: ruby
+before_cache:
+  - mkdir -p $HOME/.cache
 cache: 
   - bundler
   - directories:
-    - $HOME/ossutil
+    - $HOME/.cache
 
 sudo: false
 rvm: 2.2
@@ -13,7 +15,8 @@ env:
   - secure: BLSH2SSY5egZ1JJHHe0Zcme5YhhnqY+Uc9FfnbniJEzQkNnqQaQ/0Uzo815EPYdPzD8IG3sB8zRjKSJNOevsrOgRwCj136MK9ipO1tzh0gwRuCAobAI3g7YKtWLQYM56zXAm+khO/fLVQVuAvjfk5pZpyonEigvX44VhTOsS+m8NLAHCI7er73vi8pjmhFw/qDn0GlMWKnteHk1sTRfQnAUzih37JURVtN21Y6powvfY0PyeBaUaz/genOJzmAVd8YyIOakCHEiGpf+v/EaKj/jTMPfe1NTAFPHxnEM1CZblDXJ7aLopaKiH0PfJCZzMyzai8c5JmhjMBPJBIFPp2fLhboPUpyO8VdBwDqzswcfK4W6p0TW0qmo2iD+jvWiwWe/qpDJJq8C8BM1e7BfqQBwytgFLY4rZIPlwTz5Qnd1SIM0qSDS0nIjXaj5/CIGbwnxYSwE+gqebU1hKJa52yFPUHJpYDfPYYa2x/LoYI0dO+KJDbOl5R/ojErPPZzsWfZtvzymmW/4tXgw76SrlgDd0uDe+51yeqKwCCoFuZ+iBPHKnQ/WvlyPiHRF8rsBTE/a1bVpoRzhMDDcgi4hP9+m7aa949d9XGfaXHG4vxR3FWravHTXpI/NDP/6X5rs2Agcpcx9Q/YifZJ9BlvXdli184hmv31YpC7vQwABcvRs=
 install:
 - script/bootstrap
-- cp $HOME/ossutil . || wget http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1504508602547/ossutil64 -O ossutil && cp -f ossutil $HOME/
+- mkdir -p $HOME/.cache
+- cp $HOME/.cache/ossutil . || wget http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1504508602547/ossutil64 -O ossutil && cp -f ossutil $HOME/.cache
 - chmod +x ossutil
 
 script:

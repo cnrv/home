@@ -1,7 +1,29 @@
 language: ruby
-cache: bundler
+before_cache:
+  - mkdir -p $HOME/.cache
+cache: 
+  - bundler
+  - directories:
+    - $HOME/.cache
+
 sudo: false
 rvm: 2.2
+env:
+  global:
+  - secure: tbbfviUOghXi1Pbrppwe6YU+dTAnPzx84+nKgfkdscM7jagJPRkDYuJMV8AA+akmXWH2toAhA9IK/bKcRbgh2U6peuJaHDYiY+ZldkIKaSjj2wLSEICtXBnSMb1G0rPeQNYzNHx1bHfzYYyCrAvDVTXwBigDbtNU5wEjQf/G9FNpF+qoOPDnWranpxw+fh9uRoxmhQ8nDR+D51Cp7OJHOehD//Ju+2Xvj3BiHocZfcwz2uotpM6MO8OHLqsU1RKUeLaX0hvDQfs8F7sgIrBUTwljkAVDMA5nb8oej1VkLxEYH6v0yDPpebPHtgSk4SJ/q5JsYiPeJOnj/7rUEgZMRR4oRA2ctj+hZh37RKJI4NMk0kHtpf/TJfY39T/54DDG5pUK4p5R5SAOpq4KJEBtBErgAbpdfJ2ntF9V6tb7LKVwbhQGcQGAie0zg6k/B+jpc+MfP2qDpKBFJvp5Io3Y2whul+fxZJhmMSJhBtXWdTVQP6RcstsrKP4ibdZwOrNo1ytubQHWBqnbV6HWVUy9s64O+lMh8PJeNbJ4p9biuHK/3HSp9MQATRlqAn0RgE9QTTcWR6a8TO7UbjLVc+M9aA4tCkhFJ5xsIAbuViy/79JLrzglGA7dTK544QAIh62H0cHq4zZ7MR/kzW9GPlPB5Gf8QpxurSTufI6p1bMAPVM=
+  - secure: spSYBBueWlHKGKnID7pYPLFbHJeMCR6MPvOIS+0UuvDDkthQYbrWnQVxuhZvuPu6EIeIW7AzJXNennh2byQ1itVHbOPoS8D/7AkeWpf8RV1nVmeOjQH4egOhUuZ0aYnhewosP/Kiyzubmm13c3u1KgdMtHERWXY//sF360L84UN+eGMCnEPe1I/3iHZI49aKIBAJDDAaI1ddDOU5GR1bT8gz6wnlirlrPSPWCPLrLD5h4Sz+gXbTBoCCMRaX6c4tXU4nmTfM8MfM99yZHeoTtCuFvWunXhntrDfBVjOsFbrYxAntyps9dahXYVSDplAPo7jWhWnOF8tzqX/Wkb0vH/1wjHEV6zfh0y073aQtLevct4ekAOywJSR5UmZLR78IYSNpzMmeTP82YU5rrsDruv/TqmHOi1upJ5RrST0fhuiFYbSVYpTPBYXKuyCIboG8H5IvyVWak2t4ES/CvZxh4XuS55iAUgtqNCsecmbu4Z19S3tNht6p8yC1LL9fBn2kkzrSZqe+eZB4/KBCkg7mqSb/dbA9GiGFs7Cd3o/qGZbqIc3w9FtK1wZKoCboVz/z9X2/JdJfPPuO3eU8Wv8+rqsSzWdLRXcWLzHoHmSWsQx5Sa2wwn2SidMsrvnHjHtCqQ5Bsnv96vVkyarp0LoNUraCPqa1pG5lcGAv/GB3+V0=
+  - secure: BLSH2SSY5egZ1JJHHe0Zcme5YhhnqY+Uc9FfnbniJEzQkNnqQaQ/0Uzo815EPYdPzD8IG3sB8zRjKSJNOevsrOgRwCj136MK9ipO1tzh0gwRuCAobAI3g7YKtWLQYM56zXAm+khO/fLVQVuAvjfk5pZpyonEigvX44VhTOsS+m8NLAHCI7er73vi8pjmhFw/qDn0GlMWKnteHk1sTRfQnAUzih37JURVtN21Y6powvfY0PyeBaUaz/genOJzmAVd8YyIOakCHEiGpf+v/EaKj/jTMPfe1NTAFPHxnEM1CZblDXJ7aLopaKiH0PfJCZzMyzai8c5JmhjMBPJBIFPp2fLhboPUpyO8VdBwDqzswcfK4W6p0TW0qmo2iD+jvWiwWe/qpDJJq8C8BM1e7BfqQBwytgFLY4rZIPlwTz5Qnd1SIM0qSDS0nIjXaj5/CIGbwnxYSwE+gqebU1hKJa52yFPUHJpYDfPYYa2x/LoYI0dO+KJDbOl5R/ojErPPZzsWfZtvzymmW/4tXgw76SrlgDd0uDe+51yeqKwCCoFuZ+iBPHKnQ/WvlyPiHRF8rsBTE/a1bVpoRzhMDDcgi4hP9+m7aa949d9XGfaXHG4vxR3FWravHTXpI/NDP/6X5rs2Agcpcx9Q/YifZJ9BlvXdli184hmv31YpC7vQwABcvRs=
+install:
+- script/bootstrap
+- mkdir -p $HOME/.cache
+- cp $HOME/.cache/ossutil . || wget http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1504508602547/ossutil64 -O ossutil && cp -f ossutil $HOME/.cache
+- chmod +x ossutil
 
-install: script/bootstrap
-script: script/cibuild
+script:
+- script/cibuild
+- "./ossutil --version"
+- python script/upload_n_set_header.py > upload_n_set_header.sh
+- sh ./upload_n_set_header.sh
+branches:
+  only:
+  - master

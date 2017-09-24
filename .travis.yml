@@ -23,7 +23,9 @@ script:
 - script/cibuild
 - "./ossutil --version"
 - python script/upload_n_set_header.py > upload_n_set_header.sh
-- sh ./upload_n_set_header.sh
+- if [ "x$TRAVIS_BRANCH" = 'xmaster' ]; then sh ./upload_n_set_header.sh; fi 
+
+
 branches:
   only:
   - master

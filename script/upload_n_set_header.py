@@ -10,6 +10,8 @@ print("#!/bin/sh")
 print_script("rm -f oss://cnrv-website --recursive")
 for root, dirs, files in os.walk("./"):
     for file in files:
+    	if file.endswith("ossutil"):
+		continue
 	file_name = os.path.join(root, file)
 	oss_file_name = "oss://cnrv-website/%s" % file_name[2:]
 	print_script("cp -f '_site/%s' '%s'" % (file_name, oss_file_name))

@@ -13,3 +13,6 @@ script:
 - "./ossutil --version"
 - python script/upload_n_set_header.py > upload_n_set_header.sh
 - sh ./upload_n_set_header.sh
+branches:
+  only:
+  - master

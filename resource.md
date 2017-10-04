@@ -134,6 +134,12 @@ layout: default
     [[PDF](https://content.riscv.org/wp-content/uploads/2017/05/riscv-privileged-v1.10.pdf)]
     [[GitHub](https://github.com/riscv/riscv-isa-manual)]
 
++ 近似标准的文档
+  - RISC-V ELF psABI Document
+    [[GitHub](https://github.com/riscv/riscv-elf-psabi-doc)]
+  - RISC-V assembly manual
+    [[GitHub](https://github.com/riscv/riscv-asm-manual)]
+
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)

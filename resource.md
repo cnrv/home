@@ -139,6 +139,8 @@ layout: default
     [[GitHub](https://github.com/riscv/riscv-elf-psabi-doc)]
   - RISC-V assembly manual
     [[GitHub](https://github.com/riscv/riscv-asm-manual)]
+  - RV8 的 ISA 总结
+    [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
 
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)

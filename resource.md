@@ -19,7 +19,7 @@ layout: default
 + GRVI: Gray Research LLC. 针对FPGA优化的RV32微处理器，commercial licensed。
   [[Web](http://fpga.org/grvi-phalanx/)]
 
-+ Hummingbird E200. 而级流水线，目标替代Cortex-M0/8051, Verilog, Apache 2.0 licensed。
++ Hummingbird E200. 二级流水线，目标替代Cortex-M0/8051, Verilog, Apache 2.0 licensed。
   [[GitHub](https://github.com/SI-RISCV/e200_opensource)]
 
 + invicta: 一级流水线的RV32微处理器。Verilog，BSD Licensed。

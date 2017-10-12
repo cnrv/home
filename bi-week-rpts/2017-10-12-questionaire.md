@@ -76,7 +76,7 @@ layout: default
 
 - *希望可以出一些关于Rocket-chip内部架构的内容，以及一些关于编译器的特性*
 
-我们已经在关注Rocket-chip的代码跟新并报道较大的代码更新。不过Rocket-chip并不是RISC-V的唯一或官方实现。RISC-V是指令集，Rocket是微实现，这是有区别的。
+我们已经在关注Rocket-chip的代码更新并报道较大的代码更新。不过Rocket-chip并不是RISC-V的唯一或官方实现。RISC-V是指令集，Rocket是微实现，这是有区别的。
 关于Rocket-Chip的内部结构，CNRV组织的中文书将会有仔细地描述。同时我们也计划出几个讲解页面来说说最新的Rocket-chip的diplomacy包，cake pattern和TileLink的使用等等，这些都在计划中。
 编译器的确是个软板，我们急迫希望有了解编译器的同学成为简报的常驻编辑！
 

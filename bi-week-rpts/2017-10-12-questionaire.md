@@ -17,7 +17,10 @@ layout: default
 
 #### 深度
 
+<img src="/assets/images/bi-weekly-rpts/2017-10-12-questionaire/depth.png" alt="深度得分" width="400">
+<!--
 ![深度得分](/assets/images/bi-weekly-rpts/2017-10-12-questionaire/depth.png)
+-->
 
 简报的深度得分在5分至10分之间，平均分7.6分。
 比较值得注意的是我们收到了11个5/6分的差评！
@@ -31,7 +34,10 @@ layout: default
 
 #### 广度
 
+<img src="/assets/images/bi-weekly-rpts/2017-10-12-questionaire/width.png" alt="广度得分" width="400">
+<!--
 ![广度得分](/assets/images/bi-weekly-rpts/2017-10-12-questionaire/width.png)
+-->
 
 简报的广度得分也在5分至10分之间，平均分7.7分。
 和深度类似，我们收到了8个5/6分的差评！
@@ -43,8 +49,12 @@ layout: default
 
 #### 专业性和客观性
 
+<img src="/assets/images/bi-weekly-rpts/2017-10-12-questionaire/profession.png" alt="专业性得分" width="400">
+<img src="/assets/images/bi-weekly-rpts/2017-10-12-questionaire/objectivity.png" alt="客观性得分" width="400">
+<!--
 ![专业性得分](/assets/images/bi-weekly-rpts/2017-10-12-questionaire/profession.png)
 ![客观性得分](/assets/images/bi-weekly-rpts/2017-10-12-questionaire/objectivity.png)
+-->
 
 简报的专业性和客观性得分类似，都在6分至10分之间，平均分均为8.8分。
 这个分数不错，感谢大家对我们的支持。作为一个只有三个常驻编辑的小型简报，能获得这样的分数值得庆贺一下。

@@ -160,7 +160,8 @@ layout: default
   - Cornell ECE 4750 [Computer Architecture](http://www.csl.cornell.edu/courses/ece4750/2016f/handouts.html)
   - MIT 6.175 [Constructive Computer Architecture](http://csg.csail.mit.edu/6.175/)
   - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
-
+  - Berkeley CS61C [Great Ideas in machine structure](http://inst.eecs.berkeley.edu/~cs61c/fa17/)
+  
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 

@@ -23,6 +23,13 @@ layout: default
 
 ----
 
+## 文章列表
+
+
+- 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
+
+----
+
 ## 资源列表
 
 ### [RISC-V 资料搜集页面](resource)

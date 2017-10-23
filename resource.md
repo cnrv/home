@@ -148,6 +148,9 @@ layout: default
   - RV8 的 ISA 总结
     [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
 
++ Spike
+  - [Tutuorial on Spike Internal](https://github.com/poweihuang17/Documentation_Spike)
+
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)

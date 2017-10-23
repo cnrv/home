@@ -13,6 +13,9 @@ layout: default
 + bwitherspoon: RV32微处理器。SystemVerilog, ISC Licensed。
   [[GitHub](https://github.com/bwitherspoon/core)]
 
++ Clarvi: 剑桥大学教学用RISC-V处理器。SystemVerilog, BSD Licensed。
+  [[GitHub](https://github.com/ucam-comparch/clarvi)]
+
 + F32: 针对FPGA的RV32微处理器，VHDL，BSD Licensed。
   [[GitHub](https://github.com/f32c/f32c)]
 

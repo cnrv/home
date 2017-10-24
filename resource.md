@@ -154,6 +154,7 @@ layout: default
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
+  - [Chisel Learning Journey](https://github.com/librecores/riscv-sodor/wiki/Chisel-Learning-Journey)
 
 + Rocket
   - [SiFive platforms](https://www.sifive.com/documentation/)

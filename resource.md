@@ -178,6 +178,7 @@ layout: default
 + [CNRV中国镜像](https://github.com/cnrv/clone-helpers/blob/master/README.md): 提供大量RISC-V相关工程的国内下载镜像。
 + [RISC-V wiki](https://github.com/riscv/riscv-wiki/wiki): 由Arun维护的近官方RISC-V维科页面。
 + [What Every Programmer Should Know About Floating-Point Arithmetic](http://floating-point-gui.de/)
++ ["RISC-V" from Wikipedia](https://en.wikipedia.org/wiki/RISC-V)
 
 ------------------------
 

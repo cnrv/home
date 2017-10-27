@@ -33,7 +33,8 @@ layout: default
 
 ## 资源列表
 
-### [RISC-V 资料搜集页面](resource)
+- **[RISC-V 资料搜集页面](resource)**
+- **[RISC-V 参考文献页面](papers)**
 
 ----
 

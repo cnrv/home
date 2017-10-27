@@ -35,44 +35,59 @@ layout: default
 
 ### 指令集设计 (Architecture)
 
-[[Collange2017](#Collange2017)], [[Dennis2017](#Dennis2017)], [[Celio2016](#Celio2016)]
+- [[Collange2017](#Collange2017)]
+- [[Dennis2017](#Dennis2017)]
+- [[Celio2016](#Celio2016)]
 
 ### 计算机结构硬件设计 (Microarchitecture and System Structure)
 
-- 处理器设计 (Designs of Processors)
+#### 处理器设计 (Designs of Processors)
 
-[[Celio2017](#Celio2017)], [[Collange2017](#Collange2017)],
-[[Dennis2017](#Dennis2017)],
-[[Gray2017](#Gray2017)],
-[[Matthews2017](#Matthews2017)],
-[[Asanovic2016](#Asanovic2016)]
+- [[Celio2017](#Celio2017)]
+- [[Collange2017](#Collange2017)]
+- [[Dennis2017](#Dennis2017)]
+- [[Gray2017](#Gray2017)]
+- [[Matthews2017](#Matthews2017)]
+- [[Asanovic2016](#Asanovic2016)]
 
-- SoC (Design of SoCs)
+#### SoC (Design of SoCs)
 
-[[Ajayi2017](#Ajayi2017)], [[Cook2017](#Cook2017)],
-[[Eldridge2017](#Eldridge2017)], [[Kurth2017](#Kurth2017)], [[Vega2017](#Vega2017)], [[Yu2017](#Yu2017)],
-[[Asanovic2016](#Asanovic2016)]
+- [[Ajayi2017](#Ajayi2017)]
+- [[Cook2017](#Cook2017)]
+- [[Eldridge2017](#Eldridge2017)]
+- [[Kurth2017](#Kurth2017)]
+- [[Vega2017](#Vega2017)]
+- [[Yu2017](#Yu2017)]
+- [[Asanovic2016](#Asanovic2016)]
 
-- 加速器设计 (Designs of Accelerators)
+#### 加速器设计 (Designs of Accelerators)
 
-[[Ajayi2017](#Ajayi2017)], [[Eldridge2017](#Eldridge2017)], [[Gray2017](#Gray2017)], [[Kurth2017](#Kurth2017)]
+- [[Ajayi2017](#Ajayi2017)]
+- [[Eldridge2017](#Eldridge2017)]
+- [[Gray2017](#Gray2017)]
+- [[Kurth2017](#Kurth2017)]
 
-- FPGA (FPGA Related Designs)
+#### FPGA (FPGA Related Designs)
 
-[[Gray2017](#Gray2017)], [[Kim2017](#Kim2017)], [[Kurth2017](#Kurth2017)], [[Matthews2017](#Matthews2017)]
+- [[Gray2017](#Gray2017)]
+- [[Kim2017](#Kim2017)]
+- [[Kurth2017](#Kurth2017)]
+- [[Matthews2017](#Matthews2017)]
 
-- 测试 (Testing)
+#### 测试 (Testing)
 
-[[Kim2017](#Kim2017)]
+- [[Kim2017](#Kim2017)]
 
 ### 软件 (Software)
 
-[[Clark2017](#Clark2017)], [[Maas2017](#Maas2017)], [[Roelke2017](#Roelke2017)]
+- [[Clark2017](#Clark2017)]
+- [[Maas2017](#Maas2017)]
+- [[Roelke2017](#Roelke2017)]
 
 ### 系统安全 (System Security)
 
-[[Oh2017](#Oh2017)], [[Song2016](#Song2016)]
-
+- [[Oh2017](#Oh2017)]
+- [[Song2016](#Song2016)]
 
 ------------------------
 

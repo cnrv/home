@@ -33,15 +33,16 @@ layout: default
 
 ## 按内容分类
 
-### 指令集设计 (Architecture)
+<details>
+  <summary><b>指令集设计</b></summary>
 
 - [[Collange2017](#Collange2017)]
 - [[Dennis2017](#Dennis2017)]
 - [[Celio2016](#Celio2016)]
+</details>
 
-### 计算机结构硬件设计 (Microarchitecture and System Structure)
-
-#### 处理器设计 (Designs of Processors)
+<details>
+  <summary><b>硬件设计</b>.处理器设计</summary>
 
 - [[Celio2017](#Celio2017)]
 - [[Collange2017](#Collange2017)]
@@ -49,8 +50,10 @@ layout: default
 - [[Gray2017](#Gray2017)]
 - [[Matthews2017](#Matthews2017)]
 - [[Asanovic2016](#Asanovic2016)]
+</details>
 
-#### SoC (Design of SoCs)
+<details>
+  <summary><b>硬件设计</b>.SoC</summary>
 
 - [[Ajayi2017](#Ajayi2017)]
 - [[Cook2017](#Cook2017)]
@@ -59,35 +62,46 @@ layout: default
 - [[Vega2017](#Vega2017)]
 - [[Yu2017](#Yu2017)]
 - [[Asanovic2016](#Asanovic2016)]
+</details>
 
-#### 加速器设计 (Designs of Accelerators)
+<details>
+  <summary><b>硬件设计</b>.加速器设计</summary>
 
 - [[Ajayi2017](#Ajayi2017)]
 - [[Eldridge2017](#Eldridge2017)]
 - [[Gray2017](#Gray2017)]
 - [[Kurth2017](#Kurth2017)]
+</details>
 
-#### FPGA (FPGA Related Designs)
+<details>
+  <summary><b>硬件设计</b>.FPGA</summary>
 
 - [[Gray2017](#Gray2017)]
 - [[Kim2017](#Kim2017)]
 - [[Kurth2017](#Kurth2017)]
 - [[Matthews2017](#Matthews2017)]
+</details>
 
-#### 测试 (Testing)
+<details>
+  <summary><b>硬件设计</b>.测试</summary>
 
 - [[Kim2017](#Kim2017)]
+</details>
 
-### 软件 (Software)
+<details>
+  <summary><b>软件</b></summary>
 
 - [[Clark2017](#Clark2017)]
 - [[Maas2017](#Maas2017)]
 - [[Roelke2017](#Roelke2017)]
+</details>
 
-### 系统安全 (System Security)
+<details>
+  <summary><b>系统安全</b></summary>
 
 - [[Oh2017](#Oh2017)]
 - [[Song2016](#Song2016)]
+</details>
 
 ------------------------
 

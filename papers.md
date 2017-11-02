@@ -33,61 +33,92 @@ layout: default
 
 ## 按内容分类
 
-### 指令集设计 (Architecture)
+<details>
+  <summary><b>指令集设计</b></summary>
 
-- [[Collange2017](#Collange2017)]
-- [[Dennis2017](#Dennis2017)]
-- [[Celio2016](#Celio2016)]
+  <ul>
+  <li>[<a href="#Collange2017" > Collange2017 </a>]</li>
+  <li>[<a href="#Dennis2017"   > Dennis2017   </a>]</li>
+  <li>[<a href="#Celio2016"    > Celio2016    </a>]</li>
+  </ul>
 
-### 计算机结构硬件设计 (Microarchitecture and System Structure)
+</details>
 
-#### 处理器设计 (Designs of Processors)
+<details>
+  <summary><b>硬件设计</b>.处理器设计</summary>
 
-- [[Celio2017](#Celio2017)]
-- [[Collange2017](#Collange2017)]
-- [[Dennis2017](#Dennis2017)]
-- [[Gray2017](#Gray2017)]
-- [[Matthews2017](#Matthews2017)]
-- [[Asanovic2016](#Asanovic2016)]
+  <ul>
+  <li>[<a href="#Celio2017"    > Celio2017    </a>]</li>
+  <li>[<a href="#Collange2017" > Collange2017 </a>]</li>
+  <li>[<a href="#Dennis2017"   > Dennis2017   </a>]</li>
+  <li>[<a href="#Gray2017"     > Gray2017     </a>]</li>
+  <li>[<a href="#Matthews2017" > Matthews2017 </a>]</li>
+  <li>[<a href="#Asanovic2016" > Asanovic2016 </a>]</li>
+  </ul>
+</details>
 
-#### SoC (Design of SoCs)
+<details>
+  <summary><b>硬件设计</b>.SoC</summary>
 
-- [[Ajayi2017](#Ajayi2017)]
-- [[Cook2017](#Cook2017)]
-- [[Eldridge2017](#Eldridge2017)]
-- [[Kurth2017](#Kurth2017)]
-- [[Vega2017](#Vega2017)]
-- [[Yu2017](#Yu2017)]
-- [[Asanovic2016](#Asanovic2016)]
+  <ul>
+  <li>[<a href="#Ajayi2017"    > Ajayi2017    </a>]</li>
+  <li>[<a href="#Cook2017"     > Cook2017     </a>]</li>
+  <li>[<a href="#Eldridge2017" > Eldridge2017 </a>]</li>
+  <li>[<a href="#Kurth2017"    > Kurth2017    </a>]</li>
+  <li>[<a href="#Vega2017"     > Vega2017     </a>]</li>
+  <li>[<a href="#Yu2017"       > Yu2017       </a>]</li>
+  <li>[<a href="#Asanovic2016" > Asanovic2016 </a>]</li>
+  </ul>
 
-#### 加速器设计 (Designs of Accelerators)
+</details>
 
-- [[Ajayi2017](#Ajayi2017)]
-- [[Eldridge2017](#Eldridge2017)]
-- [[Gray2017](#Gray2017)]
-- [[Kurth2017](#Kurth2017)]
+<details>
+  <summary><b>硬件设计</b>.加速器设计</summary>
 
-#### FPGA (FPGA Related Designs)
+  <ul>
+  <li>[<a href="#Ajayi2017"    > Ajayi2017    </a>]</li>
+  <li>[<a href="#Eldridge2017" > Eldridge2017 </a>]</li>
+  <li>[<a href="#Gray2017"     > Gray2017     </a>]</li>
+  <li>[<a href="#Kurth2017"    > Kurth2017    </a>]</li>
+  </ul>
 
-- [[Gray2017](#Gray2017)]
-- [[Kim2017](#Kim2017)]
-- [[Kurth2017](#Kurth2017)]
-- [[Matthews2017](#Matthews2017)]
+</details>
 
-#### 测试 (Testing)
+<details>
+  <summary><b>硬件设计</b>.FPGA</summary>
 
-- [[Kim2017](#Kim2017)]
+  <ul>
+  <li>[<a href="#Gray2017"     > Gray2017     </a>]</li>
+  <li>[<a href="#Kim2017"      > Kim2017      </a>]</li>
+  <li>[<a href="#Kurth2017"    > Kurth2017    </a>]</li>
+  <li>[<a href="#Matthews2017" > Matthews2017 </a>]</li>
+  </ul>
 
-### 软件 (Software)
+</details>
 
-- [[Clark2017](#Clark2017)]
-- [[Maas2017](#Maas2017)]
-- [[Roelke2017](#Roelke2017)]
+<details>
+  <summary><b>硬件设计</b>.测试</summary>
+  <ul>
+  <li>[<a href="#Kim2017"  > Kim2017 </a>]</li>
+  </ul>
+</details>
 
-### 系统安全 (System Security)
+<details>
+  <summary><b>软件</b></summary>
+  <ul>
+  <li>[<a href="#Clark2017"  > Clark2017  </a>]</li>
+  <li>[<a href="#Maas2017"   > Maas2017   </a>]</li>
+  <li>[<a href="#Roelke2017" > Roelke2017 </a>]</li>
+  </ul>
+</details>
 
-- [[Oh2017](#Oh2017)]
-- [[Song2016](#Song2016)]
+<details>
+  <summary><b>系统安全</b></summary>
+  <ul>
+  <li>[<a href="#Oh2017"  > Oh2017    </a>]</li>
+  <li>[<a href="#Song2016"> Song2016  </a>]</li>
+  </ul>
+</details>
 
 ------------------------
 

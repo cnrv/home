@@ -114,8 +114,10 @@ layout: default
   - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
-+ 运行和软件仿真
++ 运行和仿真
   - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
+  - [FireSim](https://fires.im/): 一个由加州伯克利开发的利用FPGA加速的cycle-accurate硬件仿真Amazon F1云平台。
+  - [MIDAS](https://github.com/ucb-bar/midas-release): 利用FPGA加速的cycle-accurate硬件仿真器，FireSim的后台。
 
 + 在线调试
   - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。

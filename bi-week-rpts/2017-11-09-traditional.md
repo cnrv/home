@@ -1,0 +1,181 @@
+---
+layout: default
+---
+
+# RISC-V 双周简报 (2017-11-09)
+
+要点新闻：
+- [RISC-V基金会的会员数量超过一百了！](risc-v基金会的会员数量超过一百了！)
+- [RISC-V port 进入 linux-next !!!](risc-vport进入linux-next!!!)
+- [RISC-V 的 code model 整理 \(Palmer 的 All aboard blog part 4\)](risc-v的codemodel整理\(palmer的allaboardblogpart4\))
+- [利用FPGA加速cycle-accurate RTL级硬件仿真](利用fpga加速cycle-accuratertl级硬件仿真)
+- mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR）
+- [RISC-V 相关文献搜集页面](risc-v相关文献搜集页面)
+- [RISC-V Day 2017 Tokyo](risc-vday2017tokyo)
+
+
+## RV新闻
+
+### RISC-V基金会的会员数量超过一百了！
+由于这三季公司们的加入，最近RISC-V基金会的会员数量超过一百了!基金会裡来自Nvidia, Microsemi, NXP, Bluespec, Google的Board of Director们也都表示非常期待RISC-V之后的发展! 期待能看到越来越多关于RISC-V的产品和进展。
+
+#### 连结：[link](https://www.design-reuse.com/news/43052/risc-v-ecosystem.html)
+
+### RISC-V port 进入 linux-next !!!
+经过好几个月的努力，RISC-V port 终於进入linux-next了。恭喜所有contributor。期待早日看到合并主线!
+
+#### 连结：[link](https://lkml.org/lkml/2017/10/31/850) 
+
+
+## RISC-V 开源生态圈更新
+
+### RTEMS 的 risc-v port upstreamed
+Hesham 最近在 sw-dev上宣布了RTEMS (一个RTOS）upstream 的消息。看起来越来越多RTOS支援RISC-V了。
+
+#### 连结：[link](https://groups.google.com/a/groups.riscv.org/d/msgid/sw-dev/45FC13E809C9A942BC515F7A1E7E7D7AFAB02AF4%40sjsrvexchmbx2.microsemi.net)
+
+### OCaml 的 risc-v backend
+Nicolás 在OCaml user list 中公佈了 risc-v backend for OCaml 4.06 已经完成的消息。
+
+#### 连结：[link](https://groups.google.com/a/groups.riscv.org/d/msgid/sw-dev/CAPunWhCDas15n099ih%2BFt%3DeiijG4ee-kG3%2B4f8%3DG1eVR3PAapg%40mail.gmail.com?utm_medium=email&utm_source=footer)
+
+### LLD (LLVM Linker) for risc-v
+Andes Technology 最近在mailing list上开源了他们针对 risc-v 的LLD实作。这次的实作支援了基本的relocation, PIC/PIE 和 TLS。期待早日看到完整的LLVM port!
+
+#### 连结：[link](https://groups.google.com/a/groups.riscv.org/d/msgid/sw-dev/CACSh3m1dcp7G2qcqFKwWYvgevbR7-eBqLQq%3DP7hH8jaXMXci8Q%40mail.gmail.com)
+
+## 技术讨论
+
+### 利用FPGA加速cycle-accurate RTL级硬件仿真
+在最近的CARRV会议上，加州伯克利的处理器研究小组发表了他们利用FIRRTL自动生成使用FPGA运行的cycle-accurate仿真平台。
+自动生成的FPGA硬件仿真相比现在最高速的cycle-accurate处理器仿真程序快3倍。
+其原理大概是利用FIRRTL自动拆解RTL硬件描述，生成解耦和的时间报文通讯，从而用硬件来处理被仿硬件的行为和延时。
+改仿真平台已被用于仿真Rocket-Chip和BOOM，并同时已被部署于Amazon的F1云平台（FireSim）。
+论文没有透露更仔细的硬件细节，不过所有的源码应该已公开。
+
+- FPGA加速仿真工程 MIDAS：[https://github.com/ucb-bar/midas-zynq](https://github.com/ucb-bar/midas-zynq)
+- CARRV的论文：[Evaluation of RISC-V RTL Designs with FPGA Simulation](https://carrv.github.io/papers/kim-midas-carrv2017.pdf)
+- FireSim 的介绍：[https://fires.im/](https://fires.im/)
+- FireSim 的 GitHub 工程：[https://github.com/firesim](https://github.com/firesim)
+
+### mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR）
+最近在Mailing list上，有两个关于mcycle的讨论。简单的想起来，mcycle是在数cycle，minsret是在数 retire的指令数，mtime则是指真正的时间。但在各种设计下，还是会出现许多有趣的问题和情况。小编在这裡整理几个如下：
+
+- Pipeline 被cache block住时，mcycle还是要数，因为这样可以跟 minstret一起推断 pipeline的情况。
+- CPU sleep的时候，数不数是 Implementation-defined。sleep 时数的话，能帮助调度。但不数也有道理，毕竟有些sleep会把clock停住。
+- mcycle可以在reset时归零，也可以只在power-on时归零。在reset时归零比较直观，但只在power-on归零也有好处，比如可以记录到产生reset的来源，譬如watchdog。
+- 对于Asynchronous logic来说，没有cycle的概念，那 mcycle 要数什麽？这时得数其他能代表进度的东西。
+- 当一个 hart 从 frequency 小的核，搬到一个 frequency 大的核时，即使执行时间一样，它的 mcycle 裡的值会比其他在这个核上的 hart小 （其他hart也许在休眠或因为SMT所以在执行）。这种情况下调度器该怎麽处理呢？
+- 对于SMT的 Core 来说，mcycle 要一直数吗？还是只有hart 被core执行时才数？
+- mcycle 在不同的实作有这麽多变化，formal property要设成哪个好？目前讨论的结果是只要求 mcycle monotonically increasing。
+
+#### 这些都是很有趣的问题。详细的讨论可以看这两个连结：[link1](https://groups.google.com/a/groups.riscv.org/d/msgid/hw-dev/CAK9RgBOs%3D9vyL7FL%2BNE%3DkNnz6pkCsQUykhya-pD9wLq-Mv9AOA%40mail.gmail.com?utm_medium=email&utm_source=footer), [link2](https://groups.google.com/a/groups.riscv.org/d/msgid/isa-dev/22963.7260.222503.603833%4069-170-17-130.static-ip.telepacific.net)
+
+### RISC-V 的 code model 整理 (Palmer 的 All aboard blog part 4)
+在part4中，Palmer向我们介绍了RISC-V的code model。Code model是什麽呢？ Code model决定了在编译时要使用哪几个 addressing mode。使用不同的addressing mode，会导致linker 有不同的限制。譬如在 Medlow模式中，只能在 +- 2GiB的绝对位址裡定址。
+
+目前RISC-V的 gcc只支援两种模式，Medlow和Medany，而 Medlow被设定成预设的code model。它们所产生的指令 pair 和范围如下：
+- Medany 会产生 auipc/ld 这样的pair，能在任意位置定址 2GiB 的 window。
+- Medlow 会产生 lui/ld 这样的pair，在 +-2GiB 的绝对位址裡，定址2GiB 的 window。
+
+#### 更多细节请参考Palmer的blog:[link](https://www.sifive.com/blog/2017/09/11/all-aboard-part-4-risc-v-code-models/#what-does--mcmodelmedlow-mean)
+
+### RISC-V GCC的 multi-lib support(Palmer 的 All aboard blog part 5)
+在part5中， Palmer继续介绍了risc-v multi-lib的支援。RISC-V是一个modular ISA，所以可以用很多种ABI和指令集组合来编译。在前半段中，Palmer介绍了在工程上如何用 risc-v的 python script 来产生各种组合。后半段，则是介绍了各种组合背后的逻辑和重要性。在一般embedded的应用中，Palmer他们选出了八种组合。以下列出几个代表：
+- rv32im/ilp32: 简单的 memory system 让 A和C扩展不需出现时，会使用到。
+- rv32iac/ilp32: 针对不想要hardware multiplier的core。
+- rv64imac/lp64: 在64bit的控制核中(譬如power management 和 IP control)，Palmer认为会最常出现的。没有浮点支援。
+
+至于Linux的toolchain，他们则是选出了四个代表，也就是 32/64bit 和 hard float/soft float 配对所产生的四种组合。看起来，multilib背后的逻辑和工程还真不简单。好险很多路都被踩过了: )
+
+#### 更多细节可参考Palmer的blog:[link](https://www.sifive.com/blog/2017/09/18/all-aboard-part-5-risc-v-multilib/)
+
+## 代码更新
+
+### Spike 反汇编识别Q扩展指令
+spike-dasm是Spike提供的将机器二进制码翻译成可读汇编代码的工具，经常被使用于翻译Rocket-Chip仿真所生成的指令记录文件。
+现在spike-dasm可翻译RISC-V的Q扩展指令集（128比特浮点运算）。
+
+- riscv-isa-sim的PR \#153：[https://git.io/vF4Yn](https://github.com/riscv/riscv-isa-sim/pull/153)
+
+## 安全点评
+
+## 微群热点
+
+## 实用资料
+
+### RISC-V 相关文献搜集页面
+随着研究RISC-V的公司和研究机构越来越多，RISC-V相关的论文也慢慢出现在各大会议。
+为了总结和归类这些相关文献，CNRV现在有了参考文献搜集页面：[https://cnrv.io/papers](https://cnrv.io/papers)
+也欢迎大家补充遗漏的文献。
+
+## 行业视角
+
+
+## 有趣的RV新闻和讨论
+
+### \<Arm vs RISC-V: War of the platforms \> by  prakash
+在这篇文章中，Prakash用 Paas 的角度，比较了ARM 及 RISC-V的优缺点，并提议双方可做的下一步。
+#### 连结：[link](https://praxthoughts.wordpress.com/2017/10/31/arm-vs-risc-v-war-of-the-platforms/)
+
+### \<An ARM killer from IIT, Madras?\>  by Sriram Sharma
+这篇新闻详细的介绍了印度Shakti processor的背景和他们的努力。
+#### 连结：[link](https://factordaily.com/india-chip-design-shakti-iit-madras/)
+
+## 市场相关
+
+### Flex Logic 的 eFPGA IP 加入 SiFive 的 DesignShare program
+继上次 Lauterbach 和 Seggar後，SiFive加入了跟 Flex Logic的合作。
+#### 连结：[link](https://www.electronicsweekly.com/news/business/flex-logix-makes-efpga-available-sifive-design-environment-2017-11/)
+
+### eMemory 的 NVM IP 加入 SiFive 的 DesignShare program
+力旺（eMemory）的 NVM IP也加入 SiFive 的 DesignShare program了。
+#### 连结：[link](https://www.prnewswire.com/news-releases/sifive-and-ememory-bring-embedded-memory-to-the-designshare-economy-to-accelerate-development-of-risc-v-silicon-300550845.html)
+
+## CNRV社区活动
+
+## CNRV网站更新
+
+- [[b004566](https://github.com/cnrv/home/commit/b004566fc52ed0aa3802a76d85609def9e8c380d)]
+  添加RISC-V参考文献页面
+- [[6b399f0](https://github.com/cnrv/home/commit/6b399f0aaf7d4876f7779100e6f27e9b494ddc49)]
+  使用下拉式参考文献分类列表
+- [[07c5640](https://github.com/cnrv/home/commit/07c5640b73f724edc72ce221165a6ca2727d5382)]
+  在资源页添加FireSim和MIDAS
+
+## 暴走事件
+
+### 十一月
+
++ [BSDTW17](https://bsdtw.org/) 2017年11月11-12日，BSDTW17会有两场关于RISC-V的演讲，地点在台北。
++ [The 7th RISC-V workshop](https://www.softconf.com/h/riscv7thwkshp/) 2017年11月28-30日，第7届RISC-V研讨会将在美国加州Milpitas由西部数据承办。
++ [RISC-V, RISC-V, RISC-V](https://www.eventbrite.co.uk/e/risc-v-risc-v-risc-v-registration-39611837071) 2017年11月23日，在英国剑桥的BCS Open Source Specialist Group 和 OSHUG (Open source hardware user group ) 会合办一场跟risc-v有关的meetup，会有一场跟freebsd on risc-v有关的演讲，以及另一场跟cycle-accurate model有关的演讲。
+
+### 十二月
++ [RISC-V Day 2017 Tokyo](https://riscv.tokyo/2017/10/07/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%8A%95%E7%A8%BF/)  2017年12月18日，在东京会有一场跟 RISC-V有关的活动，由日本SHC公司主办。SHC公司也是基金会的其中一个成员。Esperanto, SiFive, Andes, Redhat等公司的人员都会参加并给演讲。
+
+### 二月
++ [FOSDEM'18](https://fosdem.org/2018/) 2018年2月3-4日，FOSDEM (Free and Open Source Developers’ European Meeting)将在比利时的布鲁塞尔举行。
+
+## 招聘简讯
+
+### SiFive 招聘工程师
+SiFive是从加州伯克利分离的创业公司，是Rocket-Chip的主要维护者并基于Rocket-Chip开发Freedom SoC。
+现在SiFive准备进一步扩张，寻求能在美国加州San Mateo工作的各类工程师。招聘信息：[https://t.co/7Z7MJiMxwh](https://www.sifive.com/about/jobs/)
+
+_CNRV提供为行业公司提供公益性质的一句话的招聘信息发布，若有任何体系结构、IC设计、软件开发的招聘信息，欢迎联系我们！_
+
+----
+
+整理编集: 宋威、黄柏玮、郭雄飞
+
+
+----
+
+**欢迎关注微信公众号CNRV，接收最新最时尚的RISC-V讯息！**
+
+![CNRV微信公众号](/assets/images/cnrv_qr.png)
+
+----
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可。

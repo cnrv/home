@@ -13,11 +13,17 @@ layout: default
 + bwitherspoon: RV32微处理器。SystemVerilog, ISC Licensed。
   [[GitHub](https://github.com/bwitherspoon/core)]
 
++ Clarvi: 剑桥大学教学用RISC-V处理器。SystemVerilog, BSD Licensed。
+  [[GitHub](https://github.com/ucam-comparch/clarvi)]
+
 + F32: 针对FPGA的RV32微处理器，VHDL，BSD Licensed。
   [[GitHub](https://github.com/f32c/f32c)]
 
 + GRVI: Gray Research LLC. 针对FPGA优化的RV32微处理器，commercial licensed。
   [[Web](http://fpga.org/grvi-phalanx/)]
+
++ Hummingbird E200. 二级流水线，目标替代Cortex-M0/8051, Verilog, Apache 2.0 licensed。
+  [[GitHub](https://github.com/SI-RISCV/e200_opensource)]
 
 + invicta: 一级流水线的RV32微处理器。Verilog，BSD Licensed。
   [[GitHub](https://github.com/qmn/riscv-invicta)]
@@ -103,15 +109,28 @@ layout: default
 + GNU工具链
   - RISC-V GNU GCC [riscv-gnu-toolchain](https://github.com/riscv/riscv-gnu-toolchain)
   - Andes LLVM port [riscv-llvm-toolchain](https://github.com/andestech/riscv-llvm-toolchain)
-  - lowRISC LLVM dev [riscv-llvm](https://github.com/lowRISC/riscv-llvm)
+  - lowRISC LLVM upstream patches [riscv-llvm](https://github.com/lowRISC/riscv-llvm)
+  - lowRISC LLVM integration [riscv-llvm-integration](https://github.com/lowRISC/riscv-llvm-integration)
   - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
-+ 运行和软件仿真
++ 运行和仿真
   - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
+  - [FireSim](https://fires.im/): 一个由加州伯克利开发的利用FPGA加速的cycle-accurate硬件仿真Amazon F1云平台。
+  - [MIDAS](https://github.com/ucb-bar/midas-release): 利用FPGA加速的cycle-accurate硬件仿真器，FireSim的后台。
 
 + 在线调试
   - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。
+
+## 形式化验证
+
++ 指令集的形式化模型
+  - Prashant Mundkur (SRI) 的[L3模型](https://github.com/pmundkur/l3riscv)
+  - Clifford Wolf 的[Verilog模型](https://github.com/cliffordwolf/riscv-formal)和[文档](http://www.clifford.at/papers/2017/riscv-formal/slides.pdf)
+  - Rishiyur Nikhil (Bluespec, Inc.)的[BSV模型](https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV)
+  - Peter Sewell (Cambridge)的[SAIL模型](https://bitbucket.org/Peter_Sewell/sail/src/07fad742df72ff6e7bfb948c1c353a2cf12f5e28/risc-v/riscv.sail?fileviewer=file-view-default)
+
+
 
 ## 文档
 
@@ -123,9 +142,23 @@ layout: default
     [[PDF](https://content.riscv.org/wp-content/uploads/2017/05/riscv-privileged-v1.10.pdf)]
     [[GitHub](https://github.com/riscv/riscv-isa-manual)]
 
++ 近似标准的文档
+  - RISC-V 工具链资料搜集页面
+    [[GitHub](https://github.com/riscv/riscv-toolchain-conventions)]
+  - RISC-V ELF psABI Document
+    [[GitHub](https://github.com/riscv/riscv-elf-psabi-doc)]
+  - RISC-V assembly manual
+    [[GitHub](https://github.com/riscv/riscv-asm-manual)]
+  - RV8 的 ISA 总结
+    [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
+
++ Spike
+  - [Tutuorial on Spike Internal](https://github.com/poweihuang17/Documentation_Spike)
+
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
+  - [Chisel Learning Journey](https://github.com/librecores/riscv-sodor/wiki/Chisel-Learning-Journey)
 
 + Rocket
   - [SiFive platforms](https://www.sifive.com/documentation/)
@@ -138,7 +171,8 @@ layout: default
   - Cornell ECE 4750 [Computer Architecture](http://www.csl.cornell.edu/courses/ece4750/2016f/handouts.html)
   - MIT 6.175 [Constructive Computer Architecture](http://csg.csail.mit.edu/6.175/)
   - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
-
+  - Berkeley CS61C [Great Ideas in machine structure](http://inst.eecs.berkeley.edu/~cs61c/fa17/)
+  
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 
@@ -148,6 +182,7 @@ layout: default
 + [CNRV中国镜像](https://github.com/cnrv/clone-helpers/blob/master/README.md): 提供大量RISC-V相关工程的国内下载镜像。
 + [RISC-V wiki](https://github.com/riscv/riscv-wiki/wiki): 由Arun维护的近官方RISC-V维科页面。
 + [What Every Programmer Should Know About Floating-Point Arithmetic](http://floating-point-gui.de/)
++ ["RISC-V" from Wikipedia](https://en.wikipedia.org/wiki/RISC-V)
 
 ------------------------
 

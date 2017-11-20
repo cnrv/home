@@ -11,20 +11,31 @@ layout: default
 ## RISC-V双周简报
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
+- **第0x0b弹(2017-11-09): [RISC-V的好汉们就快凑齐一桌麻将了](bi-week-rpts/2017-11-09) [\[繁体\]](bi-week-rpts/2017-11-09.tc)**
+- 第0x0a弹(2017-10-26): [国内商业公司玩RISC-V毫不逊色！](bi-week-rpts/2017-10-26)
+- 第0x09弹(2017-10-12): [妥妥的跑Linux的RISC-V板子明年就来～](bi-week-rpts/2017-10-12)
+- 第0x08弹(2017-09-28): [悠悠的唱着最炫开源风～](bi-week-rpts/2017-09-28)
+- 第0x07弹(2017-09-14): [硬件公司真的越来越像一个软件公司？你怎么看？](bi-week-rpts/2017-09-14)
+- 第0x06弹(2017-08-31): [越来越多的开源软件支持RISC-V!](bi-week-rpts/2017-08-31)
+- 第0x05弹(2017-08-17): [感觉RV就要引爆了！小编手已断!](bi-week-rpts/2017-08-17)
+- 第0x04弹(2017-08-03): [光有Chisel还不够，又来一个SpinalHDL，Scala我真心看不懂啊！](bi-week-rpts/2017-08-03)
+- 第0x03弹(2017-07-20): [进主线这事儿能走后门吗?](bi-week-rpts/2017-07-20)
+- 第0x02弹(2017-07-06): [ARM~ARM~你不要怕~](bi-week-rpts/2017-07-06)
+- [往期存档](biweekly-archive)
 
-- **2017-09-14**: [硬件公司真的越来越像一个软件公司？你怎么看？](bi-week-rpts/2017-09-14)
-- 2017-08-31: [越来越多的开源软件支持RISC-V!](bi-week-rpts/2017-08-31)
-- 2017-08-17: [感觉RV就要引爆了！小编手已断!](bi-week-rpts/2017-08-17)
-- 2017-08-03: [光有Chisel还不够，又来一个SpinalHDL，Scala我真心看不懂啊！](bi-week-rpts/2017-08-03)
-- 2017-07-20: [进主线这事儿能走后门吗?](bi-week-rpts/2017-07-20)
+----
 
-[往期存档](biweekly-archive)
+## 文章列表
+
+
+- 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
 
 ----
 
 ## 资源列表
 
-### [RISC-V 资料搜集页面](resource)
+- **[RISC-V 资料搜集页面](resource)**
+- **[RISC-V 参考文献页面](papers)**
 
 ----
 
@@ -70,6 +81,8 @@ $ git pull origin master
 [repositories]
   local
   aliyun: http://maven.aliyun.com/nexus/content/groups/public/
+  sbt-releases-repo: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  sbt-plugins-repo: http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
   central: http://repo1.maven.org/maven2/
 ~~~
 

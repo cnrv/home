@@ -151,6 +151,8 @@ layout: default
     [[GitHub](https://github.com/riscv/riscv-asm-manual)]
   - RV8 的 ISA 总结
     [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
+  - Device tree文档
+    [[GitHub](https://github.com/riscv/riscv-device-tree-doc)]
 
 + Spike
   - [Tutuorial on Spike Internal](https://github.com/poweihuang17/Documentation_Spike)

@@ -160,6 +160,7 @@ layout: default
 + Chisel
   - [FAQ](https://github.com/freechipsproject/chisel3/wiki/Frequently-Asked-Questions)
   - [User Guide](https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel)
+  - [ScalaDoc](https://chisel.eecs.berkeley.edu/api/)
   - [Chisel Learning Journey](https://github.com/librecores/riscv-sodor/wiki/Chisel-Learning-Journey)
 
 + Rocket

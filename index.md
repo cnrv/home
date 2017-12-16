@@ -12,7 +12,7 @@ layout: default
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
 
-- **第0x0c弹(2017-11-23):[Workshop上干活多多](bi-week-rpts/2017-12-07) [\[繁体\]](bi-week-rpts/2017-12-07.tc)**
+- **第0x0c弹(2017-11-23):[Workshop上干货多多](bi-week-rpts/2017-12-07) [\[繁体\]](bi-week-rpts/2017-12-07.tc)**
 - 第0x0b弹(2017-11-23): [3家RISC-V相关的公司上榜“EE Times Silicon 60: Startups to Watch”](bi-week-rpts/2017-11-23) [\[繁体\]](bi-week-rpts/2017-11-23.tc)
 - 第0x0a弹(2017-11-09): [RISC-V的好汉们就快凑齐一桌麻将了](bi-week-rpts/2017-11-09) [\[繁体\]](bi-week-rpts/2017-11-09.tc)
 - 第0x0a弹(2017-10-26): [国内商业公司玩RISC-V毫不逊色！](bi-week-rpts/2017-10-26)

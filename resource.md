@@ -153,6 +153,8 @@ layout: default
     [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
   - Device tree文档
     [[GitHub](https://github.com/riscv/riscv-device-tree-doc)]
+  - Unix-class Platform文档
+    [[GitHub](https://github.com/riscv/riscv-platform-specs)]
 
 + Spike
   - [Tutuorial on Spike Internal](https://github.com/poweihuang17/Documentation_Spike)

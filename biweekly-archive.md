@@ -4,7 +4,9 @@ layout: default
 
 ## RISC-V双周简报存档
 
-- 第0x0b弹(2017-11-09): [RISC-V的好汉们就快凑齐一桌麻将了](bi-week-rpts/2017-11-09) [\[繁体\]](bi-week-rpts/2017-11-09.tc)
+- 第0x0d弹(2017-12-21):[Esperanto Technologies会成功么？](bi-week-rpts/2017-12-21) [\[繁体\]](bi-week-rpts/2017-12-21.tc)
+- 第0x0c弹(2017-12-07): [Workshop上干活多多](bi-week-rpts/2017-12-07) [\[繁体\]](bi-week-rpts/2017-12-07.tc)
+- 第0x0b弹(2017-11-23): [3家RISC-V相关的公司上榜“EE Times Silicon 60: Startups to Watch”](bi-week-rpts/2017-11-23) [\[繁体\]](bi-week-rpts/2017-11-23.tc)
 - 第0x0a弹(2017-10-26): [国内商业公司玩RISC-V毫不逊色！](bi-week-rpts/2017-10-26)
 - 第0x09弹(2017-10-12): [妥妥的跑Linux的RISC-V板子明年就来～](bi-week-rpts/2017-10-12)
 - 第0x08弹(2017-09-28): [悠悠的唱着最炫开源风～](bi-week-rpts/2017-09-28)

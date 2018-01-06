@@ -34,16 +34,14 @@ layout: default
 
 ## 暴走事件
 
-### 十二月
-
-+ [RISC-V Day 2017 Tokyo](https://riscv.tokyo/2017/10/07/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%8A%95%E7%A8%BF/)  2017年12月18日，在東京會有一場跟 RISC-V有關的活動，由日本SHC公司主辦。SHC公司也是基金會的其中一個成員。Esperanto, SiFive, Andes, RedHat等公司的人員都會參加
-並給演講。
 
 ### 二月
 
 + [FOSDEM'18](https://fosdem.org/2018/) 2018年2月3-4日，FOSDEM (Free and Open Source Developers’ European Meeting)將在比利時的布魯塞爾舉行。
 
 + [PULP WORKSHOP AT HPCA2018](http://pulp-platform.org/hpca2018) 2018年2月25日，在維也納的HPCA中，會有一場跟Pulp 有關的workshop。PULP小組會介紹PULP最新的發展，和他們未來的走向，包括  PULP-CAPI (Coherent Accelerator Processor Interface) 和 Ariane （Next generation of 64-bit RISC-V implementations）等。詳情可參考 pulpino mailing list 中的 < PULP newsletter - 4Q2017 >。
+
++ [Embedded World 2018](http://www.embedded-world.eu/program.html) 2018年2月27日，在德國 Nuremberg 的 Embedded world會有一整天跟risc-v有關的演講。包括 Microsemi, Mentor Graphics等公司都會給演講。AMD的CTO Mark Papermaster 也會給一個 Conference Keynote。
 
 ## 招聘簡訊
 

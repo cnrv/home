@@ -98,6 +98,17 @@ layout: default
 + RISCV-FPU：王逵的FPU设计。
   [[GitHub](https://github.com/cnrv/RISCV-FPU)]
 
+## 開源軟件
+
++ Linux distribution
+  - [Debian](https://wiki.debian.org/RISC-V#What_is_a_Debian_port.3F):Debian RISC-V port
+  - [Fedora](https://fedoraproject.org/wiki/Architectures/RISC-V/Bootstrapping):Fedora RISC-V port
+
++ RISC-V C library
+  - [glibc](https://www.google.com/search?q=risc-v+glibc&ie=utf-8&oe=utf-8&client=firefox-b)
+  - [newlib](https://github.com/riscv/riscv-newlib)
+  - musl:[link1](https://github.com/rv8-io/musl-riscv-toolchain) & [link2](https://github.com/lluixhi/musl-riscv)
+
 ## 操作系统
 
 + Linux

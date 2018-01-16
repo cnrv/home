@@ -109,6 +109,12 @@ layout: default
   - [newlib](https://github.com/riscv/riscv-newlib)
   - musl:[link1](https://github.com/rv8-io/musl-riscv-toolchain) & [link2](https://github.com/lluixhi/musl-riscv)
 
+## 各种语言支持：
++ Rust
+  - [Rust toolchain by RISC-V LLVM](https://github.com/dvc94ch/riscv-rust-toolchain)
++ Go
+  - [Go on risc-v](https://github.com/riscv/riscv-go)
+  
 ## 操作系统
 
 + Linux

@@ -10,6 +10,9 @@ layout: default
   [[GitHub](https://github.com/ucb-bar/riscv-boom)]
   [[Doc](https://ccelio.github.io/riscv-boom-doc/)]
 
++ BottleRocket: RV32IMC微处理器。Chisel， Apache Licensed。
+  [[GitHub](https://github.com/google/bottlerocket)]
+
 + bwitherspoon: RV32微处理器。SystemVerilog, ISC Licensed。
   [[GitHub](https://github.com/bwitherspoon/core)]
 

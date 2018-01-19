@@ -101,28 +101,18 @@ layout: default
 + RISCV-FPU：王逵的FPU设计。
   [[GitHub](https://github.com/cnrv/RISCV-FPU)]
 
-## 開源軟件
 
-+ Linux distribution
-  - [Debian](https://wiki.debian.org/RISC-V#What_is_a_Debian_port.3F):Debian RISC-V port
-  - [Fedora](https://fedoraproject.org/wiki/Architectures/RISC-V/Bootstrapping):Fedora RISC-V port
 
-+ RISC-V C library
-  - [glibc](https://www.google.com/search?q=risc-v+glibc&ie=utf-8&oe=utf-8&client=firefox-b)
-  - [newlib](https://github.com/riscv/riscv-newlib)
-  - musl:[link1](https://github.com/rv8-io/musl-riscv-toolchain) & [link2](https://github.com/lluixhi/musl-riscv)
-
-## 各种语言支持：
-+ Rust
-  - [Rust toolchain by RISC-V LLVM](https://github.com/dvc94ch/riscv-rust-toolchain)
-+ Go
-  - [Go on risc-v](https://github.com/riscv/riscv-go)
   
 ## 操作系统
 
 + Linux
   - [RISCVEMU](https://bellard.org/riscvemu/): Fabrice Bellard维护的RISC-V Linux emulator。
   - [JSLinux](https://bellard.org/jslinux/): Fabrice Bellard维护的可在浏览器里运行的RISC-V操作系统。
+
++ Linux distribution
+  - [Debian](https://wiki.debian.org/RISC-V#What_is_a_Debian_port.3F):Debian RISC-V port
+  - [Fedora](https://fedoraproject.org/wiki/Architectures/RISC-V/Bootstrapping):Fedora RISC-V port
 
 ## 开发工具
 
@@ -134,6 +124,11 @@ layout: default
   - Palmer Dabbelt的[RISC-V GCC参数解释](https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/)
   - Palmer Dabbelt的[FAQ about RISC-V Software](http://www.dabbelt.com/~palmer/riscv-faq.html)。
 
++ RISC-V C library
+  - [glibc](https://github.com/riscv/riscv-glibc)
+  - [newlib](https://github.com/riscv/riscv-newlib)
+  - musl:[link1](https://github.com/rv8-io/musl-riscv-toolchain) & [link2](https://github.com/lluixhi/musl-riscv)
+
 + 运行和仿真
   - [rv8](https://rv8.io/): x86-64上的RISC-V二进制仿真器，支持即时编译优化。
   - [FireSim](https://fires.im/): 一个由加州伯克利开发的利用FPGA加速的cycle-accurate硬件仿真Amazon F1云平台。
@@ -141,6 +136,10 @@ layout: default
 
 + 在线调试
   - [embecosm/riscv-gdbserver](https://github.com/embecosm/riscv-gdbserver): 由[Embecosm](http://www.embecosm.com/)维护的用于连接GDB的宿主机library，现在还只能用于调试Embecosm的picorv32 port。
+  
++ 各种语言支持：
+  - [Rust toolchain by RISC-V LLVM](https://github.com/dvc94ch/riscv-rust-toolchain)
+  - [Go on risc-v](https://github.com/riscv/riscv-go)
 
 ## 形式化验证
 

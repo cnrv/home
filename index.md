@@ -11,6 +11,7 @@ layout: default
 ## RISC-V双周简报
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
+
 - **第0x10弹(2017-02-01): [走在“时尚的前沿”](bi-week-rpts/2018-02-01) [\[繁体\]](bi-week-rpts/2018-02-01.tc)**
 - 第0x0f弹(2017-01-18): [Google开源RISC-V CPU](bi-week-rpts/2018-01-18) [\[繁体\]](bi-week-rpts/2018-01-18.tc)
 - 第0x0e弹(2017-01-04): [Intel漏洞是非多！](bi-week-rpts/2018-01-04) [\[繁体\]](bi-week-rpts/2018-01-04.tc)
@@ -26,7 +27,6 @@ layout: default
 ----
 
 ## 文章列表
-
 
 - 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
 

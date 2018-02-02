@@ -44,6 +44,9 @@ layout: default
 
 + [Embedded World 2018](http://www.embedded-world.eu/program.html) 2018年2月27日，在德国 Nuremberg 的 Embedded world会有一整天跟risc-v有关的演讲。包括 Microsemi, Mentor Graphics等公司都会给演讲。AMD的CTO Mark Papermaster 也会给一个 Conference Keynote。
 
+### 五月
++ [8th risc-v workshop](https://riscv.org/workshops/) 第八次risc-v workshop将在5月7-10日在西班牙举办。
+
 
 ## 招聘简讯
 

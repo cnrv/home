@@ -55,10 +55,10 @@ layout: default
     - GitHash: [fcbcd44](https://github.com/sifive/freedom-e-sdk/commit/fcbcd440a0556b90bb7f6a739ac567d5f8e93fa2)
     - MD5Sum: 1b5c97dd71918cfaa1c43fb7f38ecade
     - 打包时间: 2017-Aug-20
-- [百度网盘freedom-u-sdk完整打包文件](https://pan.baidu.com/s/1mi9kjiw)
-    - GitHash: [b38f7c9](https://github.com/sifive/freedom-u-sdk/commit/b38f7c9)
-    - MD5Sum: ec7f3f73c23f228a2dfa5fd5030dfffd
-    - 打包时间: 2017-Aug-10
+- [百度网盘freedom-u-sdk完整打包文件](https://pan.baidu.com/s/1i6t6UDB)
+    - GitHash: [c31cf7f](https://github.com/sifive/freedom-u-sdk/commit/c31cf7f31d036742b84dd473db4b9fb18abe3c7f)
+    - MD5Sum: fd8787c5853097ddb9f6dbc02dc6f781
+    - 打包时间: 2018-Feb-06
 
 下载成功之后执行：
 

@@ -31,10 +31,10 @@ layout: default
 
 ## CNRV网站更新
 
+## 会议征稿
+
 
 ## 暴走事件
-
-
 
 ### 二月
 
@@ -42,15 +42,20 @@ layout: default
 
 + [PULP WORKSHOP AT HPCA2018](http://pulp-platform.org/hpca2018) 2018年2月25日，在维也纳的HPCA中，会有一场跟Pulp 有关的workshop。PULP小组会介绍PULP最新的发展，和他们未来的走向，包括  PULP-CAPI (Coherent Accelerator Processor Interface) 和 Ariane （Next generation of 64-bit RISC-V implementations）等。详情可参考 pulpino mailing list 中的 < PULP newsletter - 4Q2017 >。
 
-+ [Embedded World 2018](http://www.embedded-world.eu/program.html) 2018年2月27日，在德国 Nuremberg 的 Embedded world会有一整天跟risc-v有关的演讲。包括 Microsemi, Mentor Graphics等公司都会给演讲。AMD的CTO Mark Papermaster 也会给一个 Conference Keynote。
++ [Embedded World 2018](http://www.embedded-world.eu/program.html) 2018年2月27日，在德国 Nuremberg 的 Embedded world会有一整天跟RISC-V有关的演讲。包括 Microsemi, Mentor Graphics等公司都会给演讲。AMD的CTO Mark Papermaster 也会给一个 Conference Keynote。
+
+### 三月
++ [OpenEmbedded/Yocto on RISC-V](https://elciotna18.sched.com/event/DXmn) 2018年3月12-14日，在ELC NA (Embedded Linux Conference North America 2018)，来自Comcast的 Khem Raj 会给一场关于 OpenEmbedded/Yocto on RISC-V的演讲。
 
 ### 五月
 
-+ [8th risc-v workshop](https://riscv.org/workshops/) 第八次risc-v workshop将在5月7-10日在西班牙举办。
++ [8th RISC-V workshop](https://riscv.org/workshops/) 第八次RISC-V workshop将在5月7-10日在西班牙举办。
 
 ### 六月
 
-+ **CNRV的成员和爱好者们正在RISC-V基金会的支持下筹备一场线下活动，时间暂定为2018年6月29日或者30日，场地等各项事宜正在积极筹备中。有任何建议、意见和想法，都可以发邮件给群头 [<xfguo@xfguo.org>](mailto:xfguo@xfguo.org)。**
++ **CNRV的成员和爱好者们正在RISC-V基金会的支持下筹备一场线下活动，时间暂定为2018年6月30日，目前暂定在复旦大学举行。有任何建议、意见和想法，都可以发邮件给群头 [<xfguo@xfguo.org>](mailto:xfguo@xfguo.org)。**
+
++ [2nd CARRV](https://carrv.github.io/) 第二次CARRV workshop(Computer Architecture Research with RISC-V ) 将在6月2日和ISCA 2018共同举办。
 
 
 ## 招聘简讯

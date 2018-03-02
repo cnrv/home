@@ -12,7 +12,8 @@ layout: default
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
 
-- **第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)**
+- **第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)**
+- 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
 - 第0x10弹(2018-02-01): [走在“时尚的前沿”](bi-week-rpts/2018-02-01) [\[繁体\]](bi-week-rpts/2018-02-01.tc)
 - 第0x0f弹(2018-01-18): [Google开源RISC-V CPU](bi-week-rpts/2018-01-18) [\[繁体\]](bi-week-rpts/2018-01-18.tc)
 - 第0x0e弹(2018-01-04): [Intel漏洞是非多！](bi-week-rpts/2018-01-04) [\[繁体\]](bi-week-rpts/2018-01-04.tc)

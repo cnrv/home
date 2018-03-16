@@ -36,13 +36,6 @@ layout: default
 
 ## 暴走事件
 
-### 二月
-
-+ [FOSDEM'18](https://fosdem.org/2018/) 2018年2月3-4日，FOSDEM (Free and Open Source Developers’ European Meeting)将在比利时的布鲁塞尔举行。
-
-+ [PULP WORKSHOP AT HPCA2018](http://pulp-platform.org/hpca2018) 2018年2月25日，在维也纳的HPCA中，会有一场跟Pulp 有关的workshop。PULP小组会介绍PULP最新的发展，和他们未来的走向，包括  PULP-CAPI (Coherent Accelerator Processor Interface) 和 Ariane （Next generation of 64-bit RISC-V implementations）等。详情可参考 pulpino mailing list 中的 < PULP newsletter - 4Q2017 >。
-
-+ [Embedded World 2018](http://www.embedded-world.eu/program.html) 2018年2月27日，在德国 Nuremberg 的 Embedded world会有一整天跟RISC-V有关的演讲。包括 Microsemi, Mentor Graphics等公司都会给演讲。AMD的CTO Mark Papermaster 也会给一个 Conference Keynote。
 
 ### 三月
 + [OpenEmbedded/Yocto on RISC-V](https://elciotna18.sched.com/event/DXmn) 2018年3月12-14日，在ELC NA (Embedded Linux Conference North America 2018)，来自Comcast的 Khem Raj 会给一场关于 OpenEmbedded/Yocto on RISC-V的演讲。

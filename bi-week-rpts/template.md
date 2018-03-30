@@ -36,10 +36,6 @@ layout: default
 
 ## 暴走事件
 
-
-### 三月
-+ [OpenEmbedded/Yocto on RISC-V](https://elciotna18.sched.com/event/DXmn) 2018年3月12-14日，在ELC NA (Embedded Linux Conference North America 2018)，来自Comcast的 Khem Raj 会给一场关于 OpenEmbedded/Yocto on RISC-V的演讲。
-
 ### 五月
 
 + [8th RISC-V workshop](https://riscv.org/workshops/) 第八次RISC-V workshop将在5月7-10日在西班牙举办。

@@ -12,7 +12,8 @@ layout: default
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
 
-- **第0x15弹(2018-04-13): [第八届Workshop会议议程公布](bi-week-rpts/2018-04-13)**
+- **第0x16弹(2018-04-27): [RISC-V引领敏捷硬件风潮](bi-week-rpts/2018-04-27)**
+- 第0x15弹(2018-04-13): [第八届Workshop会议议程公布](bi-week-rpts/2018-04-13)
 - 第0x14弹(2018-03-30): [宗师获图灵奖实质名归](bi-week-rpts/2018-03-30) [\[繁体\]](bi-week-rpts/2018-03-30.tc)
 - 第0x13弹(2018-03-16): [想把事情做简单可不是那么简单的事情](bi-week-rpts/2018-03-16) [\[繁体\]](bi-week-rpts/2018-03-16.tc)
 - 第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)
@@ -22,7 +23,6 @@ layout: default
 - 第0x0e弹(2018-01-04): [Intel漏洞是非多！](bi-week-rpts/2018-01-04) [\[繁体\]](bi-week-rpts/2018-01-04.tc)
 - 第0x0d弹(2017-12-21): [Esperanto Technologies会成功么？](bi-week-rpts/2017-12-21) [\[繁体\]](bi-week-rpts/2017-12-21.tc)
 - 第0x0c弹(2017-12-07): [Workshop上干活多多](bi-week-rpts/2017-12-07) [\[繁体\]](bi-week-rpts/2017-12-07.tc)
-- 第0x0b弹(2017-11-23): [3家RISC-V相关的公司上榜“EE Times Silicon 60: Startups to Watch”](bi-week-rpts/2017-11-23) [\[繁体\]](bi-week-rpts/2017-11-23.tc)
 - [往期存档](biweekly-archive)
 
 ----

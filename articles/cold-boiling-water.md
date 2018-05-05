@@ -1,4 +1,4 @@
-## 给开源架构兑点儿白开
+## 给开源架构添点儿柴
 
 ![If I had asked people what they wanted, they would have said faster horses. - Henry Ford](/assets/images/special-articles/faster_horse.jpg)
 
@@ -74,7 +74,9 @@ _(别忘听文末配乐~)_
 - [5] [Another RISC-V Religious Conversion](https://www.eejournal.com/article/another-risc-v-religious-conversion/)
 - [6] [已知的RISC-V处理器列表](https://cnrv.io/resource)
 
-作者：郭雄飞 | 感谢：荣威、宋威、柏瑋和匿名甲
+作者：郭雄飞
+
+感谢：荣威、宋威、柏瑋和匿名甲
 
 <iframe width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=330680&auto=1&height=66" frameborder="0"></iframe>
 

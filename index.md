@@ -30,6 +30,7 @@ layout: default
 ## 文章列表
 
 - 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
+- 2018-05-05: [给开源架构添点儿柴](articles/cold-boiling-water)
 
 ----
 

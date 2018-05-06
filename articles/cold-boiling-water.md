@@ -2,6 +2,8 @@
 
 ![If I had asked people what they wanted, they would have said faster horses. - Henry Ford](/assets/images/special-articles/faster_horse.jpg)
 
+<iframe width="700" height="86" src="//music.163.com/outchain/player?type=2&id=330680&auto=1&height=66" frameborder="0"></iframe>
+
 近来开源架构这话题着实挺火，尤其是RISC-V，感觉哪儿都有它。开源架构早就不是什么新鲜事儿了，丫RISC-V又是打哪儿冒出来的？
 
 ### 同是“开源”，有啥不同？
@@ -54,7 +56,7 @@
 
 ### RISC-V的正确打开方式
 
-**在大众当中一个非常普遍的误区和思维定势是，设计或者生产CPU/MCU芯片应该是一个公司的主营业务，或者说一家用RISC-V的公司一定得是卖CPU/MCU的。** 可以说，市场上的确需要设计生产用于PC的、手机的以及嵌入式领域应用的MCU，而这也的确是RISC-V的打开方式之一。但是，这只RISC-V是冰山一角，我们能看到很多企业，在自身的领域里，通过在自己的产品或者解决方案中嵌入一个RISC-V CPU来降低成本、提高灵活性，最终提高自身的竞争力。比如NVidia替换了内部使用的Cadence的定制处理器，换成了自己研发的RISC-V CPU，很快就要进入到下一代显卡中作为控制核心；CEVA为自己的DSP通信解决方案设计了一个用于低功耗的控制处理器；Rambus前不久刚发布的解决方案里用一颗RISC-V CPU实现一个孤立的系统以保护系统安全。
+**在大众当中一个非常普遍的误区和思维定势是，设计或者生产CPU/MCU芯片应该是一个公司的主营业务，或者说一家用RISC-V的公司一定得是卖CPU/MCU的。** 可以说，市场上的确需要设计生产用于PC的、手机的以及嵌入式领域应用的MCU，而这也的确是RISC-V的打开方式之一。但是，这只RISC-V是冰山一角，我们能看到很多企业，在自身的领域里，通过在自己的产品或者解决方案中嵌入一个RISC-V CPU来降低成本、提高灵活性，最终提高自身的竞争力。比如NVidia将自己原来自研的处理器，换成了兼容RISC-V的处理器，很快就要进入到下一代显卡中作为内部控制核心；CEVA为自己的DSP通信解决方案设计了一个用于低功耗的控制处理器；Rambus前不久刚发布的解决方案里用一颗RISC-V CPU实现一个孤立的系统以保护系统安全。
 
 **前面的几个例子阐明了RISC-V的另一种重要的打开方式，那就是帮助各个领域的企业来降低成本、提高灵活性，从而提高企业自身的竞争力，这才是商业的本质。所以，如果说“问正确的问题”是成功的先决条件的话。那么请问问你自己：”作为一家企业，你自身的优势是什么？RISC-V是否有机会能够帮助你提高竞争力呢？”**
 
@@ -77,8 +79,6 @@ _(别忘听文末配乐~)_
 作者：郭雄飞
 
 感谢：容威、宋威、柏瑋和匿名甲
-
-<iframe width="330" height="86" src="//music.163.com/outchain/player?type=2&id=330680&auto=1&height=66" frameborder="0"></iframe>
 
 ----
 

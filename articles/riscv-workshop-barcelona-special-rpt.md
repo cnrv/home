@@ -104,6 +104,72 @@
 - 希望RISC-V的debug实现不要碎片化
 
 
+### Jeremy: GDB for RISC-V
+
+- GDB已经融入主线，现在主要支持bare-metal模式
+- GDB支持的是比较高级的抽象，其实核具体DTM的实现关系不大，更主要的是和平台以及ABI的定义联系更紧密
+- 下面的工作：
+  * 支持XML的目标平台定义
+  * 支持内存映射表(memory map)
+  * 支持远程IO（remote IO）
+  * 支持non-DWARF的stack unwinding
+  * 支持GDB simulator
+  * 支持Linux调试
+
+### Simon: software environment
+
+- 现在的多核调试缺乏确定性、可重复性和可控性
+- Imperas可以仿真U54-MC平台并在10秒内启动Linux
+- 仿真速度100-2000MIPS
+- 和UltraSoC共享调试接口，可实现仿真和实际调试接口的对换
+- 提问： imperas的仿真是周期精确的吗？回答：不是，是指令精确的，支持时间模型，可以和外围设备直接交互
+
+### Yunsup： HiFive unleash 
+
+- SiFive提供半导体运服务silicon cloud services (SiFive SCS)
+- 目标：设计芯片就如订购一个披萨
+- 推出ChipLink: 基于TileLink支持一致性的片间串行通讯
+- SPEC的libquntum性能不好是由于编译器的优化不够
+- 和ADS合作将AI加速器放到FPGA内部，实现了HiFive+Microsemi+AI的人脸识别系统
+- ONCHIP使用了Freedom Everywhere实现了180nm的流片代工，ONCHIP的模拟IP现在可以从SiFive获得
+- SiFive开启了设计大赛，请大家建议基于HiFive unleash的工程，优胜者可获得流片机会
+- 希望众多厂商一起将HiFive开发板的价格拉低
+
+### Ted: HiFive扩展板Mi-V
+
+- Mi-V支持ChipLink，可作为HiFive的扩展板，也可以单独使用
+- 支持PCIe hub，SSD
+- 1999美金
+- Mi-V中的软核已开源
+
+### Michael: Renode.io
+
+- Renode.io是一个开源的系统仿真器，可同时仿真多核。
+- 也可用于仿真IoT无线局域网
+
+### Debian
+
+- 2016年的ABI调整直接导致Debian和Fedora的porting停滞
+- 2017年重新开始，现在已经完成1K多个包的编译
+- 2017年3月份，实现了第二次干净的编译
+- 完成了75%的平台无关包编译
+- 完成了13k平台相关包中的9k个
+- 已经有GUI支持
+
+### Richard: Fedora
+
+- Fedora最从先融入主线的原则，不在支线保留关键特性的开发
+- Redhat经常将好的商业软件买去然后开源其代码
+- Fedora的编译历时两个月，16k不同的编译声称13k个二进制文件
+- 建议RISC-V指令集不要过分依赖于Linux的机制。成功的指令级必须要能支持Windows
+
+### Seiji: smallest RISC-V device
+- 实现了SHA256
+- GF14LPP, Pulpino, RV32IMC, 2KB data sram
+- 0.076mm2 295umx296um
+
+
+
 
 作者：宋威
 

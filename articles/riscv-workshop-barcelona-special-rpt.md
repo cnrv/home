@@ -26,6 +26,15 @@
 > - Create repos and new attack trends, threats and countermeasures.
 > - Identify top 10 open challenges in security.
 
+### Palmer: State of Software
+
+- LLVM 的RISC-V支持现在已经将RV32IM\[A\]FD支持融入主线，但是现在还差硬浮点、64位和RVC支持。
+- U-boot融入主线（RV32I），谢谢Andes的协助
+- UEFI支持正在进行中
+- Zephyr, SeL4融入主线，FreeRTOS准备中
+- GDB支持融入主线，但是还没有发布。OpenOCD的支持还不太稳定。现有商业支持：Seggar和Lauterbach, UltraSoC。IAR也在准备中。
+- 商业仿真器： Imperas OVP可以在10s之内启动Linux
+- 感谢Andes（Kito Cheng）对软件生态环境的贡献。
 
 
 作者：宋威

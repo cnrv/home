@@ -1,5 +1,33 @@
 ## 2018 RISC-V巴塞罗那 Workshop特别报道
 
+### Rick O'Conner: Welcome Address
+
+- 巴塞罗那的第8届RISC-V workship是开办以来第3大的workshop，有325人参加。
+- 现在的统计，2018年第一季度，RISC-V基金会有约140个成员，来自25个国家。
+- 下一次的RISC-V workshop 将在印度 IIT Madras Chennai, 7月18-19日。
+
+### Krste: State of the Union
+
+- 指令集op-code空间关键词的区分：standard 现有的标准，custom 留给公司定义非标准扩展的部分，永远不会被标准使用，reserved 标准现在没有使用但是将来可能会被使用的空间。
+- ISA compliance 测试是用来保证使用RISC-V标准指令集编译的用户态程序可以运行在所有RISC-V的处理器上。
+
+> A system us minimally RISC-V-ISA-compliant if it runs claimed RISC-V unprivileged code correctly.
+
+- Platform compliance 测试用来确定RISC-V软件的运行环境。该测试需要由生态环境的提供者来协助完成。
+
+> A platform specification provides tight constraints on system configuration and options to support software ecosystem.
+> Platform compliance test provided by relevant ecosystem.
+
+- Linux ABI已经完成，内存模型现在正在公示期。
+- RISC-V成立了安全工作小组： Rambus的Helena Handschuh为主席。
+
+> - Develope consensus around best security practice.
+> - Develope and publish RISC-V security road map.
+> - Create repos and new attack trends, threats and countermeasures.
+> - Identify top 10 open challenges in security.
+
+
+
 作者：宋威
 
 ----

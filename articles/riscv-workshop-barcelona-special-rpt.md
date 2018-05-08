@@ -36,6 +36,20 @@
 - 商业仿真器： Imperas OVP可以在10s之内启动Linux
 - 感谢Andes（Kito Cheng）对软件生态环境的贡献。
 
+### Roger: Vector Update
+
+- 最近的更新
+  * Register types moved to an extension.
+  * Widening multiples.
+  * Debating whether reductions should be in base or not.
+  * Worked on overlaying V-reg and F-reg to save state -- won't happen.
+  * Fixed point vclip instruction (not really new, but reporting out)
+  * Mask support for speculative vectorization
+  * Possibility to fit integer MADD within encoding
+- 问答环节：现在离V扩展草案完成最缺什么？答：缺少编译器的支持实现，现在等待Alex Bradbury在LLVM中对V的支持。
+- 问答环节：如果V扩展能使用更多的op-code空间，什么功能可能会需要空间？答：对2D vector（矩阵计算）的支持可以利用更多的空间来加速。
+
+
 
 作者：宋威
 

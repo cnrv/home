@@ -81,12 +81,29 @@
 - 7000多个Litmus测试已经上线，也可用于测试内存模型的兼容性
 
 
-Danil: memory model
-public: 2 may to 16 June
-RVWMO as baseline, optional to RVSTO
-RC: release consistency
-have some more subtle rules (I do not understand)
-Litmus tests, 7000 lines of code to test memory compliance
+### Martin: Open data-centric computing architecture
+
+- 世界上50%的数据都存储在西部数据的设备上
+- 西部数据将实现自己的RISC-V核（两个），双发射，根据西部数据自己的数据负载情况优化的流水线
+- 需要自己设计处理器的原因：通用处理器不符合专用数据场景的性能要求，接口不开放
+- 将来，更多的设计需要在端节点快速的处理大量的数据
+- 西部数据将分析现有硬件License的局限性
+- 西部数据将在明年第一季度推出第一个带RISC-V处理器的芯片
+- 提问环节：
+  * 这个是西部数据自己设计的核吗？回答：是的，我们有自己的研发团队。我们可能会在将来开源我们的核。最困难的部分在片上连接部分。我们也许需要把这一部分剥离。
+  * 西部数据实现的两个核有什么区别吗？为什么替了2个？回答：实际上我们的芯片内有20多个核，这只是其中的两个。我们根据profiling的结果，对处理器实现做了调整，也使用了特殊指令。
+
+
+### Markus: Lauterbach
+
+- Lauterbach现在占有了欧洲40%的JTAG市场
+- 现在已经提供可调试同步多核和非同步多核的产品，基于debug spec v0.13
+- 支持调试Linux
+- 支持调试异质核系统
+- 也可支持特殊指令集扩展（继承至TRACE32或者使用一个辅助调试单元）
+- 希望RISC-V的debug实现不要碎片化
+
+
 
 作者：宋威
 

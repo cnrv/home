@@ -50,6 +50,24 @@
 - 问答环节：如果V扩展能使用更多的op-code空间，什么功能可能会需要空间？答：对2D vector（矩阵计算）的支持可以利用更多的空间来加速。
 
 
+### Rishiyur: Formal spec update
+
+- 什么是ISA的formal spec？
+  * 提供一个清楚的并且可以阅读的标准。
+  * 精确精确并且完整。
+  * 机器可读。
+  * 可以被执行
+  * 可以作为输入用于其他的工具中（定理证明，模型检查和验证工具）
+- 现状：
+  * 基金会将formal model和memory model小组分开。
+  * 现有很多个formal模型（3个Haskell, 1个SAIL, 1个L3和1个Verilog）
+  * Galios已经开始使用formal spec来验证指令集安全
+- 在两三个月后，将发布formal spec的草案，支持RV32IMAC和RV64IMAC, user/super/machine三个优先级，RVSTO内存模型
+- 希望能取代Spike成为RISC-V标准实现
+- 将加入对浮点和RVWMO的支持。
+
+
+
 
 作者：宋威
 

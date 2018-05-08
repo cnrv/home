@@ -66,8 +66,27 @@
 - 希望能取代Spike成为RISC-V标准实现
 - 将加入对浮点和RVWMO的支持。
 
+### Danil: Memory Model Update
+
+- RISC-V内存模型现在已经进入公示期（五月2日至6月16日）
+- 对标准的修改部分：
+  * 第6章：RISC-V弱内存模型RVWMO
+  * 第20章：Zam扩展，支持非对齐的原子操作
+  * 第21章：Zsto扩展，RISC-V的total store order模型扩展
+  * 附录A：解释文档和Litmus测试
+  * 附录B：Formal memory model specification
+- 默认的原子操作不支持非对齐的原子操作
+- 所有的硬软件都将用RVWMO(弱内存模型)为默认内存模型，但是可以选择使用RVSTO(total store order)内存模型。
+- 使用RVSTO模型的代码不兼容RVWMO的硬件
+- 7000多个Litmus测试已经上线，也可用于测试内存模型的兼容性
 
 
+Danil: memory model
+public: 2 may to 16 June
+RVWMO as baseline, optional to RVSTO
+RC: release consistency
+have some more subtle rules (I do not understand)
+Litmus tests, 7000 lines of code to test memory compliance
 
 作者：宋威
 

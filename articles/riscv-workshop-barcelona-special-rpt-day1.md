@@ -1,12 +1,16 @@
-## 2018 RISC-V巴塞罗那 Workshop特别报道
+## 2018 RISC-V巴塞罗那 Workshop特别报道 (1)
 
-### Rick O'Conner: Welcome Address
+### Welcome Address & Foundation Overview, Rick O' Connor
 
 - 巴塞罗那的第8届RISC-V workship是开办以来第3大的workshop，有325人参加。
 - 现在的统计，2018年第一季度，RISC-V基金会有约140个成员，来自25个国家。
 - 下一次的RISC-V workshop 将在印度 IIT Madras Chennai, 7月18-19日。
 
-### Krste: State of the Union
+![RISC-V Members](/assets/images/articles/risc-v-workshop-barcelona/riscv-members.jpg)
+
+![RISC-V Growth](/assets/images/articles/risc-v-workshop-barcelona/riscv-growth.jpg)
+
+### State of the Union: RISC-V, Krste Asanovic
 
 - 指令集op-code空间关键词的区分：standard 现有的标准，custom 留给公司定义非标准扩展的部分，永远不会被标准使用，reserved 标准现在没有使用但是将来可能会被使用的空间。
 - ISA compliance 测试是用来保证使用RISC-V标准指令集编译的用户态程序可以运行在所有RISC-V的处理器上。
@@ -26,7 +30,7 @@
 > - Create repos and new attack trends, threats and countermeasures.
 > - Identify top 10 open challenges in security.
 
-### Palmer: State of Software
+### The State of RISC-V Software, Palmer Dabbelt & Arun Thomas
 
 - LLVM 的RISC-V支持现在已经将RV32IM\[A\]FD支持融入主线，但是现在还差硬浮点、64位和RVC支持。
 - U-boot融入主线（RV32I），谢谢Andes的协助
@@ -34,9 +38,13 @@
 - Zephyr, SeL4融入主线，FreeRTOS准备中
 - GDB支持融入主线，但是还没有发布。OpenOCD的支持还不太稳定。现有商业支持：Seggar和Lauterbach, UltraSoC。IAR也在准备中。
 - 商业仿真器： Imperas OVP可以在10s之内启动Linux
-- 感谢Andes（Kito Cheng）对软件生态环境的贡献。
+- 感谢AndesTech（Kito Cheng）对软件生态环境的贡献。
 
-### Roger: Vector Update
+![Open Standard Work](/assets/images/articles/risc-v-workshop-barcelona/open-standard-work.jpg)
+
+![RISC-V LLVM Porting](/assets/images/articles/risc-v-workshop-barcelona/riscv-llvm-porting.jpg)
+
+###Vector ISA Proposal Update, Roger Espasa
 
 - 最近的更新
   * Register types moved to an extension.
@@ -66,7 +74,7 @@
 - 希望能取代Spike成为RISC-V标准实现
 - 将加入对浮点和RVWMO的支持。
 
-### Danil: Memory Model Update
+### RISC-V Memory Consistency Model Task Group Update, Daniel Lustig
 
 - RISC-V内存模型现在已经进入公示期（五月2日至6月16日）
 - 对标准的修改部分：
@@ -80,8 +88,11 @@
 - 使用RVSTO模型的代码不兼容RVWMO的硬件
 - 7000多个Litmus测试已经上线，也可用于测试内存模型的兼容性
 
+![RVWMO in a Nutshell 1](/assets/images/articles/risc-v-workshop-barcelona/rvwmo-1.jpg)
 
-### Martin: Open data-centric computing architecture
+![RVWMO in a Nutshell 2](/assets/images/articles/risc-v-workshop-barcelona/rvwmo-2.jpg)
+
+### Unleashing the Power of Data with RISC-V, Martin Fink 
 
 - 世界上50%的数据都存储在西部数据的设备上
 - 西部数据将实现自己的RISC-V核（两个），双发射，根据西部数据自己的数据负载情况优化的流水线
@@ -91,10 +102,11 @@
 - 西部数据将在明年第一季度推出第一个带RISC-V处理器的芯片
 - 提问环节：
   * 这个是西部数据自己设计的核吗？回答：是的，我们有自己的研发团队。我们可能会在将来开源我们的核。最困难的部分在片上连接部分。我们也许需要把这一部分剥离。
-  * 西部数据实现的两个核有什么区别吗？为什么替了2个？回答：实际上我们的芯片内有20多个核，这只是其中的两个。我们根据profiling的结果，对处理器实现做了调整，也使用了特殊指令。
+  * 西部数据实现的两个核有什么区别吗？为什么是2个？回答：实际上我们的芯片内有20多个核，这只是其中的两个。我们根据profiling的结果，对处理器实现做了调整，也使用了特殊指令。
 
+![Unleashing the Power of Data with RISC-V](/assets/images/articles/risc-v-workshop-barcelona/wd-riscv.jpg)
 
-### Markus: Lauterbach
+### RISC-V Debugging: Custom ISA Extensions, Multicore, DTM Variants, Markus Goehrle
 
 - Lauterbach现在占有了欧洲40%的JTAG市场
 - 现在已经提供可调试同步多核和非同步多核的产品，基于debug spec v0.13
@@ -102,7 +114,6 @@
 - 支持调试异质核系统
 - 也可支持特殊指令集扩展（继承至TRACE32或者使用一个辅助调试单元）
 - 希望RISC-V的debug实现不要碎片化
-
 
 ### Jeremy: GDB for RISC-V
 
@@ -124,54 +135,66 @@
 - 和UltraSoC共享调试接口，可实现仿真和实际调试接口的对换
 - 提问： imperas的仿真是周期精确的吗？回答：不是，是指令精确的，支持时间模型，可以和外围设备直接交互
 
-### Yunsup： HiFive unleash 
+### HiFive Unleashed: World's First Multi-Core RISC-V Linux Dev Board, Yunsup Lee
 
-- SiFive提供半导体运服务silicon cloud services (SiFive SCS)
+- SiFive提供半导体云服务Silicon Cloud Services (SiFive SCS)
 - 目标：设计芯片就如订购一个披萨
 - 推出ChipLink: 基于TileLink支持一致性的片间串行通讯
 - SPEC的libquntum性能不好是由于编译器的优化不够
 - 和ADS合作将AI加速器放到FPGA内部，实现了HiFive+Microsemi+AI的人脸识别系统
 - ONCHIP使用了Freedom Everywhere实现了180nm的流片代工，ONCHIP的模拟IP现在可以从SiFive获得
-- SiFive开启了设计大赛，请大家建议基于HiFive unleash的工程，优胜者可获得流片机会
+- SiFive开启了设计大赛，请大家建议基于HiFive Unleashed的工程，优胜者可获得流片机会
 - 希望众多厂商一起将HiFive开发板的价格拉低
 
-### Ted: HiFive扩展板Mi-V
+![SiFive U540](/assets/images/articles/risc-v-workshop-barcelona/sifive-u540.jpg)
+
+![SiFive Unleash](/assets/images/articles/risc-v-workshop-barcelona/sifve-unleashed.jpg)
+
+### HiFive Unleashed Expansion Options and Capabilities, Ted Marena
 
 - Mi-V支持ChipLink，可作为HiFive的扩展板，也可以单独使用
 - 支持PCIe hub，SSD
 - 1999美金
-- Mi-V中的软核已开源
+- **Mi-V中的软核已开源**
 
-### Michael: Renode.io
+![SiFive U540 and MicroSemi](/assets/images/articles/risc-v-workshop-barcelona/sifive-microsmi.jpg)
+
+### Simulating Heterogeneous Multi-node 32-bit and 64-bit RISC-V Systems Running Linux and Zephyr with the Open Source Renode Framework, Michael Gielda
 
 - Renode.io是一个开源的系统仿真器，可同时仿真多核。
 - 也可用于仿真IoT无线局域网
 
-### Debian
+### Debian GNU/Linux Port for RISC-V 64-bit, Manuel Fernandez Montecelo
 
 - 2016年的ABI调整直接导致Debian和Fedora的porting停滞
-- 2017年重新开始，现在已经完成1K多个包的编译
+- 2017年重新开始，现在已经完成1000多个包的编译
 - 2017年3月份，实现了第二次干净的编译
 - 完成了75%的平台无关包编译
 - 完成了13k平台相关包中的9k个
 - 已经有GUI支持
 
-### Richard: Fedora
+### Fedora on RISC-V, Richard Jones
 
 - Fedora最从先融入主线的原则，不在支线保留关键特性的开发
 - Redhat经常将好的商业软件买去然后开源其代码
-- Fedora的编译历时两个月，16k不同的编译声称13k个二进制文件
+- Fedora的编译历时两个月，16,000不同的编译生成和13,000个二进制文件
 - 建议RISC-V指令集不要过分依赖于Linux的机制。成功的指令级必须要能支持Windows
 
-### Seiji: smallest RISC-V device
+![Fedora on RISC-V](/assets/images/articles/risc-v-workshop-barcelona/fedora-riscv.jpg)
+
+### Smallest RISC-V Device for Next-Generation Edge Computing, Seiji Munetoh
+
 - 实现了SHA256
-- GF14LPP, Pulpino, RV32IMC, 2KB data sram
+- GF14LPP, Pulpino, RV32IMC, 2KB data SRAM 
 - 0.076mm2 295umx296um
 
+![Smallest RISC-V Chip](/assets/images/articles/risc-v-workshop-barcelona/smallest-riscv-ibm.jpg)
 
-
+----
 
 作者：宋威
+
+编辑：郭雄飞
 
 ----
 

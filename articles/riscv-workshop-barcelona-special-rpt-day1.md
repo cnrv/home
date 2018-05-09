@@ -177,7 +177,7 @@
 
 - Fedora最从先融入主线的原则，不在支线保留关键特性的开发
 - Redhat经常将好的商业软件买去然后开源其代码
-- Fedora的编译历时两个月，16,000不同的编译生成和13,000个二进制文件
+- Fedora的编译历时两个月，16,000不同的编译包和13,000个二进制文件
 - 建议RISC-V指令集不要过分依赖于Linux的机制。成功的指令级必须要能支持Windows
 
 ![Fedora on RISC-V](/assets/images/articles/risc-v-workshop-barcelona/fedora-riscv.jpg)
@@ -194,7 +194,7 @@
 
 作者：宋威
 
-编辑：郭雄飞
+编辑：CNRV编辑部
 
 ----
 

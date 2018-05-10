@@ -68,102 +68,69 @@
 
 ### Undefined, Unspecified, Non-deterministic, and Implementation Defined Behavior in Verifiable Specifications, Cliford Wolf, Symbiotic EDA
 
-- undefined behaviour: do not do that case. usually means the whole spec as a whole is void for some programs attempt to do the not specified thing
 - 未定义的行为：在某种情况下不会去做的；如果一些程序尝试做了未规定的事情，对于该程序来说整个规范是无效的
-- undefined values, the result is used as the output of a not specified operations
 - 未定义的值：未定义操作得到的结果
-- unsepcified value: : The instruction will not do anything crazy and just return a value, the spec just doesn’t say which value
 - 未指定的值：指令没有做其他破坏性更大的事情，仅仅是返回了规范没有明确指定的值
-- implementation defined behaviour/value: sometimes the best choice
-- 具体实现定义的行为/值：某些时候是最好的选择
-- specification holes for RISC-V
-- RISCV-V 规范里的漏洞
-- promote to use implementation defined bahviour
+- 具体实现定义的行为/值：某些时候这是相比其他方法来说最好的选择
+- RISCV-V 规范里存在漏洞
 - 提倡使用实现定义的行为
-- fully specified behaviour is more preferred
 - 完整定义的行为最好不过了
 
 ### Foundatonal HPC Systems for 2020 and Beyond, Steven Wallach, Micron Technology
 
-- Security within micro-architecture (architecture 2.0), memory centric computing
-- Summary of RV128: object-ID(64)+byte-offset(64): object-ID, unique identifier, ISA independent, time persistent
-- direct mapping between RV64 to RV128
-- secure micro-architecture
-- encrypted memory, defnese against spectre and meltdown
-- architecture 3.0? + language based security
-- Mateo: BSC processor initiative
-- more than 400 people doing research
-- background of BSC, see photo
-- european plan, see photo
-- HPC needs long vector in RISC-V, limited number of control flow, hierarchical accelerating, MPI+OpenMP, accelerating for ML
-- BSC is hiring, RTL/microarch, verification, FPGA design
+- 2.0的体系结构需要考虑安全，是一个已内存为核心的体系结构
+- 2.0体系结构将使用128比特的地址空间，其中高64比特为目标ID,一个唯一的和ISA无关并且时不变的ID(带版本的)
+- 低64比特为子节地址，所以RV64和RV128直接兼容
+- 使用安全体系结构，加密指令，通过彻底隔离来抵御Spectre和Meltdown攻击
+- 3.0的体系结构? 使用语言来提高安全
+
+### Mateo: BSC processor initiative
+- BSC现有400多的研究人员
+- HPC的应用需要RISC-V支持长向量，有限的控制流，分层次的加速，支持MPI和OpenMP，并支持机器学习的加速
+- BSC在招人
 
 ### Securing High-performance RISC-V Processors from Time Speculaton, Christopher Celio, Esperanto and Jose Renau, Esperanto
 
-- We can still build high-performance CPUs without change the ISA
 - 我们依然可以不用修改ISA就构建高性能的CPU
-- We only need micro-architecture improvements.
 - 我们只需要改进微架构就可以
-- Time domain: the performanc of one domain should not affect the performance of another, but time domain is hard to define.
-- 时域攻击：？？？
-- High -level: no trace, able to kill the trace after speculation.
-- ???
-- avoid bandwidth effect.
-- ???
-- What should RISC-V do? Nothing. Common strategy for tagging? Common tagging architecture, information flow? tagging/capability, more related to platform spec. Right now, adding security without touching anything.
-- RISC-V需要做什么吗？什么都不需要。???
+- 我们可以定义时间域，一个时间域不能影响另一个时间域的性能，但是时间域很难定义
+- 从大层面来说，我们需要消除假设执行的痕迹，一旦假设失败，必须销毁所有的痕迹，而且要避免影响内存带宽（也是侧信道）
+- RISC-V需要做什么吗？什么都不需要。
 
 ![Espertante](/assets/images/articles/risc-v-workshop-barcelona/esperante-1.jpg)
 
 ### Use of RISC-V on Pixel Visual Core, Mat Cockrell 
 
-- Pixel visual core, google design, domain specific core, from scratch. 8 cores. A53
 - Pixel Visual核是由谷歌从头自行设计的领域专用处理器（Domain Specific Core)，包含8核 A53
-- multiple accelerator on the bus.
 - 其总线上又多个加速器
-- In the three candidates, they choose RI5CY. (Wei: Google prefer SV than Chisel for the first time publicly)
-- 在众多RISC-V核中，Google选择了RI5CY（宋威：谷歌更加喜欢SystemVerilog而非Chisel）
+- 在众多RISC-V核中，Google选择了RI5CY
 
 ![Google RISC-V RI5CY](/assets/images/articles/risc-v-workshop-barcelona/google-ri5cy.jpg)
 
 ### Linux-Ready RV-GC AndesCore with Architecture Extensions, Charlie Su, Andes Technologies
 
-- Code size reduction ontop of RVC (CoDense)
 - CoDense：在RVC基础上代码密度的进一步提高
-- DSP/SIMD instruction to P extension
 - 支持P-ext中的DSP/SIMD指令
-- custom instruction
 - 支持定制化指令
-- non-instruction extension: CSR-based: vectored interrupt, cache management, etc.
 - 非指令集扩展（基于CSR）：向量中断和缓存管理等
 - N25/NX25 V5 AndesCore
-    - at 28nm HPC, small: 37KG 1GHz large: 159KG 1.15GHz
     - 在TSMC 28nm HPC工艺下：小核：3.7万门 @ 1GHz, 大核：15.9万门 @ 1.15GHz
-    - DiV 15 cycles for SP, 29 cycles for DP, run in background.
-    - 单精度除法需要15个周期，双精度29个周期，由独立的流水线执行
-    - misaligned acces is good for software, 100 cycles are needed for exception handler
-    - 软件友好的非对齐数据存取，异常处理需要100个周期左右
+    - 单精度除法需要15个周期，双精度29个周期，可后台执行
+    - 软件友好的非对齐数据存取（如果不支持将导致异常处理100个周期左右）
 
 ![Andes DSP P-ext](/assets/images/articles/risc-v-workshop-barcelona/andes-1.jpg)
 
 ### Processor Trace in a Holistc World, Gajinder Panesar, UltraSoC
 
-- providing visibility of program execution is important
 - 提供可视化的程序执行过程很重要
-- one method of achieving this is via processor banch trace
 - 一种实现的方式是记录处理器分支记录
 - For cores retire N instructions, need to replicated N times
-- 如果一条指令执行了N遍，那么就要复现N次
-- For multiple issue cores, also replicate th esmae interface for th eissue times
-- 对于多发射的核心，要复现其发射次数
-- encode the output
+- 如果一个核可以在一个周期内执行N条指令，trace的接口就要扩大N倍
+- 对于多发射的核心，trace的接口也必须扩大至相应指令发射数
 - 输出需要被编码（压缩）
-- bits per instruction, average 0.252, encode efficiency, does not include package overhead
-- 每条指令需要平均0.252个bit，压缩的效率还不错（不包含打包所需的额外开销）
-- standardize the format and the interface
-- 格式和接口需要标准化
-- Question: using branch prediction to compress the data? if decoder matches, yes. future work.
-- 问：分支预测可以提高其压缩率么？答：可以
+- 现在每条指令需要平均0.252个bit，压缩的效率还不错（不包含打包所需的额外开销）
+- RISC-V的trace工作小组将致力于标准化trace的格式和接口
+- 问：trace在host端实现分支预测可以提高其压缩率么？答：可以
 
 ![UltraSoC 1](/assets/images/articles/risc-v-workshop-barcelona/ultrasoc-1.jpg)
 
@@ -183,15 +150,13 @@
 
 ### Ariane: An Open-Source 64-bit RISC-V Applicaton Class Processor and latest Improvements, Florian Zaruba, ETH Zurich and Luca Benini, ETH Zurich
 
-- They have IEEE 754
+- PULP已经支持IEEE754的浮点单元了
 
 ![PULP Ariane 1](/assets/images/articles/risc-v-workshop-barcelona/pulp-ariane-0.jpg)
 
 ![PULP Ariane 2](/assets/images/articles/risc-v-workshop-barcelona/pulp-ariane.jpg)
 
 ----
-
-作者：宋威
 
 编辑：CNRV编辑部
 

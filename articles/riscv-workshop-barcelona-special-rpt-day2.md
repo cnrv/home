@@ -172,17 +172,21 @@
 ### Processor Trace in a Holistc World, Gajinder Panesar, UltraSoC
 
 - providing visibility of program execution is important
+- 提供可视化的程序执行过程很重要
 - one method of achieving this is via processor banch trace
-- Definition of the branch trace, see photo
-- interrupts and exceptions, see photo
+- 一种实现的方式是记录处理器分支记录
 - For cores retire N instructions, need to replicated N times
+- 如果一条指令执行了N遍，那么就要复现N次
 - For multiple issue cores, also replicate th esmae interface for th eissue times
+- 对于多发射的核心，要复现其发射次数
 - encode the output
-- Various trace control at run-time
+- 输出需要被编码（压缩）
 - bits per instruction, average 0.252, encode efficiency, does not include package overhead
-- processor trace task group
+- 每条指令需要平均0.252个bit，压缩的效率还不错（不包含打包所需的额外开销）
 - standardize the format and the interface
+- 格式和接口需要标准化
 - Question: using branch prediction to compress the data? if decoder matches, yes. future work.
+- 问：分支预测可以提高其压缩率么？答：可以
 
 ![UltraSoC 1](/assets/images/articles/risc-v-workshop-barcelona/ultrasoc-1.jpg)
 
@@ -227,22 +231,4 @@
 ----
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可。商业转载请联系作者。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

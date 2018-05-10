@@ -91,11 +91,18 @@
 
 ### Securing High-performance RISC-V Processors from Time Speculaton, Christopher Celio, Esperanto and Jose Renau, Esperanto
 
-- 我们依然可以不用修改ISA就构建高性能的CPU
-- 我们只需要改进微架构就可以
+- 我们依然可以不用修改ISA就构建高性能的CPU: 我们只需要改进微架构就可以
+- 如何理解时间攻击？并提出N种解决方案。见Slide
 - 我们可以定义时间域，一个时间域不能影响另一个时间域的性能，但是时间域很难定义
 - 从大层面来说，我们需要消除假设执行的痕迹，一旦假设失败，必须销毁所有的痕迹，而且要避免影响内存带宽（也是侧信道）
-- RISC-V需要做什么吗？什么都不需要。
+- RISC-V需要做什么？
+    - 不需要增减指令（除了为了优化性能所需的Save/Restore）
+    - 讨论和沟通好的微架构设计机制
+    - 在平台标准上的尽可能多的合作
+    - 要知道很多设计决策都影响安全性
+    - 性能计数器的可见性不应跨越时域
+- 请给我们分享你的想法，给出你的反馈
+- **我们希望RISC-V成为一个成功的指令集**
 
 ![Espertante](/assets/images/articles/risc-v-workshop-barcelona/esperante-1.jpg)
 

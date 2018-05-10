@@ -1,30 +1,73 @@
 ## 2018 RISC-V巴塞罗那 Workshop特别报道 (2)
 
 ### Fast Interrupts for RISC-V, Krste Asanovic, University of California, Berkeley
+### RISC-V快速的中断 , Krste Asanovic, 加尼福尼亚，伯克利大学
 
  - A new task group
+ - 新的任务组
  - handling support for nested preempted interrupts
- - Current interrupt scheme: two kinds, 1. local interrupts, directly to one hart, determine source throu scause
- - 2 global interrupts, PLIC, inter route between cores, read of memory mapped register return source
+ - 嵌套抢占中断的处理支持
+ - Current interrupt scheme: two kinds, 
+ 1. local interrupts, 
+ directly connect to one hart, 
+ No arbitraRon between harts to service 
+ determine source through xcause CSR
+ Only two standard local interrupts (softSware, timer) 
+ - 当前中断方案： 共有两种 1 本地中断，
+ 直接连接到硬件核心，
+ 没有从硬件核心到服务的仲裁，
+ 直接通过xcause CSR确定中断源，
+ 只有两种中断（软件中断和定时器中断）
+ 2 global interrupts, 
+ Routed via Platform‐Level Interrupt Controller (PLIC) 
+ PLIC arbitrates between multiple harts claiming interrupt 
+ Read of memory‐mapped register returns source 
+
+ 全局中断
+ 通过平台级别的终端控制器(PLIC)路由中断信号
+ PLIC在多个硬件核心之间转发中断
+ 读取映射的内存寄存器获取中断源
+ 
  - vectored interrupts, 4B per interrupts (?)
+ 向量化中断？
  - Problem with the current interrupt scheme:
+ 当前中断方案的问题
  - no preemption except by privilege mode
+ 除了特权模式，无异常抢占
  - fixed priority for local interrupts but vectored
+ 修复本地中断优先级但是没有向量化
  - vectortable holds jump instruction, can onlly jump -/+ 1MiB
+ 向量表限制了跳转指令，只能前后跳转1M的地址
  - PLIC has variable priorities, but no vector
+ PLIC有可变的优先级，但是没有向量
  - PLIC need two memory access to claim/complete
+ PLIC需要两次访问去完成或转发中断。
  - Proposals, see photo
+ 建议看图片?
  - Two interrupt handler interfaces, see photo, Krste, both are needed (about saving the context)
- - Inline interrupt handler, see example in photo, every register is callee saved, save as you go
+ 两个中断句柄接口，看图片，需要两个(用于保存上下文)
+ - Inline interrupt handler, see example in photo, every callee-saved registr save as you go
+ 内联中断句柄，每个被保存的寄存器在你需要的时候保存？
  - C ABI has higher context switch cost, see photo
+ C接口上下文切换有更大的开销
  - Putting that in hardware does not help much as the memory access speed is the same
- - Vector options: put function pointers in table (hardware has to fetch pointer and jump to it atomically, difficult)
+ 放进硬件没有多大帮助因为内存访问速度是相同的
+ - Vector options: 
+ put function pointers in table (hardware has to fetch pointer and jump to it atomically, difficult)
+ 向量选项
+ 把函数指针放进向量表（硬件必须拿到指针并以原子方式跳转到指针地址，难以实现）
  - Add new +/- 2GB offset instruction only visible to new interrupt ISA mode (SiFive)
+ 增减一个新的偏转上下2G地址的指令，并且该指令仅在中断指令模式可见。
  - Now context needs to restore mil, interrupt levels as well.
+ 现在上下文还需要加载mil指令，中断也要重新载入。
  - pack mpp/mil/mie into mcause to reduce the number of CSR
+ 把mpp/mil/mie合并进mcause来减少CSR的数量
  - Other issues: see photo
+ 其他的方法
  - Question: whether to publish software examples? Yes.
+ 问题：是否可以发布软件？可以
  - Why only one instruction in the table? save space. Many will jump to the same address. no context saving. call need 4 instructions, larger overhead.
+ 为什么只有指令在表里。节约空间，因为很多指令都跳转到相同的地址，不需要保存上下文，调用需要四条指令，开销太大。
 
 ### RISC-V DSP (P) Extension Proposal, Chuan-Hua Chang, Andes Technologies and Richard Herveille, RoaLogic BV
 

@@ -103,15 +103,22 @@
     - 安全度量的发展
     - 需要商业工具在有效性证明、验证和可度量性方面的支持
 
-### Undefned, Unspecifed, Non-deterministc, and Implementaton Defned Behavior in Veri fable Specifcatons, Cliford Wolf, Symbiotc EDA
+### Undefined, Unspecified, Non-deterministic, and Implementation Defined Behavior in Verifiable Specifications, Cliford Wolf, Symbiotic EDA
 
-- undefined behaviour: do not do that case. usually means the whole spec as a whole is void for some programs
+- undefined behaviour: do not do that case. usually means the whole spec as a whole is void for some programs attempt to do the not specified thing
+- 未定义的行为：在某种情况下不会去做的；如果一些程序尝试做了未规定的事情，对于该程序来说整个规范是无效的
 - undefined values, the result is used as the output of a not specified operations
-- unsepcified value
+- 未定义的值：未定义操作得到的结果
+- unsepcified value: : The instruction will not do anything crazy and just return a value, the spec just doesn’t say which value
+- 未指定的值：指令没有做其他破坏性更大的事情，仅仅是返回了规范没有明确指定的值
 - implementation defined behaviour/value: sometimes the best choice
+- 具体实现定义的行为/值：某些时候是最好的选择
 - specification holes for RISC-V
+- RISCV-V 规范里的漏洞
 - promote to use implementation defined bahviour
+- 提倡使用实现定义的行为
 - fully specified behaviour is more preferred
+- 完整定义的行为最好不过了
 
 ### Foundatonal HPC Systems for 2020 and Beyond, Steven Wallach, Micron Technology
 

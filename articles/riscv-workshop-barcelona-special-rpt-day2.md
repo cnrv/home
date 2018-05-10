@@ -1,73 +1,28 @@
 ## 2018 RISC-V巴塞罗那 Workshop特别报道 (2)
 
 ### Fast Interrupts for RISC-V, Krste Asanovic, University of California, Berkeley
-### RISC-V快速的中断 , Krste Asanovic, 加尼福尼亚，伯克利大学
 
- - A new task group
- - 新的任务组
- - handling support for nested preempted interrupts
- - 嵌套抢占中断的处理支持
- - Current interrupt scheme: two kinds, 
- 1. local interrupts, 
- directly connect to one hart, 
- No arbitraRon between harts to service 
- determine source through xcause CSR
- Only two standard local interrupts (softSware, timer) 
- - 当前中断方案： 共有两种 1 本地中断，
- 直接连接到硬件核心，
- 没有从硬件核心到服务的仲裁，
- 直接通过xcause CSR确定中断源，
- 只有两种中断（软件中断和定时器中断）
- 2 global interrupts, 
- Routed via Platform‐Level Interrupt Controller (PLIC) 
- PLIC arbitrates between multiple harts claiming interrupt 
- Read of memory‐mapped register returns source 
-
- 全局中断
- 通过平台级别的终端控制器(PLIC)路由中断信号
- PLIC在多个硬件核心之间转发中断
- 读取映射的内存寄存器获取中断源
- 
- - vectored interrupts, 4B per interrupts (?)
- 向量化中断？
- - Problem with the current interrupt scheme:
- 当前中断方案的问题
- - no preemption except by privilege mode
- 除了特权模式，无异常抢占
- - fixed priority for local interrupts but vectored
- 修复本地中断优先级但是没有向量化
- - vectortable holds jump instruction, can onlly jump -/+ 1MiB
- 向量表限制了跳转指令，只能前后跳转1M的地址
- - PLIC has variable priorities, but no vector
- PLIC有可变的优先级，但是没有向量
- - PLIC need two memory access to claim/complete
- PLIC需要两次访问去完成或转发中断。
- - Proposals, see photo
- 建议看图片?
- - Two interrupt handler interfaces, see photo, Krste, both are needed (about saving the context)
- 两个中断句柄接口，看图片，需要两个(用于保存上下文)
- - Inline interrupt handler, see example in photo, every callee-saved registr save as you go
- 内联中断句柄，每个被保存的寄存器在你需要的时候保存？
- - C ABI has higher context switch cost, see photo
- C接口上下文切换有更大的开销
- - Putting that in hardware does not help much as the memory access speed is the same
- 放进硬件没有多大帮助因为内存访问速度是相同的
- - Vector options: 
- put function pointers in table (hardware has to fetch pointer and jump to it atomically, difficult)
- 向量选项
- 把函数指针放进向量表（硬件必须拿到指针并以原子方式跳转到指针地址，难以实现）
- - Add new +/- 2GB offset instruction only visible to new interrupt ISA mode (SiFive)
- 增减一个新的偏转上下2G地址的指令，并且该指令仅在中断指令模式可见。
- - Now context needs to restore mil, interrupt levels as well.
- 现在上下文还需要加载mil指令，中断也要重新载入。
- - pack mpp/mil/mie into mcause to reduce the number of CSR
- 把mpp/mil/mie合并进mcause来减少CSR的数量
- - Other issues: see photo
- 其他的方法
- - Question: whether to publish software examples? Yes.
- 问题：是否可以发布软件？可以
- - Why only one instruction in the table? save space. Many will jump to the same address. no context saving. call need 4 instructions, larger overhead.
- 为什么只有指令在表里。节约空间，因为很多指令都跳转到相同的地址，不需要保存上下文，调用需要四条指令，开销太大。
+ - 基金会成立新的快速中断工作小组来支持嵌套抢占的中断处理
+ - 当前的RISC-V标准支持两种中断方案
+   * 直接连到处理器核的本地异常。这种方式不需要仲裁，可以从scause CSR中直接确定中断源，但是只有两种中断源（软件中断和定时器中断）。
+   * 全局中断。全局中断通过平台中断控制器(PLIC)管理并路由中断信号。PLIC在多个硬件核心之间转发中断，处理器需要读取中断控制器的寄存器确定中断源。
+ - 当前的中断响应支持中断向量，每个向量有4字节的空间来放1条32比特的指令
+ - 当前中断模式存在的问题：
+   * 除了特权模式外，不支持中断抢占
+   * 本地中断支持向量操作但是优先级是固定的
+   * 中断向量表只能跳转到上下1MB范围内的中断服务程序
+   * PLIC有可变的优先级，但是不支持向量操作
+   * PLIC需要两次IO访问去完成或转发中断。
+ - 内嵌式（inline）和函数式的中断服务程序都需要被支持
+ - 内嵌式的中断服务需要中断服务自己去保存需要使用的寄存器，速度较快，上下文切换代价较小
+ - 函数式的中断服务程序需要中断调用去保存上下文，代价较大，使用硬件加速效果也不会明显
+ - 解决上下1MB的限制：
+   * 在中断向量中保存函数指针需要先读取指针，难以实现原子操作。
+   * SiFive的建议是使用新的中断优先级，然后用指令将可跳空间扩大至2GB
+ - 支持中断抢断之后，中断的优先级也需要保存进上下文。
+ - 可以尝试将mpp/mil/mie融入mcause寄存器来减少上下文保存代价
+ - 问题：是否会发布实例代码？会。
+ - 现在为什么只留了4B给每一个中断向量？节约空间，因为很多指令都跳转到相同的地址，不需要保存上下文。如果保存上下文，调用需要四条指令，开销太大。
 
 ### RISC-V DSP (P) Extension Proposal, Chuan-Hua Chang, Andes Technologies and Richard Herveille, RoaLogic BV
 

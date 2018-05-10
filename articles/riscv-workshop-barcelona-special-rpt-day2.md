@@ -26,27 +26,15 @@
 
 ### RISC-V DSP (P) Extension Proposal, Chuan-Hua Chang, Andes Technologies and Richard Herveille, RoaLogic BV
 
-- P扩展，Packed-SIMD
-- 2.5 billion Andes embedded SoCs
-- Andes目前已经Ship超过25亿个打在Andes嵌入式核的SoC
-- P is chaired by Chang, ratify packed-SIMD
-- Change目前是P-ext的主席，P扩展正在等待批准阶段
-- Based onAndeStar V3 DSP.
-- 这个标准扩展是基于AndeSar V3的DSP指令集
-- Based on generalpurpose registers. 8/16/32 data types
-- 基于GPR，支持8/16/32宽度的数据类型
-- GPR is more efficient than separate register. high performance generic code programming.
-- 采用GPR比独立的寄存器要更加高效，支持高性能的通用程序开发
-- Provide data types and istructions can be recognized by compiler
-- 支持的数据类型和指令可以被编译器很好的识别
-- provide instrinic functions for software developers to use the dSP instructions
-- 提供对软件开发人员提供的Instrinic函数以方便其使用这些DSP指令
-- Provide libraries or middlewares to suers.
-- 提供相应的库和中间件
-- 64-bit, use pair of registers in RV32, needed for compuilers to generate DSP instructions automatically.
-- 对64-bit来说，使用一对RV32中的寄存器，需要编译器自动生成DSP指令
-- Question: more about compiler support? Seems like data types is the most difficult part.
-- 提问：编译器支持是怎样的？答：似乎数据类型是最难的部分
+- P扩展指令集将定义Packed-SIMD指令
+- Andes目前已经被超过25亿的嵌入式SoC使用
+- Andes的Change是P扩展指令集工作小组的主席，预计P扩展将首先基于Andes的V3 DSP指令集
+- P指令集将基于通用寄存器，支持8/16/32宽度的数据类型。采用GPR比独立的寄存器要更加高效，支持高性能的通用程序开发
+- P指令集希望支持的数据类型和指令可以被编译器很好的识别
+- 如果编译器不能识别，将提供对软件开发人员提供的Instrinic函数以方便其使用这些DSP指令
+- 最后的办法是提供相应的库和中间件
+- 在RV32中支持对64比特的Vector操作需要使用一对RV32中的寄存器，需要编译器自动生成DSP指令
+- 提问：编译器支持的难度在哪里？答：似乎数据类型是最难的部分
 
 ![Andes DSP P-ext](/assets/images/articles/risc-v-workshop-barcelona/andes-1.jpg)
 

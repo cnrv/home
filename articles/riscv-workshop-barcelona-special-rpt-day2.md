@@ -132,8 +132,6 @@
 
 ### Securing High-performance RISC-V Processors from Time Speculaton, Christopher Celio, Esperanto and Jose Renau, Esperanto
 
-![Espertante](/assets/images/articles/risc-v-workshop-barcelona/esperante-1.jpg)
-
 - We can still build high-performance CPUs without change the ISA
 - We only need micro-architecture improvements.
 - Time domain: the performanc of one domain should not affect the performance of another, but time domain is hard to define.
@@ -141,15 +139,18 @@
 - avoid bandwidth effect.
 - What should RISC-V do? Nothing. Common strategy for tagging? Common tagging architecture, information flow? tagging/capability, more related to platform spec. Right now, adding security without touching anything.
 
+![Espertante](/assets/images/articles/risc-v-workshop-barcelona/esperante-1.jpg)
+
 ### Use of RISC-V on Pixel Visual Core, Mat Cockrell 
 
-![Google RISC-V RI5CY](/assets/images/articles/risc-v-workshop-barcelona/google-ri5cy.jpg)
-
 - Pixel visual core, google design, domain specific core, from scratch. 8 cores. A53
+- Pixel Visual核是由谷歌从头自行设计的领域专用处理器（Domain Specific Core)，包含8核 A53
 - multiple accelerator on the bus.
+- 其总线上又多个加速器
 - In the three candidates, they choose RI5CY. (Wei: Google prefer SV than Chisel for the first time publicly)
-- Some analysis of the RI5CY. see photo
-- Errors are patched in a couple of days.
+- 在众多RISC-V核中，Google选择了RI5CY（宋威：谷歌更加喜欢SystemVerilog而非Chisel）
+
+![Google RISC-V RI5CY](/assets/images/articles/risc-v-workshop-barcelona/google-ri5cy.jpg)
 
 ### Linux-Ready RV-GC AndesCore with Architecture Extensions, Charlie Su, Andes Technologies
 
@@ -232,3 +233,4 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可。商业转载请联系作者。
 
+ogle

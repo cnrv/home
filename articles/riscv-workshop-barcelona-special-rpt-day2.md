@@ -128,16 +128,20 @@
 - HPC needs long vector in RISC-V, limited number of control flow, hierarchical accelerating, MPI+OpenMP, accelerating for ML
 - BSC is hiring, RTL/microarch, verification, FPGA design
 
-### Keynote: European Processor Initatve & RISC-V, Mateo Valero, Barcelona Supercomputng Center
-
 ### Securing High-performance RISC-V Processors from Time Speculaton, Christopher Celio, Esperanto and Jose Renau, Esperanto
 
 - We can still build high-performance CPUs without change the ISA
+- 我们依然可以不用修改ISA就构建高性能的CPU
 - We only need micro-architecture improvements.
+- 我们只需要改进微架构就可以
 - Time domain: the performanc of one domain should not affect the performance of another, but time domain is hard to define.
+- 时域攻击：？？？
 - High -level: no trace, able to kill the trace after speculation.
+- ???
 - avoid bandwidth effect.
+- ???
 - What should RISC-V do? Nothing. Common strategy for tagging? Common tagging architecture, information flow? tagging/capability, more related to platform spec. Right now, adding security without touching anything.
+- RISC-V需要做什么吗？什么都不需要。???
 
 ![Espertante](/assets/images/articles/risc-v-workshop-barcelona/esperante-1.jpg)
 
@@ -212,16 +216,6 @@
 ![PULP Ariane 1](/assets/images/articles/risc-v-workshop-barcelona/pulp-ariane-0.jpg)
 
 ![PULP Ariane 2](/assets/images/articles/risc-v-workshop-barcelona/pulp-ariane.jpg)
-
-### RISC-V Support for Persistent Memory Systems, Matheus Ogleari, Western Digital
-
-### The Hybrid Threading Processor for Sparse Data Kernels, Tony Brewer, Micron Technology
-
-### How PULP-based Platorms are Helping Security Research, Frank Gurkaynak, ETH Zurich
-
-### RISC-V Virtual Platorms for Early RISC-V Embedded Sofware Development Lee Moore, Imperas and Hugh O'Keefe, Ashling
-
-### RISC-V Workshop Barcelona Conclusion, Rick O’Connor, RISC-V Foundaton
 
 ----
 

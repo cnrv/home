@@ -36,58 +36,35 @@
 - 在RV32中支持对64比特的Vector操作需要使用一对RV32中的寄存器，需要编译器自动生成DSP指令
 - 提问：编译器支持的难度在哪里？答：似乎数据类型是最难的部分
 
-![Andes DSP P-ext](/assets/images/articles/risc-v-workshop-barcelona/andes-1.jpg)
 
 ### RISC-V ISA Cryptographic Extensions Proposal Summary, Richard Newell, Microsemi 
 
-- ucTEE, crypto
 - 介绍了ucTEE和crypto扩展的情况
-- have more member than any other group
-- 该组比其他组有更多的会员参与
-- ucTEE, a system without MMU.
-- ucTEE是一个没有MMU的系统
-- now ucTEE and crypto divided into two groups.
-- 目前ucTEE和crypto已经分成了两个小组
-- Security standing committee
-- ？？？
+- 该组现在已经成为会员最多的工作组
+- ucTEE是现在是针对一个没有MMU的系统
+- 为了更好的开展工作，ucTEE和crypto现已拆分为两个工作组
 
 ### Formal Assurance for RISC-V Implementatons, Daniel Zimmerman, Galois and Joseph Kiniry, Galois
 
-- How can we assure about these definitions?
 - 我们如何确保指令集定义的准确性
-- need to prove two things:1. the system does what suppose to do 2. the system does not do anything else （often overlooked）
 - 有两件事情需要证明：
-    1. 系统做该做什么
-    2. 系统不该做任何其他的（经常被忽略）
-- How can we know it is RV32I?
+  * 系统做该做什么
+  * 系统不该做任何其他的（经常被忽略）
 - 怎么能确定一个处理器是RV32I兼容的呢？
-- answer: formally verify it.
 - 答案是形式化的验证它
-- Whether it is feasible? equivalent tools only exist in Verilog/SystemVerilog
 - 是否可行呢？等价证明工具通常存在于Verilog或者SystemVerilog相关的工具
-- In order to do this:
 - 所以为了实现这一点，需要：
-    - machine readable specification, correctness and security specification of an implementation
-    - 一份机器可读的标准，以及对于一个实现的正确性安全性标准(Specification)
-    - a way to measure the conformance
-    - 一种证明其一致性的方法
-    - ways to work with summarize, understand and explore of such measurements
-    - 简化、理解和探索这些测量的方法
-- How can we choose? rigorous execution.ad hoc test, simulation coverage analysis, bisimulation(multiple specs and compare the behaviour),
-- ??
-- verification (formally reasoning), verification coverage analysis, bisimulation as well.
-- ??
-- security properties are different! Very difficult to prove. No consensus to prove something.
+  * 一份机器可读的标准，以及对于一个实现的正确性安全性标准(Specification)
+  * 一种证明其一致性的方法
+  * 简化、理解和探索这些测量的方法
+- 现在的模型很多，如何选取测试和验证模型？使用大量的测试，使用仿真覆盖率，使用多模型的仿真结果比较
 - 安全属性这部分是最难的，非常难于证明。在证明这件事上很难达成一致。
-- a domain lanaguage called LANDO to specify: architecture, correnctness and security properties
 - 一个领域特定语言：LANDO，用来描述架构、正确性和安全性
-- Workingwith measurement, we must help engineers to understand and explore the effects of designs, and visualize it.
 - 有效的度量很重要：我们必须帮助工程师去理解和了解其设计的有效性，并且将其可视化
-- Changelles: accuracy of measuremenet, evolution of security metrics, addition of more commercial tools on the backends for validation, verification and measurement
 - 挑战
-    - 精确的衡量
-    - 安全度量的发展
-    - 需要商业工具在有效性证明、验证和可度量性方面的支持
+  * 精确的衡量
+  * 安全度量的发展
+  * 需要商业工具在有效性证明、验证和可度量性方面的支持
 
 ### Undefined, Unspecified, Non-deterministic, and Implementation Defined Behavior in Verifiable Specifications, Cliford Wolf, Symbiotic EDA
 
@@ -166,6 +143,8 @@
     - 单精度除法需要15个周期，双精度29个周期，由独立的流水线执行
     - misaligned acces is good for software, 100 cycles are needed for exception handler
     - 软件友好的非对齐数据存取，异常处理需要100个周期左右
+
+![Andes DSP P-ext](/assets/images/articles/risc-v-workshop-barcelona/andes-1.jpg)
 
 ### Processor Trace in a Holistc World, Gajinder Panesar, UltraSoC
 

@@ -11,6 +11,7 @@ layout: default
 ## 实时报道
 
 - 2018-05-09: [2018 RISC-V巴塞罗那 Workshop特别报道 (1)](/articles/riscv-workshop-barcelona-special-rpt-day1)
+- 2018-05-10: [2018 RISC-V巴塞罗那 Workshop特别报道 (2)](/articles/riscv-workshop-barcelona-special-rpt-day2)
 
 ## RISC-V双周简报
 

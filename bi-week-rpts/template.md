@@ -36,16 +36,22 @@ layout: default
 
 ## 暴走事件
 
-### 五月
-
-+ [8th RISC-V workshop](https://riscv.org/workshops/) 第八次RISC-V workshop将在5月7-10日在西班牙举办。
-
 ### 六月
 
-+ **CNRV的成员和爱好者们正在RISC-V基金会的支持下筹备一场线下活动，时间暂定为2018年6月30日，目前暂定在复旦大学举行。有任何建议、意见和想法，都可以发邮件给群头 [<xfguo@xfguo.org>](mailto:xfguo@xfguo.org)。**
-
 + [2nd CARRV](https://carrv.github.io/) 第二次CARRV workshop(Computer Architecture Research with RISC-V ) 将在6月2日和ISCA 2018共同举办。
++ **RISC-V Shanghai Day, 2018年6月30日**
 
+### 七月
+
+- [RISC-V Workshop in Chennai (July 18-19)](http://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Ftmt.knect365.com%2Frisc-v-workshop-india%2F&esheet=51792917&newsitemid=20180423005251&lan=en-US&anchor=RISC-V+Workshop+in+Chennai&index=3&md5=7988b5018298bbae9b8603d7779b3b4b)
+
+### 十月
+
+- RISC-V Day Tokyo (mid-October TBD)
+
+### 十二月
+
+- [RISC-V Summit in Santa Clara (Dec. 3-5)](http://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Ftmt.knect365.com%2Frisc-v-summit%2F&esheet=51792917&newsitemid=20180423005251&lan=en-US&anchor=RISC-V+Summit+in+Santa+Clara&index=4&md5=88ca965085b5b1b9b6ea996333f27e44)
 
 ## 招聘简讯
 
@@ -53,7 +59,7 @@ _CNRV提供为行业公司提供公益性质的一句话的招聘信息发布，
 
 ----
 
-整理编集: 宋威、黄柏玮、郭雄飞
+整理编集: 宋威、黄柏玮、汪平、林容威、傅炜、巍巍、郭雄飞
 
 
 ----

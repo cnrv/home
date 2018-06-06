@@ -10,6 +10,7 @@ layout: default
 
 | 索引               | 文献  |  链接     |
 | ---:               | ---   | :---     |
+| <a name="Tonetto2018">**Tonetto2018**</a> | R. B. Tonetto, G. L. Nazar and A. C. S. Beck. "**Precise evaluation of the fault sensitivity of OoO superscalar processors.**" In _proc. of Design, Automation \& Test in Europe Conference \& Exhibition (DATE)_, 2018, pp. 613-616. | [[Web](https://ieeexplore.ieee.org/abstract/document/8342082/)] |
 | <a name="Ajayi2017">**Ajayi2017**</a> | T. Ajayi, K. Al-Hawaj, A. Amarnath, S. Dai, S. Davidson, P. Gao, G. Liu, A. Rao, A. Rovinski, N. Sun, C. Torng, L. Vega, B. Veluri, S. Xie, C. Zhao, R. Zhao, C. Batten, R. Dreslinski, R. Gupta, M. Taylor and Z. Zhang. "**Experiences using the RISC-V ecosystem to design an accelerator-centric SoC in TSMC 16nm.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)]  [[PDF](https://carrv.github.io/papers/ajayi-celerity-carrv2017.pdf)] |
 | <a name="Celio2017">**Celio2017**</a> | C. Celio, P-F Chiu, B. Nikolic, D. A. Patterson and K. Asanovic. "**BOOM v2: An open-source out-of-order RISC-V core.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)] [[PDF](https://carrv.github.io/papers/celio-boom2-carrv2017.pdf)] |
 | <a name="Clark2017">**Clark2017**</a> | M. Clark and B. Hoult. "**rv8: A high performance RISC-V to x86 binary translator.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)] [[PDF](https://carrv.github.io/papers/clark-rv8-carrv2017.pdf)] |
@@ -48,6 +49,7 @@ layout: default
   <summary><b>硬件设计</b>.处理器设计</summary>
 
   <ul>
+  <li>[<a href="#Tonetto2018"  > Tonetto2018  </a>]</li>
   <li>[<a href="#Celio2017"    > Celio2017    </a>]</li>
   <li>[<a href="#Collange2017" > Collange2017 </a>]</li>
   <li>[<a href="#Dennis2017"   > Dennis2017   </a>]</li>
@@ -61,6 +63,7 @@ layout: default
   <summary><b>硬件设计</b>.SoC</summary>
 
   <ul>
+  <li>[<a href="#Tonetto2018"  > Tonetto2018  </a>]</li>
   <li>[<a href="#Ajayi2017"    > Ajayi2017    </a>]</li>
   <li>[<a href="#Cook2017"     > Cook2017     </a>]</li>
   <li>[<a href="#Eldridge2017" > Eldridge2017 </a>]</li>

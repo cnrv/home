@@ -8,6 +8,10 @@ layout: default
 
 ----
 
+## 特别活动
+
+- 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划](/articles/risc-v-day-2018-shanghai-student-sponorship)
+
 ## 实时报道
 
 - 2018-05-09: [2018 RISC-V巴塞罗那 Workshop特别报道 (1)](/articles/riscv-workshop-barcelona-special-rpt-day1)

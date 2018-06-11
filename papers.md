@@ -10,7 +10,7 @@ layout: default
 
 | 索引               | 文献  |  链接     |
 | ---:               | ---   | :---     |
-| <a name="Delshadtehrani2018">**Delshadtehrani2018**</a> | L. Delshadtehrani, S. Eldridge, S. Canakci, M. Egele and A. Joshi. "**Nile: A programmable monitoring coprocessor.**" _IEEE Computer Architecture Letters_, 2018, 17(1), pp 92-95. | [[Web](https://ieeexplore.ieee.org/document/8219379/)] |
+| <a name="Delshadtehrani2018">**Delshadtehrani2018**</a> | L. Delshadtehrani, S. Eldridge, S. Canakci, M. Egele and A. Joshi. "**Nile: A programmable monitoring coprocessor.**" _IEEE Computer Architecture Letters_, 2018, 17(1), pp. 92-95. | [[Web](https://ieeexplore.ieee.org/document/8219379/)] |
 | <a name="Tonetto2018">**Tonetto2018**</a> | R. B. Tonetto, G. L. Nazar and A. C. S. Beck. "**Precise evaluation of the fault sensitivity of OoO superscalar processors.**" In _proc. of Design, Automation \& Test in Europe Conference \& Exhibition (DATE)_, 2018, pp. 613-616. | [[Web](https://ieeexplore.ieee.org/abstract/document/8342082/)] |
 | <a name="Ajayi2017">**Ajayi2017**</a> | T. Ajayi, K. Al-Hawaj, A. Amarnath, S. Dai, S. Davidson, P. Gao, G. Liu, A. Rao, A. Rovinski, N. Sun, C. Torng, L. Vega, B. Veluri, S. Xie, C. Zhao, R. Zhao, C. Batten, R. Dreslinski, R. Gupta, M. Taylor and Z. Zhang. "**Experiences using the RISC-V ecosystem to design an accelerator-centric SoC in TSMC 16nm.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)]  [[PDF](https://carrv.github.io/papers/ajayi-celerity-carrv2017.pdf)] |
 | <a name="Celio2017">**Celio2017**</a> | C. Celio, P-F Chiu, B. Nikolic, D. A. Patterson and K. Asanovic. "**BOOM v2: An open-source out-of-order RISC-V core.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)] [[PDF](https://carrv.github.io/papers/celio-boom2-carrv2017.pdf)] |
@@ -30,6 +30,7 @@ layout: default
 | <a name="Vega2017">**Vega2017**</a> | L. Vega and M. Taylor. "**RV-IOV: Tethering RISC-V processors via scalable I/O virtualization.**" In _proc. of Workshop on Computer Architecture Research with RISC-V (CARRV)_, 2017. | [[URL](https://carrv.github.io/)] [[PDF](https://carrv.github.io/papers/vega-rv_iov-carrv2017.pdf)] |
 | <a name="Asanovic2016">**Asanovic2016**</a> | K. Asanovic, R. Avizienis, J. Bachrach, S. Beamer, D. Biancolin, C. Celio, H. Cook, D. Dabbelt, J. Hauser, A. Izraelevitz, S. Karandikar, B. Keller, D. Kim, J. Koenig, Y. Lee, E. Love, M. Maas, A. Magyar, H. Mao, M. Moreto, A. Ou, D. A. Patterson, B. Richards, C. Schmidt, S. Twigg, H. Vo and A. Waterman. "**The Rocket chip generator.**" EECS Department, University of California, Berkeley, Technical Report No. UCB/EECS-2016-17, 2016. | [[URL](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-17.html)] [[PDF](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-17.pdf)] |
 | <a name="Celio2016">**Celio2016**</a> | C. Celio, D. Dabbelt, D. A. Patterson and K. Asanovic. "**The renewed case for the reduced instruction set computer: Avoiding ISA bloat with macro-op fusion for RISC-V.**" EECS Department, University of California, Berkeley, Technical Report No. UCB/EECS-2016-130, 2016. | [[URL](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-130.html)] [[PDF](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-130.pdf)] |
+| <a name="Costan2016">**Costan2016**</a> | V. Costan, I. Lebedev and S. Devadas. "**Sanctum: Minimal hardware extensions for strong software isolation.**" In _proc. of USENIX Security Sympoisum_, 2016. | [[Web](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/costan)] [[PDF](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_costan.pdf)] |
 | <a name="Song2016">**Song2016**</a> | C. Song, H. Moon, M. Alam, I. Yun, B. Lee, T. Kim, W. Lee and Y. Paek. "**HDFI: Hardware-assisted data-flow isolation.**" In _proc. of IEEE Symposium on Security and Privacy (S&P, Oakland)_, 2016. | [[DOI](https://doi.org/10.1109/SP.2016.9)] [[PDF](https://sslab.gtisc.gatech.edu/assets/papers/2016/song:hdfi.pdf)] |
 
 
@@ -58,6 +59,7 @@ layout: default
   <li>[<a href="#Gray2017"     > Gray2017     </a>]</li>
   <li>[<a href="#Matthews2017" > Matthews2017 </a>]</li>
   <li>[<a href="#Asanovic2016" > Asanovic2016 </a>]</li>
+  <li>[<a href="#Costan2016"   > Costan2016   </a>]</li>
   </ul>
 </details>
 
@@ -124,6 +126,7 @@ layout: default
   <ul>
   <li>[<a href="#Delshadtehrani2018"] Delshadtehrani2018 </a>]</li> 
   <li>[<a href="#Oh2017"  > Oh2017    </a>]</li>
+  <li>[<a href="#Costan2016"   > Costan2016   </a>]</li>
   <li>[<a href="#Song2016"> Song2016  </a>]</li>
   </ul>
 </details>

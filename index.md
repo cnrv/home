@@ -60,10 +60,10 @@ layout: default
 
 网盘中还新增了[freedom-e-sdk](https://github.com/sifive/freedom-e-sdk)和[freedom-u-sdk](https://github.com/sifive/freedom-u-sdk)的完整压缩包。
 
-- [百度网盘freedom/rocket-chip/riscv-tools完整打包文件](https://pan.baidu.com/s/1eR80gMY)
-    - GitHash: [ec70d85](https://github.com/sifive/freedom/commit/ec70d85cbc03ce5b497b58d1b0f50f39a3e2a4e3)
-    - MD5Sum: b3643841ff41083f004871359dd3ffe4
-    - 打包时间: 2017-Aug-19
+- [百度网盘freedom/rocket-chip/riscv-tools完整打包文件](https://pan.baidu.com/s/1J9N2VvfY9D6zakh8aMO5rg)
+    - GitHash: [397c395](https://github.com/sifive/freedom/commit/397c395b8216c46c3d1b21484d85c6509c3ee7e8)
+    - MD5Sum: 63b711236a118df48d035b65b1fa5065
+    - 打包时间: 2018-Jun-11
 - [百度网盘freedom-e-sdk完整打包文件](https://pan.baidu.com/s/1qYa6fd6)
     - GitHash: [fcbcd44](https://github.com/sifive/freedom-e-sdk/commit/fcbcd440a0556b90bb7f6a739ac567d5f8e93fa2)
     - MD5Sum: 1b5c97dd71918cfaa1c43fb7f38ecade

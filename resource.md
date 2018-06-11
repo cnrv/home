@@ -170,6 +170,9 @@ layout: default
     [[GitHub](https://github.com/riscv/riscv-asm-manual)]
   - RV8 的 ISA 总结
     [[GitHub](https://github.com/rv8-io/rv8/tree/master/meta)]
+  - RISC-V 微处理器平台描述
+    [[GitHub](https://github.com/emb-riscv/specs-markdown)]
+    [[Web](https://emb-riscv.github.io/)]
   - Device tree文档
     [[GitHub](https://github.com/riscv/riscv-device-tree-doc)]
   - Unix-class Platform文档
@@ -196,6 +199,7 @@ layout: default
   - MIT 6.175 [Constructive Computer Architecture](http://csg.csail.mit.edu/6.175/)
   - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
   - Berkeley CS61C [Great Ideas in machine structure](http://inst.eecs.berkeley.edu/~cs61c/fa17/)
+  - Berkeley EECS151 [Introduction to Digital Design and Integrated Circuits](http://inst.eecs.berkeley.edu/~eecs151/sp18/)
   
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)

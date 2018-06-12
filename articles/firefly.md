@@ -12,4 +12,4 @@ PULP实验室打造超小型自主飞行智能无人机
 
 PULP团队选择来自[法国GreenWaves Technologies公司的GAP8应用处理器](https://greenwaves-technologies.com)作为无人机的大脑，一款新颖的基于PULP项目的超低功耗并行计算平台。该处理器配备有8+1个基于RISC-V的内核，以及一个高效率的神经网络加速引擎（Hardware Convolutional Engine)。GAP8的主要任务是接收图像，并运行其AI算法DroNet，一个轻量级残差卷积神经网络（CNN）架构。通过该算法预测转向角度和碰撞概率，以实现四旋翼飞行器在各种室内和室外环境中的安全自主飞行。
 
-
+该DroNet算法的突破之处在于成功将一个用于大型无人机的轻量级神经卷积算法，在不过多损失精度的同时，压缩并移植入一个更小的处理器。

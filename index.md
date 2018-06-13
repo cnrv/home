@@ -8,6 +8,12 @@ layout: default
 
 ----
 
+## RISC-V Day 2018 Shanghai 系列报道
+
+- 2018-06-13: [Greenwaves GAP8: RISC-V + AI助力PULP打造小型自主飞行智能无人机](articles/crazyfile-gap8)
+
+
+
 ## 特别活动
 
 - 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划](/articles/risc-v-day-2018-shanghai-student-sponorship)

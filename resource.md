@@ -200,6 +200,7 @@ layout: default
   - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)
   - Berkeley CS61C [Great Ideas in machine structure](http://inst.eecs.berkeley.edu/~cs61c/fa17/)
   - Berkeley EECS151 [Introduction to Digital Design and Integrated Circuits](http://inst.eecs.berkeley.edu/~eecs151/sp18/)
+  - [Ripes:教学用的图形化处理器流水线](https://github.com/mortbopet/Ripes)
   
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)

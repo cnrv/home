@@ -27,9 +27,12 @@ Greenwaves将会参加2018年6月30日在上海举办的RISC-V Day Shanghai研�
 Links:
 - 快公司报道: [This tiny drone with a tiny brain is smart enough to fly itself](https://www.fastcompany.com/40575392/this-tiny-drone-with-a-tiny-brain-is-smart-enough-to-fly-itself)
 - 论文: Ultra Low Power Deep-Learning-powered Autonomous Nano Drones, url: [https://arxiv.org/abs/1805.01831](https://arxiv.org/abs/1805.01831)
+- [GreenWaves Technologies网站](https://greenwaves-technologies.com) 
 
 编译整理：张垚
+
 责编：雄飞
+
 图片来源：Greenwaves公司和论文
 
 ----

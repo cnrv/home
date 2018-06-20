@@ -195,6 +195,7 @@ layout: default
 
 
 + 教学课程
+  - CMU 447 [Introduction to Computer Architecture](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_introduction_to_computer_architecture)
   - Cornell ECE 4750 [Computer Architecture](http://www.csl.cornell.edu/courses/ece4750/2016f/handouts.html)
   - MIT 6.175 [Constructive Computer Architecture](http://csg.csail.mit.edu/6.175/)
   - 丹麦技术大学(DTU) [Computer Architecture and Engineering course](https://github.com/schoeberl/cae-lab)

@@ -16,7 +16,8 @@ layout: default
 
 ## 特别活动
 
-- 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划](/articles/risc-v-day-2018-shanghai-student-sponorship)
+- 2018-06-23: [RISC-V Day 2018 Shanghai学生参会资助计划（第二轮）](/articles/risc-v-day-2018-shanghai-student-sponorship-v2)
+- 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划（第一轮）](/articles/risc-v-day-2018-shanghai-student-sponorship)
 
 ## 实时报道
 

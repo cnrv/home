@@ -27,8 +27,9 @@ layout: default
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
 
-- **第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)**
-- 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)**
+- **第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)**
+- 第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)
+- 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)
 - 第0x18弹(2018-05-25): [RISC-V Day Shanghai等你来玩](bi-week-rpts/2018-05-25)
 - 第0x17弹(2018-05-11): [从点子到芯片？](bi-week-rpts/2018-05-11)
 - 第0x16弹(2018-04-27): [RISC-V引领敏捷硬件风潮](bi-week-rpts/2018-04-27)
@@ -39,8 +40,6 @@ layout: default
 - 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
 - 第0x10弹(2018-02-01): [走在“时尚的前沿”](bi-week-rpts/2018-02-01) [\[繁体\]](bi-week-rpts/2018-02-01.tc)
 - 第0x0f弹(2018-01-18): [Google开源RISC-V CPU](bi-week-rpts/2018-01-18) [\[繁体\]](bi-week-rpts/2018-01-18.tc)
-- 第0x0e弹(2018-01-04): [Intel漏洞是非多！](bi-week-rpts/2018-01-04) [\[繁体\]](bi-week-rpts/2018-01-04.tc)
-- 第0x0d弹(2017-12-21): [Esperanto Technologies会成功么？](bi-week-rpts/2017-12-21) [\[繁体\]](bi-week-rpts/2017-12-21.tc)
 - [往期存档](biweekly-archive)
 
 ----

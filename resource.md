@@ -206,6 +206,8 @@ layout: default
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 
++ Blog
+  - Nitish Srivastava: [Adding custom instruction to RISCV ISA and running it on gem5 and spike](https://nitish2112.github.io/post/adding-instruction-riscv/)
 
 ## 其他
 

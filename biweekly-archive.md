@@ -4,6 +4,7 @@ layout: default
 
 ## RISC-V双周简报存档
 
+- 第0x1c弹(2018-07-20): [上海发布支持RISC-V相关政策](bi-week-rpts/2018-07-20)
 - 第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)
 - 第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)
 - 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)

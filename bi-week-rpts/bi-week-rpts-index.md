@@ -10,12 +10,20 @@ layout: default
   <summary><b>RISC-V新闻</b></summary>
 
   <ul>
+  <li><a href="2017-08-03.html#b-小组重启"                            > B 小组重启 </a></li>
   <li><a href="2017-07-06.html#第七届risc-v研讨会征稿启事"             > 第七届RISC-V研讨会征稿启事 </a></li>
+  <li><a href="2017-08-03.html#eetime-hot-chips-gets-more-diverse"   > EETime: Hot Chips Gets More Diverse </a></li>
+  <li><a href="2017-08-03.html#hackaday-vexriscv-a-modular-risc-v-implementation-for-fpga"> Hackaday: VexRiscv: A Modular RISC-V Implementation for FPGA </a></li>
   <li><a href="2017-07-06.html#来自bespoke-silicon-group的risc-v文档" > 来自Bespoke Silicon Group的RISC-V文档 </a></li>
   <li><a href="2017-07-20.html#linux內核第六版"                       > Linux內核第六版 </a></li>
+  <li><a href="2017-08-03.html#linux-porting-patch-第七版"            > Linux porting patch 第七版 </a></li>
   <li><a href="2017-07-06.html#microsemi发布windows版本的基于eclipse的开发平台" > MicroSemi发布Windows版本的基于Eclipse的开发平台 </a></li>
+  <li><a href="2017-08-03.html#newliblibglosslibm-patch"             > newlib/libgloss/libm patch </a></li>
   <li><a href="2017-07-20.html#riscy-business-频道"                       > RISCY BUSINESS 频道 </a></li>
+  <li><a href="2017-08-03.html#risc-v版compiler-explorer"             > RISC-V版Compiler Explorer </a></li>
   <li><a href="2017-07-06.html#risc-v的官方每月新闻"                   > RISC-V的官方每月新闻 </a></li>
+  <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V教育专题邮件列表成立 </a></li>
+  <li><a href="2017-08-03.html#risc-v中文书"                          > RISC-V中文书 </a></li>
   <li><a href="2017-07-06.html#risc-v-linux第四版"                    > RISC-V Linux第四版 </a></li>
   <li><a href="2017-07-20.html#rv8-更新"                              > rv8 更新 </a></li>
   <li><a href="2017-07-06.html#sel4-on-smp"                          > SeL4 on SMP </a></li>
@@ -30,10 +38,13 @@ layout: default
   <summary><b>技术讨论</b></summary>
 
   <ul>
+  <li><a href="2017-08-03.html#多中断时的响应顺序"                     > 多中断时的响应顺序 </a></li>
   <li><a href="2017-07-20.html#explicit-cache-instruction-重启讨论"   > Explicit Cache instruction 重启讨论 </a></li>
   <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并AUIPC和JALR来实现长跳转 </a></li>
   <li><a href="2017-07-20.html#提议向risc-v-b扩展指令集bit操作扩展添加选择mux指令" > 提议向RISC-V B扩展指令集（bit操作扩展）添加选择（MUX）指令 </a></li>
   <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
+  <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
+  <li><a href="2017-08-03.html#直接缓存操作explicit-cache-control指令提案第3版-第4版" > 直接缓存操作(explicit cache control)指令提案(第3版, 第4版) </a></li>
   </ul>
 
 </details>
@@ -44,6 +55,8 @@ layout: default
   <ul>
   <li><a href="2017-07-20.html#rocket-chip代码结构调整"              > Rocket-chip代码结构调整 </a></li>
   <li><a href="2017-07-20.html#rocket-chip的二级缓存缺失"            > Rocket-chip的二级缓存缺失 </a></li>
+  <li><a href="2017-08-03.html#rocket-chip代码结构调整"              > Rocket-chip代码结构调整 </a></li>
+  <li><a href="2017-08-03.html#rocket-chip阅读笔记"                  > Rocket-chip阅读笔记 </a></li>
   <li><a href="2017-07-20.html#修正一级缓存一致性错误"                > 修正一级缓存一致性错误 </a></li>
   </ul>
 

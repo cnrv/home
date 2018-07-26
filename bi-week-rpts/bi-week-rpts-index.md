@@ -10,25 +10,38 @@ layout: default
   <summary><b>RISC-V新闻</b></summary>
 
   <ul>
+  <li><a href="2017-08-17.html#apace-mynewt-for-hifive1"             > Apace Mynewt for Hifive1 </a></li>
   <li><a href="2017-08-03.html#b-小组重启"                            > B 小组重启 </a></li>
+  <li><a href="2017-08-17.html#boom发布第2版"                         > BOOM发布第2版 </a></li>
+  <li><a href="2017-08-17.html#bristol-startup-designs-security-chip" > Bristol startup designs security chip </a></li>
+  <li><a href="2017-08-17.html#cnrvriscv-fpu"                        > CNRV/RISCV-FPU </a></li>
+  <li><a href="2017-08-17.html#coreboot-for-hifive1-hello-risc-v-world" > coreboot for HiFive1 (Hello RISC-V world!) </a></li>
   <li><a href="2017-07-06.html#第七届risc-v研讨会征稿启事"             > 第七届RISC-V研讨会征稿启事 </a></li>
   <li><a href="2017-08-03.html#eetime-hot-chips-gets-more-diverse"   > EETime: Hot Chips Gets More Diverse </a></li>
+  <li><a href="2017-08-17.html#gen-z-points-to-new-memories"         > Gen-Z Points to New Memories </a></li>
   <li><a href="2017-08-03.html#hackaday-vexriscv-a-modular-risc-v-implementation-for-fpga"> Hackaday: VexRiscv: A Modular RISC-V Implementation for FPGA </a></li>
   <li><a href="2017-07-06.html#来自bespoke-silicon-group的risc-v文档" > 来自Bespoke Silicon Group的RISC-V文档 </a></li>
   <li><a href="2017-07-20.html#linux內核第六版"                       > Linux內核第六版 </a></li>
   <li><a href="2017-08-03.html#linux-porting-patch-第七版"            > Linux porting patch 第七版 </a></li>
   <li><a href="2017-07-06.html#microsemi发布windows版本的基于eclipse的开发平台" > MicroSemi发布Windows版本的基于Eclipse的开发平台 </a></li>
   <li><a href="2017-08-03.html#newliblibglosslibm-patch"             > newlib/libgloss/libm patch </a></li>
-  <li><a href="2017-07-20.html#riscy-business-频道"                       > RISCY BUSINESS 频道 </a></li>
+  <li><a href="2017-08-17.html#orconf-2017会议日程公布"               > ORConf 2017会议日程公布 </a></li>
+  <li><a href="2017-08-17.html#pulpino添加新成员"                     > PULPino添加新成员 </a></li>
+  <li><a href="2017-08-17.html#riscvemu"                             > RISCVEMU </a></li>
+  <li><a href="2017-07-20.html#riscy-business-频道"                   > RISCY BUSINESS 频道 </a></li>
   <li><a href="2017-08-03.html#risc-v版compiler-explorer"             > RISC-V版Compiler Explorer </a></li>
   <li><a href="2017-07-06.html#risc-v的官方每月新闻"                   > RISC-V的官方每月新闻 </a></li>
   <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V教育专题邮件列表成立 </a></li>
   <li><a href="2017-08-03.html#risc-v中文书"                          > RISC-V中文书 </a></li>
   <li><a href="2017-07-06.html#risc-v-linux第四版"                    > RISC-V Linux第四版 </a></li>
+  <li><a href="2017-08-17.html#rv32e工具链支持"                       > RV32E工具链支持 </a></li>
   <li><a href="2017-07-20.html#rv8-更新"                              > rv8 更新 </a></li>
   <li><a href="2017-07-06.html#sel4-on-smp"                          > SeL4 on SMP </a></li>
+  <li><a href="2017-08-17.html#sifive任命naveed-sherwani新ceo"        > SiFive任命Naveed Sherwani新CEO </a></li>
+  <li><a href="2017-08-17.html#sodor更新至priv-spec-110"              > Sodor更新至Priv spec 1.10 </a></li>
   <li><a href="2017-07-20.html#syntacore的scr1处理器更新至privileged-spec-110和user-spec-22" > Syntacore的SCR1处理器更新至Privileged Spec 1.10和User Spec 2.2 </a></li>
   <li><a href="2017-07-06.html#ultrasoc宣布成为业内首个支持risc-v-trace功能的厂商"> UltraSoC宣布成为业内首个支持RISC-V Trace功能的厂商 </a></li>
+  <li><a href="2017-08-17.html#以色列关于risc-v的genpro计划"           > 以色列关于RISC-V的Genpro计划 </a></li>
   <li><a href="2017-07-06.html#支持risc-v的处理器实现统计"             > 支持RISC-V的处理器实现统计 </a></li>
   </ul>
 
@@ -41,6 +54,7 @@ layout: default
   <li><a href="2017-08-03.html#多中断时的响应顺序"                     > 多中断时的响应顺序 </a></li>
   <li><a href="2017-07-20.html#explicit-cache-instruction-重启讨论"   > Explicit Cache instruction 重启讨论 </a></li>
   <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并AUIPC和JALR来实现长跳转 </a></li>
+  <li><a href="2017-08-17.html#基于gp寄存器的链接时优化机制"            > 基于gp寄存器的链接时优化机制 </a></li>
   <li><a href="2017-07-20.html#提议向risc-v-b扩展指令集bit操作扩展添加选择mux指令" > 提议向RISC-V B扩展指令集（bit操作扩展）添加选择（MUX）指令 </a></li>
   <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
   <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
@@ -53,14 +67,29 @@ layout: default
   <summary><b>代码更新</b></summary>
 
   <ul>
+  <li><a href="2017-08-17.html#lowrisc修复tag缓存并行错误"           > lowRISC修复Tag缓存并行错误 </a></li>
+  <li><a href="2017-08-17.html#release完成之前禁止acquire"           > Release完成之前禁止Acquire </a></li>
+  <li><a href="2017-08-17.html#rocket流水线识别rvc指令"              > Rocket流水线识别RVC指令 </a></li>
   <li><a href="2017-07-20.html#rocket-chip代码结构调整"              > Rocket-chip代码结构调整 </a></li>
   <li><a href="2017-07-20.html#rocket-chip的二级缓存缺失"            > Rocket-chip的二级缓存缺失 </a></li>
   <li><a href="2017-08-03.html#rocket-chip代码结构调整"              > Rocket-chip代码结构调整 </a></li>
   <li><a href="2017-08-03.html#rocket-chip阅读笔记"                  > Rocket-chip阅读笔记 </a></li>
+  <li><a href="2017-08-17.html#rocket-chip-支持对rom使用readmem"     > Rocket-chip 支持对ROM使用$readmem() </a></li>
+  <li><a href="2017-08-17.html#修正rocket流水线的优先转置错误"        > 修正Rocket流水线的优先转置错误 </a></li>
   <li><a href="2017-07-20.html#修正一级缓存一致性错误"                > 修正一级缓存一致性错误 </a></li>
   </ul>
 
 </details>
+
+<details>
+  <summary><b>实用资料和文档</b></summary>
+
+  <ul>
+  <li><a href="2017-08-17.html#palmer的all-aboard系列"              > Palmer的All Aboard系列 </a></li>
+  </ul>
+
+</details>
+
 
 <details>
   <summary><b>安全点评</b></summary>
@@ -76,10 +105,13 @@ layout: default
 
   <ul>
   <li>2017-08: <a href="https://www.hotchips.org/"                    > RISC-V at HotChips </a></li>
+  <li>2017-09: <a href="https://orconf.org/"                          > ORConf 2017会议9月8-10日于英国Hebden Bridge举行 </a></li>
+  <li>2017-09: <a href="https://www.softconf.com/h/riscv7thwkshp/"    > The 7th RISC-V workshop投稿截止日期：2017年9月17日 </a></li>
   <li>2017-10: <a href="http://www.hellogcc.org/?p=34315"             > OSDT开源开发工具大会2017 </a></li>
   <li>2017-10: <a href="http://www.linleygroup.com/events/event.php?num=43" > RISC-V at the Linley Processor Conference </a></li>
   <li>2017-10: <a href="https://carrv.github.io/#first-workshop-on-computer-architecture-research-with-risc-v-carrv-2017" > First Workshop on Computer Architecture Research with RISC-V (CARRV 2017) </a></li>
   <li>2017-11: <a href="http://www.fpga-kongress.de/de/programm-2017" > FPGA Kongress </a></li>
+  <li>2017-11: <a href="https://www.softconf.com/h/riscv7thwkshp/"    > The 7th RISC-V workshop 2017年11月28-30日，第7届RISC-V研讨在美国加州Milpitas由西部数据承办 </a></li>
   </ul>
 
 </details>

@@ -4,6 +4,7 @@ layout: default
 
 ## RISC-V双周简报存档
 
+- 第0x1e弹(2018-08-17): [RISC-V新创企业拟融资上亿元](bi-week-rpts/2018-08-17)
 - 第0x1d弹(2018-08-03): [印度首个可运行Linux的RISC-V芯片成功流片](bi-week-rpts/2018-08-03)
 - 第0x1c弹(2018-07-20): [上海发布支持RISC-V相关政策](bi-week-rpts/2018-07-20)
 - 第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)

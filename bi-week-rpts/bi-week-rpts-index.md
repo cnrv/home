@@ -9,60 +9,62 @@ layout: default
 <details>
   <summary><b>RISC-V新闻</b></summary>
   <ul>
-  <li><a href="2017-10-26.html#7th-risc-v-workshop议程发布"           > 7th RISC-V workshop议程发布 </a></li>
+  <li><a href="2017-10-26.html#7th-risc-v-workshop议程发布"           > 7th RISC-V workshop 议程发布 </a></li>
   <li><a href="2017-08-17.html#apace-mynewt-for-hifive1"             > Apace Mynewt for Hifive1 </a></li>
   <li><a href="2017-08-03.html#b-小组重启"                            > B 小组重启 </a></li>
-  <li><a href="2017-08-17.html#boom发布第2版"                         > BOOM发布第2版 </a></li>
+  <li><a href="2017-08-17.html#boom发布第2版"                         > BOOM 发布第2版 </a></li>
   <li><a href="2017-08-17.html#bristol-startup-designs-security-chip" > Bristol startup designs security chip </a></li>
   <li><a href="2017-08-17.html#cnrvriscv-fpu"                        > CNRV/RISCV-FPU </a></li>
   <li><a href="2017-08-17.html#coreboot-for-hifive1-hello-risc-v-world" > coreboot for HiFive1 (Hello RISC-V world!) </a></li>
-  <li><a href="2017-07-06.html#第七届risc-v研讨会征稿启事"             > 第七届RISC-V研讨会征稿启事 </a></li>
-  <li><a href="2017-09-14.html#第一届基于risc-v的体系结构研讨会carrv-2017报告安排新鲜出炉"  > 第一届基于RISC-V的体系结构研讨会(CARRV 2017)报告安排新鲜出炉 </a></li>
-  <li><a href="2017-08-31.html#第29届-hot-chips上的risc-v相关新闻"     > 第29届 Hot Chips上的RISC-V相关新闻 </a></li>
-  <li><a href="2017-10-12.html#dover-microsystems发布coreguard"      > Dover microsystems发布CoreGuard </a></li>
-  <li><a href="2017-08-31.html#draper分离其安全处理器研究组成立dover-microsystems公司" > DRAPER分离其安全处理器研究组成立Dover Microsystems公司 </a></li>
+  <li><a href="2017-07-06.html#第七届risc-v研讨会征稿启事"             > 第七届 RISC-V 研讨会征稿启事 </a></li>
+  <li><a href="2017-09-14.html#第一届基于risc-v的体系结构研讨会carrv-2017报告安排新鲜出炉"  > 第一届基于 RISC-V 的体系结构研讨会(CARRV 2017)报告安排新鲜出炉 </a></li>
+  <li><a href="2017-08-31.html#第29届-hot-chips上的risc-v相关新闻"     > 第29届 Hot Chips 上的 RISC-V 相关新闻 </a></li>
+  <li><a href="2017-10-12.html#dover-microsystems发布coreguard"      > Dover microsystems 发布 CoreGuard </a></li>
+  <li><a href="2017-08-31.html#draper分离其安全处理器研究组成立dover-microsystems公司" > DRAPER分离其安全处理器研究组成立 Dover Microsystems 公司 </a></li>
   <li><a href="2017-08-03.html#eetime-hot-chips-gets-more-diverse"   > EETime: Hot Chips Gets More Diverse </a></li>
-  <li><a href="2017-09-14.html#firesim在amazon-f1上部署rocket-chip仿真"  > FireSim在Amazon F1上部署Rocket-chip仿真 </a></li>
+  <li><a href="2017-09-14.html#firesim在amazon-f1上部署rocket-chip仿真"  > FireSim在Amazon F1上部署 Rocket-chip仿真 </a></li>
   <li><a href="2017-08-31.html#freebsd-主线更新至-risc-v-priv-spec-110"> FreeBSD 主线更新至 RISC-V priv. spec 1.10 </a></li>
   <li><a href="2017-08-17.html#gen-z-points-to-new-memories"         > Gen-Z Points to New Memories </a></li>
   <li><a href="2017-08-03.html#hackaday-vexriscv-a-modular-risc-v-implementation-for-fpga"> Hackaday: VexRiscv: A Modular RISC-V Implementation for FPGA </a></li>
-  <li><a href="2017-10-26.html#iq-analog的14nm芯片使用了risc-v-cpu"   > IQ-Analog的14nm芯片使用了RISC-V CPU </a></li>
-  <li><a href="2017-07-06.html#来自bespoke-silicon-group的risc-v文档" > 来自Bespoke Silicon Group的RISC-V文档 </a></li>
+  <li><a href="2017-10-26.html#iq-analog的14nm芯片使用了risc-v-cpu"   > IQ-Analog 的14nm芯片使用了 RISC-V CPU </a></li>
+  <li><a href="2017-07-06.html#来自bespoke-silicon-group的risc-v文档" > 来自 Bespoke Silicon Group 的 RISC-V 文档 </a></li>
   <li><a href="2017-08-03.html#linux-porting-patch-第七版"            > Linux porting patch 第七版 </a></li>
   <li><a href="2017-10-26.html#microsemi-发布-mi-v-嵌入式整合方案"     > Microsemi 发布 Mi-V 嵌入式整合方案 </a></li>
-  <li><a href="2017-07-06.html#microsemi发布windows版本的基于eclipse的开发平台" > MicroSemi发布Windows版本的基于Eclipse的开发平台 </a></li>
+  <li><a href="2017-07-06.html#microsemi发布windows版本的基于eclipse的开发平台" > MicroSemi 发布 Windows 版本的基于 Eclipse 的开发平台 </a></li>
   <li><a href="2017-08-03.html#newliblibglosslibm-patch"             > newlib/libgloss/libm patch </a></li>
-  <li><a href="2017-10-26.html#odst中关於-risc-v-和-coreboot-的演讲"  > OSDT中关於 RISC-V 和 coreboot 的演讲 </a></li>
-  <li><a href="2017-08-17.html#orconf-2017会议日程公布"               > ORConf 2017会议日程公布 </a></li>
-  <li><a href="2017-08-17.html#pulpino添加新成员"                     > PULPino添加新成员 </a></li>
+  <li><a href="2017-10-26.html#odst中关於-risc-v-和-coreboot-的演讲"  > OSDT 中关於 RISC-V 和 coreboot 的演讲 </a></li>
+  <li><a href="2017-08-17.html#orconf-2017会议日程公布"               > ORConf 2017 会议日程公布 </a></li>
+  <li><a href="2017-08-17.html#pulpino添加新成员"                     > PULPino 添加新成员 </a></li>
   <li><a href="2017-08-17.html#riscvemu"                             > RISCVEMU </a></li>
   <li><a href="2017-07-20.html#riscy-business-频道"                   > RISCY BUSINESS 频道 </a></li>
   <li><a href="2017-10-12.html#risc-v--15th-international-soc-conference" > RISC-V @ 15th International SoC conference </a></li>
-  <li><a href="2017-08-03.html#risc-v版compiler-explorer"             > RISC-V版Compiler Explorer </a></li>
-  <li><a href="2017-08-31.html#risc-v并入newlib主线"                  > RISC-V并入newlib主线</a></li>
-  <li><a href="2017-09-14.html#risc-v的formal-specification工作组"    > RISC-V的Formal Specification工作组 </a></li>
-  <li><a href="2017-07-06.html#risc-v的官方每月新闻"                   > RISC-V的官方每月新闻 </a></li>
-  <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V教育专题邮件列表成立 </a></li>
+  <li><a href="2017-08-03.html#risc-v版compiler-explorer"             > RISC-V 版 Compiler Explorer </a></li>
+  <li><a href="2017-08-31.html#risc-v并入newlib主线"                  > RISC-V 并入 newlib 主线</a></li>
+  <li><a href="2017-09-14.html#risc-v的formal-specification工作组"    > RISC-V 的 Formal Specification 工作组 </a></li>
+  <li><a href="2017-07-06.html#risc-v的官方每月新闻"                   > RISC-V 的官方每月新闻 </a></li>
+  <li><a href="2017-11-09.html#risc-v基金会的会员过百"                 > RISC-V 基金会的会员过百 </a></li>
+  <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V 教育专题邮件列表成立 </a></li>
+  <li><a href="2017-11-09.html#risc-v-port-进入-linux-next-"          > RISC-V Linux port 进入 linux-next !!! </a></li>
   <li><a href="2017-07-06.html#risc-v-linux第四版"                    > RISC-V Linux port 第四版 </a></li>
   <li><a href="2017-07-20.html#linux內核第六版"                       > RISC-V linux port 第六版 </a></li>
   <li><a href="2017-09-14.html#risc-v-linux-port-第八版"              > RISC-V linux port 第八版 </a></li>
   <li><a href="2017-09-28.html#linux-port-第九版"                     > RISC-V Linux port 第九版 </a></li>
-  <li><a href="2017-08-31.html#risc-v-llvm进度更新"                   > RISC-V LLVM进度更新 </a></li>
+  <li><a href="2017-08-31.html#risc-v-llvm进度更新"                   > RISC-V LLVM 进度更新 </a></li>
   <li><a href="2017-09-14.html#risc-v-llvm-port"                     > RISC-V LLVM port </a></li>
-  <li><a href="2017-08-03.html#risc-v中文书"                          > RISC-V中文书 </a></li>
-  <li><a href="2017-08-17.html#rv32e工具链支持"                       > RV32E工具链支持 </a></li>
+  <li><a href="2017-08-03.html#risc-v中文书"                          > RISC-V 中文书 </a></li>
+  <li><a href="2017-08-17.html#rv32e工具链支持"                       > RV32E 工具链支持 </a></li>
   <li><a href="2017-07-20.html#rv8-更新"                              > rv8 更新 </a></li>
   <li><a href="2017-07-06.html#sel4-on-smp"                          > SeL4 on SMP </a></li>
-  <li><a href="2017-10-12.html#sifive发布第一款多核支援linux的risc-v-ip" > SiFive发布第一款多核支援Linux的RISC-V IP </a></li>
-  <li><a href="2017-08-31.html#sifive发布tilelink说明文档-v17"        > SiFive发布TileLink说明文档 v1.7 </a></li>
-  <li><a href="2017-08-17.html#sifive任命naveed-sherwani新ceo"        > SiFive任命Naveed Sherwani新CEO </a></li>
-  <li><a href="2017-09-28.html#simens包含mentor-graphics-aselsan-ashling-加入基金会" > Simens(包含Mentor Graphics), Aselsan, Ashling 加入基金会。 </a></li>
+  <li><a href="2017-10-12.html#sifive发布第一款多核支援linux的risc-v-ip" > SiFive 发布第一款多核支援 Linux 的 RISC-V IP </a></li>
+  <li><a href="2017-08-31.html#sifive发布tilelink说明文档-v17"        > SiFive 发布 TileLink 说明文档 v1.7 </a></li>
+  <li><a href="2017-08-17.html#sifive任命naveed-sherwani新ceo"        > SiFive 任命 Naveed Sherwani 新 CEO </a></li>
+  <li><a href="2017-09-28.html#simens包含mentor-graphics-aselsan-ashling-加入基金会" > Simens(包含 Mentor Graphics), Aselsan, Ashling 加入基金会。 </a></li>
   <li><a href="2017-08-17.html#sodor更新至priv-spec-110"              > Sodor更新至Priv spec 1.10 </a></li>
-  <li><a href="2017-07-20.html#syntacore的scr1处理器更新至privileged-spec-110和user-spec-22" > Syntacore的SCR1处理器更新至Privileged Spec 1.10和User Spec 2.2 </a></li>
-  <li><a href="2017-07-06.html#ultrasoc宣布成为业内首个支持risc-v-trace功能的厂商"> UltraSoC宣布成为业内首个支持RISC-V Trace功能的厂商 </a></li>
-  <li><a href="2017-10-26.html#武汉聚芯和北京九天开源了其蜂鸟e200系列处理器" > 武汉聚芯和北京九天开源了其蜂鸟E200系列处理器 </a></li>
-  <li><a href="2017-08-17.html#以色列关于risc-v的genpro计划"           > 以色列关于RISC-V的Genpro计划 </a></li>
-  <li><a href="2017-07-06.html#支持risc-v的处理器实现统计"             > 支持RISC-V的处理器实现统计 </a></li>
+  <li><a href="2017-07-20.html#syntacore的scr1处理器更新至privileged-spec-110和user-spec-22" > Syntacore 的 SCR1 处理器更新至 Privileged Spec 1.10 和 User Spec 2.2 </a></li>
+  <li><a href="2017-07-06.html#ultrasoc宣布成为业内首个支持risc-v-trace功能的厂商"> UltraSoC 宣布成为业内首个支持RISC-V Trace功能的厂商 </a></li>
+  <li><a href="2017-10-26.html#武汉聚芯和北京九天开源了其蜂鸟e200系列处理器" > 武汉聚芯和北京九天开源了其蜂鸟 E200 系列处理器 </a></li>
+  <li><a href="2017-08-17.html#以色列关于risc-v的genpro计划"           > 以色列关于 RISC-V 的 Genpro 计划 </a></li>
+  <li><a href="2017-07-06.html#支持risc-v的处理器实现统计"             > 支持 RISC-V 的处理器实现统计 </a></li>
   </ul>
 
 </details>
@@ -80,6 +82,8 @@ layout: default
   <li><a href="2017-08-31.html#关于多核缓存一致性具体实现的讨论"        > 关于多核缓存一致性具体实现的讨论 </a></li>
   <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并AUIPC和JALR来实现长跳转 </a></li>
   <li><a href="2017-08-17.html#基于gp寄存器的链接时优化机制"            > 基于gp寄存器的链接时优化机制 </a></li>
+  <li><a href="2017-11-09.html#利用fpga加速cycle-accurate-rtl级硬件仿真" > 利用 FPGA 加速 cycle-accurate RTL 级硬件仿真 </a></li>
+  <li><a href="2017-11-09.html#mcycle-minsret-和-mtime-三个跟效能和时间有关的csr" > mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR） </a></li>
   <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
   <li><a href="2017-10-26.html#破坏执行中函数调用和函数返回严格配对的主要原因" > 破坏执行中函数调用和函数返回严格配对的主要原因 </a></li>
   <li><a href="2017-10-26.html#使用编译参数在汇编代码中选择性地使用rvc压缩指令" > 使用编译参数在汇编代码中选择性地使用RVC压缩指令 </a></li>
@@ -124,6 +128,7 @@ layout: default
   <li><a href="2017-10-12.html#rocket-处理器的一级数据缓存发现疑似数据丢失错误" > Rocket 处理器的一级数据缓存发现疑似数据丢失错误 </a></li>
   <li><a href="2017-10-12.html#手动重定时retiming为rocket处理器的fpu提速" > 手动重定时(retiming)为 Rocket 处理器的 FPU 提速 </a></li>
   <li><a href="2017-08-31.html#sifive-freedom平台最近被更新到主线"    > SiFive Freedom 平台最近被更新到主线 </a></li>
+  <li><a href="2017-11-09.html#spike-反汇编识别q扩展指令"             > Spike 反汇编识别Q扩展指令 </a></li>
   <li><a href="2017-10-12.html#tilelink拆分acquire报文类型为acquireblock和acquireperm" > TileLink 拆分 Acquire 报文类型为 AcquireBlock 和 AcquirePerm </a></li>
   <li><a href="2017-08-17.html#修正rocket流水线的优先转置错误"        > 修正 Rocket 流水线的优先转置错误 </a></li>
   <li><a href="2017-07-20.html#修正一级缓存一致性错误"                > 修正一级缓存一致性错误 </a></li>
@@ -135,16 +140,19 @@ layout: default
   <summary><b>实用资料和文档</b></summary>
 
   <ul>
-  <li><a href="2017-09-28.html#all-aboard-blog-part1-整理"         > All Aboard blog part1 整理 </a></li>
   <li><a href="2017-10-12.html#boom-v2-的技术文档-from-berkeley"    > BOOM v2 的技术文档 (from Berkeley) </a></li>
   <li><a href="2017-10-26.html#carrv论文发布"                       > CARRV 论文发布 </a></li>
   <li><a href="2017-10-26.html#chisel-的学习资料chisel-learning-journey" > Chisel 的学习资料：Chisel Learning Journey </a></li>
-  <li><a href="2017-08-17.html#palmer的all-aboard系列"              > Palmer的All Aboard系列 </a></li>
+  <li><a href="2017-08-17.html#palmer的all-aboard系列"                                          > Palmer 的 All Aboard blog </a></li>
+  <li><a href="2017-09-28.html#all-aboard-blog-part1-整理"                                      > Palmer 的 All aboard part 1 </a></li>
+  <li><a href="2017-10-12.html#risc-v-gcc的重定位支持-palmer的-all-aboard-part2"                 > Palmer 的 All aboard part 2: RISC-V GCC 的重定位支持 </a></li>
+  <li><a href="2017-10-26.html#risc-v-toolchain中的linker-relaxationpalmer的-all-aboard-part3"  > Palmer 的 All aboard part 3: RISC-V toolchain中的Linker Relaxation </a></li>
+  <li><a href="2017-11-09.html#risc-v-的-code-model-整理-palmer-的-all-aboard-blog-part-4"      > Palmer 的 All aboard part 4: RISC-V 的 code model </a></li>
+  <li><a href="2017-11-09.html#risc-v-gcc的-multi-lib-support-palmer-的-all-aboard-blog-part-5" > Palmer 的 All aboard part 5: RISC-V GCC 的 multi-lib support </a></li>
   <li><a href="2017-09-14.html#risc-v-101-webinar"                 > RISC-V 101 webinar </a></li>
-  <li><a href="2017-10-12.html#risc-v-gcc的重定位支持-palmer的-all-aboard-part2" > RISC-V GCC的重定位支持 (Palmer的 All aboard Part2) </a></li>
   <li><a href="2017-10-26.html#risc-v-工具链资料搜集"               > RISC-V 工具链资料搜集 </a></li>
-  <li><a href="2017-10-26.html#risc-v-toolchain中的linker-relaxationpalmer的-all-aboard-part3" > RISC-V toolchain中的Linker Relaxation(Palmer的 All aboard Part3) </a></li>
   <li><a href="2017-10-12.html#risc-v-资源整理页面--cnrv"           > RISC-V 资源整理页面 @ CNRV </a></li>
+  <li><a href="2017-11-09.html#risc-v-相关文献搜集页面"             > RISC-V 相关文献搜集页面 </a></li>
   <li><a href="2017-10-26.html#spike-internal-文档"                > Spike Internal 文档 </a></li>
   <li><a href="2017-10-26.html#tilelink相关的paper"                > TileLink 相关的文章 </a></li>
   </ul>

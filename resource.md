@@ -113,6 +113,7 @@ layout: default
 + Linux distribution
   - [Debian](https://wiki.debian.org/RISC-V#What_is_a_Debian_port.3F):Debian RISC-V port
   - [Fedora](https://fedoraproject.org/wiki/Architectures/RISC-V/Bootstrapping):Fedora RISC-V port
+  - [Fedora:bootstrap](https://github.com/rwmjones/fedora-riscv-bootstrap):Fedora RISC-V complation scripts
 
 ## 开发工具
 

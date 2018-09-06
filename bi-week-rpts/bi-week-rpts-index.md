@@ -25,11 +25,13 @@ layout: default
   <li><a href="2017-10-12.html#dover-microsystems发布coreguard"      > Dover microsystems 发布 CoreGuard </a></li>
   <li><a href="2017-08-31.html#draper分离其安全处理器研究组成立dover-microsystems公司" > DRAPER分离其安全处理器研究组成立 Dover Microsystems 公司 </a></li>
   <li><a href="2017-08-03.html#eetime-hot-chips-gets-more-diverse"   > EETime: Hot Chips Gets More Diverse </a></li>
-  <li><a href="2017-09-14.html#firesim在amazon-f1上部署rocket-chip仿真"  > FireSim在Amazon F1上部署 Rocket-chip仿真 </a></li>
+  <li><a href="2017-12-21.html#esperanto-technologies得到业界广泛的关注" > Esperanto Technologies 得到业界广泛的关注 </a></li>
+  <li><a href="2017-09-14.html#firesim在amazon-f1上部署rocket-chip仿真"  > FireSim 在 Amazon F1 上部署 Rocket-chip 仿真 </a></li>
   <li><a href="2017-08-31.html#freebsd-主线更新至-risc-v-priv-spec-110"> FreeBSD 主线更新至 RISC-V priv. spec 1.10 </a></li>
   <li><a href="2017-08-17.html#gen-z-points-to-new-memories"         > Gen-Z Points to New Memories </a></li>
   <li><a href="2017-08-03.html#hackaday-vexriscv-a-modular-risc-v-implementation-for-fpga"> Hackaday: VexRiscv: A Modular RISC-V Implementation for FPGA </a></li>
   <li><a href="2017-10-26.html#iq-analog的14nm芯片使用了risc-v-cpu"   > IQ-Analog 的14nm芯片使用了 RISC-V CPU </a></li>
+  <li><a href="2017-12-21.html#看技术编辑bill-wong如何在fpga上玩转risc-v引发的一些思考" > 看技术编辑 Bill Wong 如何在 FPGA 上玩转 RISC-V 引发的一些思考 </a></li>
   <li><a href="2017-07-06.html#来自bespoke-silicon-group的risc-v文档" > 来自 Bespoke Silicon Group 的 RISC-V 文档 </a></li>
   <li><a href="2017-08-03.html#linux-porting-patch-第七版"            > Linux porting patch 第七版 </a></li>
   <li><a href="2017-10-26.html#microsemi-发布-mi-v-嵌入式整合方案"     > Microsemi 发布 Mi-V 嵌入式整合方案 </a></li>
@@ -66,10 +68,11 @@ layout: default
   <li><a href="2017-09-28.html#simens包含mentor-graphics-aselsan-ashling-加入基金会" > Simens(包含 Mentor Graphics), Aselsan, Ashling 加入基金会。 </a></li>
   <li><a href="2017-08-17.html#sodor更新至priv-spec-110"              > Sodor更新至Priv spec 1.10 </a></li>
   <li><a href="2017-07-20.html#syntacore的scr1处理器更新至privileged-spec-110和user-spec-22" > Syntacore 的 SCR1 处理器更新至 Privileged Spec 1.10 和 User Spec 2.2 </a></li>
-  <li><a href="2017-07-06.html#ultrasoc宣布成为业内首个支持risc-v-trace功能的厂商"> UltraSoC 宣布成为业内首个支持RISC-V Trace功能的厂商 </a></li>
+  <li><a href="2017-07-06.html#ultrasoc宣布成为业内首个支持risc-v-trace功能的厂商"> UltraSoC 宣布成为业内首个支持 RISC-V Trace 功能的厂商 </a></li>
   <li><a href="2017-10-26.html#武汉聚芯和北京九天开源了其蜂鸟e200系列处理器" > 武汉聚芯和北京九天开源了其蜂鸟 E200 系列处理器 </a></li>
   <li><a href="2017-08-17.html#以色列关于risc-v的genpro计划"           > 以色列关于 RISC-V 的 Genpro 计划 </a></li>
   <li><a href="2017-07-06.html#支持risc-v的处理器实现统计"             > 支持 RISC-V 的处理器实现统计 </a></li>
+  <li><a href="2017-12-21.html#中兴微电子加入risc-v基金会"             > 中兴微电子加入 RISC-V 基金会 </a></li>
   </ul>
 
 </details>
@@ -79,6 +82,7 @@ layout: default
 
   <ul>
   <li><a href="2017-12-07.html#axi4deinterleaver的用途"              > AXI4Deinterleaver 的用途 </a></li>
+  <li><a href="2017-12-21.html#彻底分离用户态u和系统态s的内存页表"     > 彻底分离用户态(U)和系统态(S)的内存页表 </a></li>
   <li><a href="2017-08-31.html#csr操作和边界barrier"                  > CSR操作和边界(Barrier) </a></li>
   <li><a href="2017-08-31.html#到底riscv-unknown-elf是不是bare-metal的交叉编译器" > 到底riscv**-unknown-elf是不是bare-metal的交叉编译器？ </a></li>
   <li><a href="2017-11-23.html#多核如何启动"                          > 多核如何启动 </a></li>
@@ -87,6 +91,7 @@ layout: default
   <li><a href="2017-07-20.html#explicit-cache-instruction-重启讨论"   > Explicit Cache instruction 重启讨论 </a></li>
   <li><a href="2017-09-28.html#发生缺页中断时的-stval-值"              > 发生缺页中断时的 stval 值 </a></li>
   <li><a href="2017-08-31.html#关于多核缓存一致性具体实现的讨论"        > 关于多核缓存一致性具体实现的讨论 </a></li>
+  <li><a href="2017-12-21.html#gcc能够利用特定处理器的loadstore延迟优化程序吗" > GCC 能够利用特定处理器的 load/store 延迟优化程序吗？ </a></li>
   <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并 AUIPC 和 JALR 来实现长跳转 </a></li>
   <li><a href="2017-08-17.html#基于gp寄存器的链接时优化机制"            > 基于gp寄存器的链接时优化机制 </a></li>
   <li><a href="2017-11-23.html#控制rocket处理器中定点除法器的延时"      > 控制 Rocket 处理器中定点除法器的延时 </a></li>
@@ -119,6 +124,7 @@ layout: default
   <ul>
   <li><a href="2017-10-26.html#boom-支援了更好的-wfi实现"             > BOOM 支援了更好的 WFI实现 </a></li>
   <li><a href="2017-12-07.html#chisel3-v300-正式发布"               > Chisel3 v3.0.0 正式发布 </a></li>
+  <li><a href="2017-12-21.html#chisel3-完善scaladoc文档"            > Chisel3 完善 ScalaDoc 文档 </a></li>
   <li><a href="2017-08-31.html#chiselfirrtl-即将支持完整的无连接端口清理和跨边界常数优化" > Chisel/FIRRTL 即将支持完整的无连接端口清理和跨边界常数优化 </a></li>
   <li><a href="2017-10-12.html#告别chisel-clonetype-重载"           > 告别 Chisel cloneType 重载 </a></li>
   <li><a href="2017-09-14.html#gcc规定函数栈默认对齐16字节"           > GCC 规定函数栈默认对齐16字节 </a></li>
@@ -136,6 +142,7 @@ layout: default
   <li><a href="2017-07-20.html#rocket-chip的二级缓存缺失"            > Rocket-chip 的二级缓存缺失 </a></li>
   <li><a href="2017-08-03.html#rocket-chip代码结构调整"              > Rocket-chip 代码结构调整 </a></li>
   <li><a href="2017-10-12.html#rocket-chip-分离通用处理器相关配置和rocket专有配置" > Rocket-Chip 分离通用处理器相关配置和 Rocket 专有配置 </a></li>
+  <li><a href="2017-12-21.html#rocket-chip-进一步泛化tile基类"       > Rocket-Chip 进一步泛化 Tile 基类 </a></li>
   <li><a href="2017-11-23.html#rocket-chip-实现了独立的axi-crossbar" > Rocket-Chip 实现了独立的 AXI Crossbar </a></li>
   <li><a href="2017-09-28.html#rocket-chip-原有的-l2-真的有死锁问题"  > Rocket-Chip 原有的 L2 真的有死锁问题 </a></li>
   <li><a href="2017-08-03.html#rocket-chip阅读笔记"                  > Rocket-Chip 阅读笔记 </a></li>
@@ -143,6 +150,7 @@ layout: default
   <li><a href="2017-10-12.html#rocket-chip支持使用donttouch属性保留端口" > Rocket-Chip 支持使用dontTouch属性保留端口 </a></li>
   <li><a href="2017-10-12.html#rocket-处理器的一级数据缓存发现疑似数据丢失错误" > Rocket 处理器的一级数据缓存发现疑似数据丢失错误 </a></li>
   <li><a href="2017-11-23.html#设备描述dts从处理器组挪到soc级"        > 设备描述(DTS)从处理器组挪到 SoC 级 </a></li>
+  <li><a href="2017-12-21.html#使用硬件支持非对齐内存访问的处理器必须支持对非对齐地址的原子操作" > 使用硬件支持非对齐内存访问的处理器必须支持对非对齐地址的原子操作 </a></li>
   <li><a href="2017-10-12.html#手动重定时retiming为rocket处理器的fpu提速" > 手动重定时(retiming)为 Rocket 处理器的 FPU 提速 </a></li>
   <li><a href="2017-08-31.html#sifive-freedom平台最近被更新到主线"    > SiFive Freedom 平台最近被更新到主线 </a></li>
   <li><a href="2017-11-09.html#spike-反汇编识别q扩展指令"             > Spike 反汇编识别Q扩展指令 </a></li>
@@ -160,8 +168,10 @@ layout: default
 
   <ul>
   <li><a href="2017-10-12.html#boom-v2-的技术文档-from-berkeley"    > BOOM v2 的技术文档 (from Berkeley) </a></li>
+  <li><a href="2017-12-21.html#bsdtw中-ruslan-bukin-介绍-porting-freebsd-to-risc-v的投影片" > BSDTW 中 Ruslan Bukin 介绍 porting FreeBSD to RISC-V 的投影片 </a></li>
   <li><a href="2017-10-26.html#carrv论文发布"                       > CARRV 论文发布 </a></li>
   <li><a href="2017-10-26.html#chisel-的学习资料chisel-learning-journey" > Chisel 的学习资料：Chisel Learning Journey </a></li>
+  <li><a href="2017-12-21.html#micahel-clark-的-risc-v-qemu-part-1-privileged-isa-v110-hifive1-and-virtio" > Micahel Clark 的 RISC-V QEMU Part 1: Privileged ISA v1.10, HiFive1 and VirtIO </a></li>
   <li><a href="2017-08-17.html#palmer的all-aboard系列"                                          > Palmer 的 All Aboard blog </a></li>
   <li><a href="2017-09-28.html#all-aboard-blog-part1-整理"                                      > Palmer 的 All aboard part 1 </a></li>
   <li><a href="2017-10-12.html#risc-v-gcc的重定位支持-palmer的-all-aboard-part2"                 > Palmer 的 All aboard part 2: RISC-V GCC 的重定位支持 </a></li>
@@ -169,6 +179,7 @@ layout: default
   <li><a href="2017-11-09.html#risc-v-的-code-model-整理-palmer-的-all-aboard-blog-part-4"      > Palmer 的 All aboard part 4: RISC-V 的 code model </a></li>
   <li><a href="2017-11-09.html#risc-v-gcc的-multi-lib-support-palmer-的-all-aboard-blog-part-5" > Palmer 的 All aboard part 5: RISC-V GCC 的 multi-lib support </a></li>
   <li><a href="2017-11-23.html#booting-risc-v-linux-kernel-的过程-palmer-all-aboard-part6的整理" > Palmer 的 All aboard part 6: Booting RISC-V Linux Kernel 的过程 </a></li>
+  <li><a href="2017-12-21.html#palmer的all-aboard-part-7-entering-and-exiting-the-linux-kernel-on-risc-v" > Palmer 的 All aboard part 7: Entering and Exiting the Linux Kernel on RISC-V </a></li>
   <li><a href="2017-09-14.html#risc-v-101-webinar"                 > RISC-V 101 webinar </a></li>
   <li><a href="2017-10-26.html#risc-v-工具链资料搜集"               > RISC-V 工具链资料搜集 </a></li>
   <li><a href="2017-10-12.html#risc-v-资源整理页面--cnrv"           > RISC-V 资源整理页面 @ CNRV </a></li>

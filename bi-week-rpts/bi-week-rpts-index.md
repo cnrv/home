@@ -12,12 +12,14 @@ layout: default
   <li><a href="2017-11-23.html#2017年ee-times-silicon-60-startups-to-watch中包含3家risc-v相关的公司" > 2017年"EE Times Silicon 60: Startups to Watch"中包含3家 RISC-V 相关的公司 </a></li>
   <li><a href="2017-10-26.html#7th-risc-v-workshop议程发布"           > 7th RISC-V workshop 议程发布 </a></li>
   <li><a href="2017-08-17.html#apace-mynewt-for-hifive1"             > Apace Mynewt for Hifive1 </a></li>
+  <li><a href="2017-12-07.html#andes-提出-p-extension-的-proposal"    > Andes 提出 P extension 的 proposal </a></li>
   <li><a href="2017-08-03.html#b-小组重启"                            > B 小组重启 </a></li>
   <li><a href="2017-08-17.html#boom发布第2版"                         > BOOM 发布第2版 </a></li>
   <li><a href="2017-08-17.html#bristol-startup-designs-security-chip" > Bristol startup designs security chip </a></li>
   <li><a href="2017-08-17.html#cnrvriscv-fpu"                        > CNRV/RISCV-FPU </a></li>
   <li><a href="2017-08-17.html#coreboot-for-hifive1-hello-risc-v-world" > coreboot for HiFive1 (Hello RISC-V world!) </a></li>
   <li><a href="2017-07-06.html#第七届risc-v研讨会征稿启事"             > 第七届 RISC-V 研讨会征稿启事 </a></li>
+  <li><a href="2017-12-07.html#第七届risc-v-workshop专栏"             > 第七届 RISC-V Workshop 专栏 </a></li>
   <li><a href="2017-09-14.html#第一届基于risc-v的体系结构研讨会carrv-2017报告安排新鲜出炉"  > 第一届基于 RISC-V 的体系结构研讨会(CARRV 2017)报告安排新鲜出炉 </a></li>
   <li><a href="2017-08-31.html#第29届-hot-chips上的risc-v相关新闻"     > 第29届 Hot Chips 上的 RISC-V 相关新闻 </a></li>
   <li><a href="2017-10-12.html#dover-microsystems发布coreguard"      > Dover microsystems 发布 CoreGuard </a></li>
@@ -43,6 +45,7 @@ layout: default
   <li><a href="2017-08-31.html#risc-v并入newlib主线"                  > RISC-V 并入 newlib 主线</a></li>
   <li><a href="2017-09-14.html#risc-v的formal-specification工作组"    > RISC-V 的 Formal Specification 工作组 </a></li>
   <li><a href="2017-07-06.html#risc-v的官方每月新闻"                   > RISC-V 的官方每月新闻 </a></li>
+  <li><a href="2017-12-07.html#risc-v-的-j-extension-group"           > RISC-V 的 J extension group </a></li>
   <li><a href="2017-11-09.html#risc-v基金会的会员过百"                 > RISC-V 基金会的会员过百 </a></li>
   <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V 教育专题邮件列表成立 </a></li>
   <li><a href="2017-11-09.html#risc-v-port-进入-linux-next-"          > RISC-V Linux port 进入 linux-next !!! </a></li>
@@ -75,6 +78,7 @@ layout: default
   <summary><b>技术讨论</b></summary>
 
   <ul>
+  <li><a href="2017-12-07.html#axi4deinterleaver的用途"              > AXI4Deinterleaver 的用途 </a></li>
   <li><a href="2017-08-31.html#csr操作和边界barrier"                  > CSR操作和边界(Barrier) </a></li>
   <li><a href="2017-08-31.html#到底riscv-unknown-elf是不是bare-metal的交叉编译器" > 到底riscv**-unknown-elf是不是bare-metal的交叉编译器？ </a></li>
   <li><a href="2017-11-23.html#多核如何启动"                          > 多核如何启动 </a></li>
@@ -90,6 +94,7 @@ layout: default
   <li><a href="2017-11-09.html#mcycle-minsret-和-mtime-三个跟效能和时间有关的csr" > mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR） </a></li>
   <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
   <li><a href="2017-10-26.html#破坏执行中函数调用和函数返回严格配对的主要原因" > 破坏执行中函数调用和函数返回严格配对的主要原因 </a></li>
+  <li><a href="2017-12-07.html#risc-v-内存模型草案"                   > RISC-V 内存模型草案 </a></li>
   <li><a href="2017-11-23.html#rv32e的编译器参数"                     > RV32E 的编译器参数 </a></li>
   <li><a href="2017-10-26.html#使用编译参数在汇编代码中选择性地使用rvc压缩指令" > 使用编译参数在汇编代码中选择性地使用 RVC 压缩指令 </a></li>
   <li><a href="2017-10-12.html#sifive召集工具链的版本测试贡献者"       > SiFive 召集工具链的版本测试贡献者 </a></li>
@@ -97,6 +102,8 @@ layout: default
   <li><a href="2017-09-28.html#突破-vipt-缓存的容量限制"               > 突破 VIPT 缓存的容量限制 </a></li>
   <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
   <li><a href="2017-09-14.html#现有gcc编译器支持的编译目标类型"         > 现有 GCC 编译器支持的编译目标类型 </a></li>
+  <li><a href="2017-12-07.html#有副作用的nop要不要被定义成非法指令"      > 有副作用的 NOP 要不要被定义成非法指令？ </a></li>
+  <li><a href="2017-12-07.html#由硬件控制的页表ad标志位引发的思考"       > 由硬件控制的页表A/D标志位引发的思考 </a></li>
   <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
   <li><a href="2017-10-26.html#在反汇编中使用原始机器指令和机器寄存器"   > 在反汇编中使用原始机器指令和机器寄存器 </a></li>
   <li><a href="2017-10-12.html#在lrsc之间应禁止所有中断"               > 在 LR/SC 之间应禁止所有中断 </a></li>
@@ -111,6 +118,7 @@ layout: default
 
   <ul>
   <li><a href="2017-10-26.html#boom-支援了更好的-wfi实现"             > BOOM 支援了更好的 WFI实现 </a></li>
+  <li><a href="2017-12-07.html#chisel3-v300-正式发布"               > Chisel3 v3.0.0 正式发布 </a></li>
   <li><a href="2017-08-31.html#chiselfirrtl-即将支持完整的无连接端口清理和跨边界常数优化" > Chisel/FIRRTL 即将支持完整的无连接端口清理和跨边界常数优化 </a></li>
   <li><a href="2017-10-12.html#告别chisel-clonetype-重载"           > 告别 Chisel cloneType 重载 </a></li>
   <li><a href="2017-09-14.html#gcc规定函数栈默认对齐16字节"           > GCC 规定函数栈默认对齐16字节 </a></li>
@@ -119,6 +127,7 @@ layout: default
   <li><a href="2017-10-12.html#llvm-进度更新"                       > LLVM 进度更新 </a></li>
   <li><a href="2017-08-17.html#lowrisc修复tag缓存并行错误"           > lowRISC 修复 Tag 缓存并行错误 </a></li>
   <li><a href="2017-09-28.html#musl的动态链接库后缀定义"             > MUSL 的动态链接库后缀定义 </a></li>
+  <li><a href="2017-12-07.html#qemu-的risc-v-port-加入了针对priv-110的支持及针对smp的支持" > QEMU 的 risc-v port 加入了针对 priv 1.10 的支持及针对 SMP 的支持 </a></li>
   <li><a href="2017-08-17.html#release完成之前禁止acquire"           > Release 完成之前禁止 Acquire </a></li>
   <li><a href="2017-08-17.html#rocket流水线识别rvc指令"              > Rocket 流水线识别 RVC 指令 </a></li>
   <li><a href="2017-10-26.html#rocket-chip-初步支持覆盖"             > Rocket-Chip 初步支持覆盖 </a></li>

@@ -10,4 +10,8 @@
 - 校对：宋威
 - 技术支持：郭雄飞
 
+下载链接：**[tilelink-spec-1.7.1-draft.zh.pdf](/assets/files/tilelink-spec-1.7.1-draft.zh.pdf)**
+
 <object data="/assets/files/tilelink-spec-1.7.1-draft.zh.pdf" width="100%" height="1000" type='application/pdf'/>
+
+

@@ -48,6 +48,12 @@ layout: default
 
 ----
 
+## 干货
+
+- 2018-10-24: [SiFive TileLink规格书1.7.1(草案) 的中文翻译](articles/tl-spec-zh-translate)
+
+----
+
 ## 文章列表
 
 - 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)

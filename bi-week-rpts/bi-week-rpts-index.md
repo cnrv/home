@@ -29,6 +29,7 @@ layout: default
   <li><a href="2017-09-14.html#firesim在amazon-f1上部署rocket-chip仿真"  > FireSim 在 Amazon F1 上部署 Rocket-chip 仿真 </a></li>
   <li><a href="2017-08-31.html#freebsd-主线更新至-risc-v-priv-spec-110"> FreeBSD 主线更新至 RISC-V priv. spec 1.10 </a></li>
   <li><a href="2017-08-17.html#gen-z-points-to-new-memories"         > Gen-Z Points to New Memories </a></li>
+  <li><a href="2018-01-04.html#glibc-port-v3"                        > glibc port v3 </a></li>
   <li><a href="2017-08-03.html#hackaday-vexriscv-a-modular-risc-v-implementation-for-fpga"> Hackaday: VexRiscv: A Modular RISC-V Implementation for FPGA </a></li>
   <li><a href="2017-10-26.html#iq-analog的14nm芯片使用了risc-v-cpu"   > IQ-Analog 的14nm芯片使用了 RISC-V CPU </a></li>
   <li><a href="2017-12-21.html#看技术编辑bill-wong如何在fpga上玩转risc-v引发的一些思考" > 看技术编辑 Bill Wong 如何在 FPGA 上玩转 RISC-V 引发的一些思考 </a></li>
@@ -40,6 +41,7 @@ layout: default
   <li><a href="2017-10-26.html#odst中关於-risc-v-和-coreboot-的演讲"  > OSDT 中关於 RISC-V 和 coreboot 的演讲 </a></li>
   <li><a href="2017-08-17.html#orconf-2017会议日程公布"               > ORConf 2017 会议日程公布 </a></li>
   <li><a href="2017-08-17.html#pulpino添加新成员"                     > PULPino 添加新成员 </a></li>
+  <li><a href="2018-01-04.html#qemu-port-v1"                        > QEMU port v1 </a></li>
   <li><a href="2017-08-17.html#riscvemu"                             > RISCVEMU </a></li>
   <li><a href="2017-07-20.html#riscy-business-频道"                   > RISCY BUSINESS 频道 </a></li>
   <li><a href="2017-10-12.html#risc-v--15th-international-soc-conference" > RISC-V @ 15th International SoC conference </a></li>
@@ -98,9 +100,12 @@ layout: default
   <li><a href="2017-11-09.html#利用fpga加速cycle-accurate-rtl级硬件仿真" > 利用 FPGA 加速 cycle-accurate RTL 级硬件仿真 </a></li>
   <li><a href="2017-11-09.html#mcycle-minsret-和-mtime-三个跟效能和时间有关的csr" > mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR） </a></li>
   <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
+  <li><a href="2018-01-04.html#评论英特尔cpu爆惊天漏洞"                > 评论"英特尔CPU爆惊天漏洞" </a></li>
   <li><a href="2017-10-26.html#破坏执行中函数调用和函数返回严格配对的主要原因" > 破坏执行中函数调用和函数返回严格配对的主要原因 </a></li>
   <li><a href="2017-12-07.html#risc-v-内存模型草案"                   > RISC-V 内存模型草案 </a></li>
+  <li><a href="2018-01-04.html#如何支持semi-host"                     > 如何支持semi-host </a></li>
   <li><a href="2017-11-23.html#rv32e的编译器参数"                     > RV32E 的编译器参数 </a></li>
+  <li><a href="2018-01-04.html#使用32比特的nop指令隐藏一条16比特指令"  > 使用32比特的NOP指令隐藏一条16比特指令？</a></li>
   <li><a href="2017-10-26.html#使用编译参数在汇编代码中选择性地使用rvc压缩指令" > 使用编译参数在汇编代码中选择性地使用 RVC 压缩指令 </a></li>
   <li><a href="2017-10-12.html#sifive召集工具链的版本测试贡献者"       > SiFive 召集工具链的版本测试贡献者 </a></li>
   <li><a href="2017-07-20.html#提议向risc-v-b扩展指令集bit操作扩展添加选择mux指令" > 提议向 RISC-V B 扩展指令集（bit操作扩展）添加选择（MUX）指令 </a></li>
@@ -135,6 +140,7 @@ layout: default
   <li><a href="2017-09-28.html#musl的动态链接库后缀定义"             > MUSL 的动态链接库后缀定义 </a></li>
   <li><a href="2017-12-07.html#qemu-的risc-v-port-加入了针对priv-110的支持及针对smp的支持" > QEMU 的 risc-v port 加入了针对 priv 1.10 的支持及针对 SMP 的支持 </a></li>
   <li><a href="2017-08-17.html#release完成之前禁止acquire"           > Release 完成之前禁止 Acquire </a></li>
+  <li><a href="2018-01-04.html#risc-v-port-针对-linux-kernel-4.15-rc4-的更新" > RISC-V port 针对 linux kernel 4.15-rc4 的更新 </a></li>
   <li><a href="2017-08-17.html#rocket流水线识别rvc指令"              > Rocket 流水线识别 RVC 指令 </a></li>
   <li><a href="2017-10-26.html#rocket-chip-初步支持覆盖"             > Rocket-Chip 初步支持覆盖 </a></li>
   <li><a href="2017-07-20.html#rocket-chip代码结构调整"              > Rocket-Chip 代码结构调整 </a></li>
@@ -170,6 +176,7 @@ layout: default
   <li><a href="2017-10-12.html#boom-v2-的技术文档-from-berkeley"    > BOOM v2 的技术文档 (from Berkeley) </a></li>
   <li><a href="2017-12-21.html#bsdtw中-ruslan-bukin-介绍-porting-freebsd-to-risc-v的投影片" > BSDTW 中 Ruslan Bukin 介绍 porting FreeBSD to RISC-V 的投影片 </a></li>
   <li><a href="2017-10-26.html#carrv论文发布"                       > CARRV 论文发布 </a></li>
+  <li><a href="2018-01-04.html#另一个chisel的学习资料-berkeley-的-generator-bootcamp" > chisel的学习资料：Berkeley 的 Generator Bootcamp </a></li>
   <li><a href="2017-10-26.html#chisel-的学习资料chisel-learning-journey" > Chisel 的学习资料：Chisel Learning Journey </a></li>
   <li><a href="2017-12-21.html#micahel-clark-的-risc-v-qemu-part-1-privileged-isa-v110-hifive1-and-virtio" > Micahel Clark 的 RISC-V QEMU Part 1: Privileged ISA v1.10, HiFive1 and VirtIO </a></li>
   <li><a href="2017-08-17.html#palmer的all-aboard系列"                                          > Palmer 的 All Aboard blog </a></li>
@@ -180,10 +187,13 @@ layout: default
   <li><a href="2017-11-09.html#risc-v-gcc的-multi-lib-support-palmer-的-all-aboard-blog-part-5" > Palmer 的 All aboard part 5: RISC-V GCC 的 multi-lib support </a></li>
   <li><a href="2017-11-23.html#booting-risc-v-linux-kernel-的过程-palmer-all-aboard-part6的整理" > Palmer 的 All aboard part 6: Booting RISC-V Linux Kernel 的过程 </a></li>
   <li><a href="2017-12-21.html#palmer的all-aboard-part-7-entering-and-exiting-the-linux-kernel-on-risc-v" > Palmer 的 All aboard part 7: Entering and Exiting the Linux Kernel on RISC-V </a></li>
+  <li><a href="2018-01-04.html#linux-kernel-upstream的内容palmer-的-all-aboard-part-8-the-risc-v-linux-port-is-Upstream" > Palmer 的 All aboard part 8: Linux kernel Upstream </a></li>
+  <li><a href="2018-01-04.html#palmer-的-all-aboard-part-9-paging-and-the-mmu-in-the-risc-v-linux-kernel" > Palmer 的 All Aboard part 9: Paging and the MMU in the RISC-V Linux Kernel  </a></li>
   <li><a href="2017-09-14.html#risc-v-101-webinar"                 > RISC-V 101 webinar </a></li>
   <li><a href="2017-10-26.html#risc-v-工具链资料搜集"               > RISC-V 工具链资料搜集 </a></li>
   <li><a href="2017-10-12.html#risc-v-资源整理页面--cnrv"           > RISC-V 资源整理页面 @ CNRV </a></li>
   <li><a href="2017-11-09.html#risc-v-相关文献搜集页面"             > RISC-V 相关文献搜集页面 </a></li>
+  <li><a href="2018-01-04.html#sodor-的设计文档"                    > Sodor 的设计文档 </a></li>
   <li><a href="2017-10-26.html#spike-internal-文档"                > Spike Internal 文档 </a></li>
   <li><a href="2017-10-26.html#tilelink相关的paper"                > TileLink 相关的文章 </a></li>
   </ul>
@@ -217,6 +227,7 @@ layout: default
   <li>2017-11: <a href="https://bsdtw.org/"                           > BSDTW17 2017年11月11-12日，BSDTW17有两场关于RISC-V的演讲 </a></li>
   <li>2017-12: <a href="https://riscv.tokyo/2017/10/07/%E6%9C%80%E5%88%9D%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%8A%95%E7%A8%BF/" > RISC-V Day 2017 Tokyo </a></li>
   <li>2018-02: <a href="https://fosdem.org/2018/"                     > FOSDEM (Free and Open Source Developers’ European Meeting) 2018, 比利时 </a></li>
+  <li>2018-02: <a href="http://pulp-platform.org/hpca2018"            > PULP at HPCA2018: 介绍 PULP 最新的发展，和他们未来的走向，包括 PULP-CAPI 和 Ariane 等 </a></li>
   </ul>
 
 </details>

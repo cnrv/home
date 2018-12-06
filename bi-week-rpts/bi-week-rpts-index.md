@@ -41,7 +41,10 @@ layout: default
   <li><a href="2017-08-03.html#newliblibglosslibm-patch"             > newlib/libgloss/libm patch </a></li>
   <li><a href="2017-10-26.html#odst中关於-risc-v-和-coreboot-的演讲"  > OSDT 中关於 RISC-V 和 coreboot 的演讲 </a></li>
   <li><a href="2017-08-17.html#orconf-2017会议日程公布"               > ORConf 2017 会议日程公布 </a></li>
+  <li><a href="2018-02-15.html#pulp代号mr-wolf流片成功"               > PULP 代号 Mr. Wolf 流片成功 </a></li>
   <li><a href="2017-08-17.html#pulpino添加新成员"                     > PULPino 添加新成员 </a></li>
+  <li><a href="2018-02-15.html#pulpissimo"                           > PULPissimo </a></li>
+  <li><a href="2018-02-15.html#pulp家族新增64-bit处理器ariane"        > PULP 家族新增 64-bit 处理器 Ariane </a></li>
   <li><a href="2017-08-17.html#riscvemu"                             > RISCVEMU </a></li>
   <li><a href="2017-07-20.html#riscy-business-频道"                   > RISCY BUSINESS 频道 </a></li>
   <li><a href="2017-10-12.html#risc-v--15th-international-soc-conference" > RISC-V @ 15th International SoC conference </a></li>
@@ -56,6 +59,7 @@ layout: default
   <li><a href="2017-08-17.html#rv32e工具链支持"                       > RV32E 工具链支持 </a></li>
   <li><a href="2017-07-20.html#rv8-更新"                              > rv8 更新 </a></li>
   <li><a href="2017-07-06.html#sel4-on-smp"                          > SeL4 on SMP </a></li>
+  <li><a href="2018-02-15.html#sifive的hifive-unleashed开发板和freedom-u540-soc芯片" > SiFive 的 HiFive Unleashed 开发板和 Freedom U540 SoC 芯片</a></li>
   <li><a href="2017-10-12.html#sifive发布第一款多核支援linux的risc-v-ip" > SiFive 发布第一款多核支援 Linux 的 RISC-V IP </a></li>
   <li><a href="2017-08-31.html#sifive发布tilelink说明文档-v17"        > SiFive 发布 TileLink 说明文档 v1.7 </a></li>
   <li><a href="2017-08-17.html#sifive任命naveed-sherwani新ceo"        > SiFive 任命 Naveed Sherwani 新 CEO </a></li>
@@ -79,6 +83,7 @@ layout: default
   <li><a href="2017-12-21.html#彻底分离用户态u和系统态s的内存页表"     > 彻底分离用户态(U)和系统态(S)的内存页表 </a></li>
   <li><a href="2017-08-31.html#csr操作和边界barrier"                  > CSR操作和边界(Barrier) </a></li>
   <li><a href="2017-08-31.html#到底riscv-unknown-elf是不是bare-metal的交叉编译器" > 到底 riscv**-unknown-elf 是不是 bare-metal 的交叉编译器？ </a></li>
+  <li><a href="2018-02-15.html#到底什么是一个-hart"                   > 到底什么是一个 hart? </a></li>
   <li><a href="2018-02-01.html#对一个in-order处理添加10的面积能达到一个ooo处理器90的性能" > 对一个 in-order 处理添加10%的面积能达到一个 OoO 处理器90%的性能？ </a></li>
   <li><a href="2017-11-23.html#多核如何启动"                          > 多核如何启动 </a></li>
   <li><a href="2017-08-03.html#多中断时的响应顺序"                     > 多中断时的响应顺序 </a></li>
@@ -107,6 +112,7 @@ layout: default
   <li><a href="2018-02-01.html#为rocket和boom添加预取机制"             > 为 Rocket 和 BOOM 添加预取机制 </a></li>
   <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
   <li><a href="2017-09-14.html#现有gcc编译器支持的编译目标类型"         > 现有 GCC 编译器支持的编译目标类型 </a></li>
+  <li><a href="2018-02-15.html#已被支持的硬件性能监视功能"              > 已被支持的硬件性能监视功能 </a></li>
   <li><a href="2017-12-07.html#有副作用的nop要不要被定义成非法指令"      > 有副作用的 NOP 要不要被定义成非法指令？ </a></li>
   <li><a href="2017-12-07.html#由硬件控制的页表ad标志位引发的思考"       > 由硬件控制的页表A/D标志位引发的思考 </a></li>
   <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
@@ -141,6 +147,7 @@ layout: default
   <li><a href="2017-12-07.html#qemu-的risc-v-port-加入了针对priv-110的支持及针对smp的支持" > QEMU 的 risc-v port 加入了针对 priv 1.10 的支持及针对 SMP 的支持 </a></li>
   <li><a href="2018-01-04.html#qemu-port-v1"                        > QEMU port v1 </a></li>
   <li><a href="2018-01-18.html#qemu的-risc-v-port-v2-和-v3"         > QEMU port v2 和 v3 </a></li>
+  <li><a href="2018-02-15.html#qemu-port-v4-and-v5"                 > QEMU port v4 和 v5 </a></li>
   <li><a href="2017-08-17.html#release完成之前禁止acquire"           > Release 完成之前禁止 Acquire </a></li>
   <li><a href="2017-11-09.html#risc-v-port-进入-linux-next-"          > RISC-V Linux port 进入 linux-next !!! </a></li>
   <li><a href="2017-07-06.html#risc-v-linux第四版"                    > RISC-V Linux port 第四版 </a></li>
@@ -150,6 +157,7 @@ layout: default
   <li><a href="2017-11-23.html#risc-v正式合并linux主线代码"            > RISC-V Linux 正式合并 Linux 主线 </a></li>
   <li><a href="2018-01-18.html#linux-kernel-415-rc8-的更新"           > RISC-V Linux kernel 4.15-rc8 的更新 </a></li>
   <li><a href="2018-02-01.html#linux-kernel-415-rc9-和-415-的更新"   > RISC-V Linux kernel 4.15-rc9 的更新 </a></li>
+  <li><a href="2018-02-15.html#linux-内核--risc-v-changes-for-416"   > RISC-V Linux kernel 4.16 的更新 </a></li>
   <li><a href="2017-08-31.html#risc-v-llvm进度更新"                   > RISC-V LLVM 进度更新 </a></li>
   <li><a href="2017-09-14.html#risc-v-llvm-port"                     > RISC-V LLVM port </a></li>
   <li><a href="2018-01-04.html#risc-v-port-针对-linux-kernel-415-rc4-的更新" > RISC-V port 针对 linux kernel 4.15-rc4 的更新 </a></li>
@@ -177,6 +185,7 @@ layout: default
   <li><a href="2017-10-12.html#tilelink拆分acquire报文类型为acquireblock和acquireperm" > TileLink 拆分 Acquire 报文类型为 AcquireBlock 和 AcquirePerm </a></li>
   <li><a href="2017-08-17.html#修正rocket流水线的优先转置错误"        > 修正 Rocket 流水线的优先转置错误 </a></li>
   <li><a href="2017-07-20.html#修正一级缓存一致性错误"                > 修正一级缓存一致性错误 </a></li>
+  <li><a href="2018-02-15.html#用户和内核页表分离方案被提交到riscv-isa-manual并预进入priv-spec-v111" > 用户和内核页表分离方案被提交到 riscv-isa-manual 并预进入 priv spec v1.11 </a></li>
   </ul>
 
 </details>
@@ -234,7 +243,7 @@ layout: default
   <li>2017-09: <a href="https://www.softconf.com/h/riscv7thwkshp/"    > The 7th RISC-V workshop投稿截止日期：2017年9月17日 </a></li>
   <li>2017-10: <a href="http://www.hellogcc.org/?p=34315"             > OSDT开源开发工具大会2017 </a></li>
   <li>2017-10: <a href="http://www.linleygroup.com/events/event.php?num=43" > RISC-V at the Linley Processor Conference </a></li>
-  <li>2017-10: <a href="https://carrv.github.io/#first-workshop-on-computer-architecture-research-with-risc-v-carrv-2017" > First Workshop on Computer Architecture Research with RISC-V (CARRV 2017) </a></li>
+  <li>2017-10: <a href="https://carrv.github.io/#first-workshop-on-computer-architecture-research-with-risc-v-carrv-2017" > The 1st CARRV (Computer Architecture Research with RISC-V) </a></li>
   <li>2017-10: <a href="https://llvm.org/devmtg/2017-10/#bof4"        > LLVM US dev meeting: Co-ordinating RISC-V development in LLVM (Alex Bradbury) </a></li>
   <li>2017-10: <a href="http://www.socconference.com/agenda.htm"      > 15th International SoC Conference在十月18-19日于加州 Irvine 举行。其中有六场跟risc-v有关的演讲 </a></li>
   <li>2017-11: <a href="http://www.fpga-kongress.de/de/programm-2017" > FPGA Kongress </a></li>
@@ -246,6 +255,7 @@ layout: default
   <li>2018-02: <a href="http://pulp-platform.org/hpca2018"            > PULP at HPCA2018: 介绍 PULP 最新的发展，和他们未来的走向，包括 PULP-CAPI 和 Ariane 等 </a></li>
   <li>2018-02: <a href="http://www.embedded-world.eu/program.html"    > Embedded World 2018: 一天RISC-V有关的演讲。包括 Microsemi, Mentor Graphics等公司演讲 </a></li>
   <li>2018-05: <a href="https://riscv.org/workshops/"                 > The 8th RISC-V workshop 西班牙 </a></li>
+  <li>2018-06: <a href="https://carrv.github.io/"                     > The 2nd CARRV (Computer Architecture Research with RISC-V) </a></li>
   </ul>
 
 </details>

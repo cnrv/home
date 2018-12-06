@@ -63,6 +63,7 @@ layout: default
   <li><a href="2017-10-12.html#sifive发布第一款多核支援linux的risc-v-ip" > SiFive 发布第一款多核支援 Linux 的 RISC-V IP </a></li>
   <li><a href="2017-08-31.html#sifive发布tilelink说明文档-v17"        > SiFive 发布 TileLink 说明文档 v1.7 </a></li>
   <li><a href="2017-08-17.html#sifive任命naveed-sherwani新ceo"        > SiFive 任命 Naveed Sherwani 新 CEO </a></li>
+  <li><a href="2017-10-12.html#sifive召集工具链的版本测试贡献者"       > SiFive 召集工具链的版本测试贡献者 </a></li>
   <li><a href="2017-09-28.html#simens包含mentor-graphics-aselsan-ashling-加入基金会" > Simens(包含 Mentor Graphics), Aselsan, Ashling 加入基金会。 </a></li>
   <li><a href="2017-08-17.html#sodor更新至priv-spec-110"              > Sodor更新至Priv spec 1.10 </a></li>
   <li><a href="2017-07-20.html#syntacore的scr1处理器更新至privileged-spec-110和user-spec-22" > Syntacore 的 SCR1 处理器更新至 Privileged Spec 1.10 和 User Spec 2.2 </a></li>
@@ -79,47 +80,62 @@ layout: default
 <details>
   <summary><b>技术讨论</b></summary>
   <ul>
-  <li><a href="2017-12-07.html#axi4deinterleaver的用途"              > AXI4Deinterleaver 的用途 </a></li>
-  <li><a href="2017-12-21.html#彻底分离用户态u和系统态s的内存页表"     > 彻底分离用户态(U)和系统态(S)的内存页表 </a></li>
-  <li><a href="2017-08-31.html#csr操作和边界barrier"                  > CSR操作和边界(Barrier) </a></li>
-  <li><a href="2017-08-31.html#到底riscv-unknown-elf是不是bare-metal的交叉编译器" > 到底 riscv**-unknown-elf 是不是 bare-metal 的交叉编译器？ </a></li>
-  <li><a href="2018-02-15.html#到底什么是一个-hart"                   > 到底什么是一个 hart? </a></li>
-  <li><a href="2018-02-01.html#对一个in-order处理添加10的面积能达到一个ooo处理器90的性能" > 对一个 in-order 处理添加10%的面积能达到一个 OoO 处理器90%的性能？ </a></li>
-  <li><a href="2017-11-23.html#多核如何启动"                          > 多核如何启动 </a></li>
-  <li><a href="2017-08-03.html#多中断时的响应顺序"                     > 多中断时的响应顺序 </a></li>
-  <li><a href="2017-09-28.html#ecall和ebreak的返回地址"               > ecall 和 ebreak 的返回地址 </a></li>
-  <li><a href="2017-07-20.html#explicit-cache-instruction-重启讨论"   > Explicit Cache instruction 重启讨论 </a></li>
-  <li><a href="2017-09-28.html#发生缺页中断时的-stval-值"              > 发生缺页中断时的 stval 值 </a></li>
-  <li><a href="2017-08-31.html#关于多核缓存一致性具体实现的讨论"        > 关于多核缓存一致性具体实现的讨论 </a></li>
-  <li><a href="2017-12-21.html#gcc能够利用特定处理器的loadstore延迟优化程序吗" > GCC 能够利用特定处理器的 load/store 延迟优化程序吗？ </a></li>
-  <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并 AUIPC 和 JALR 来实现长跳转 </a></li>
-  <li><a href="2017-08-17.html#基于gp寄存器的链接时优化机制"            > 基于gp寄存器的链接时优化机制 </a></li>
-  <li><a href="2017-11-23.html#控制rocket处理器中定点除法器的延时"      > 控制 Rocket 处理器中定点除法器的延时 </a></li>
-  <li><a href="2017-11-09.html#利用fpga加速cycle-accurate-rtl级硬件仿真" > 利用 FPGA 加速 cycle-accurate RTL 级硬件仿真 </a></li>
-  <li><a href="2017-11-09.html#mcycle-minsret-和-mtime-三个跟效能和时间有关的csr" > mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR） </a></li>
-  <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
-  <li><a href="2017-10-26.html#破坏执行中函数调用和函数返回严格配对的主要原因" > 破坏执行中函数调用和函数返回严格配对的主要原因 </a></li>
-  <li><a href="2017-12-07.html#risc-v-内存模型草案"                   > RISC-V 内存模型草案 </a></li>
-  <li><a href="2018-01-04.html#如何支持semi-host"                     > 如何支持semi-host </a></li>
-  <li><a href="2017-11-23.html#rv32e的编译器参数"                     > RV32E 的编译器参数 </a></li>
-  <li><a href="2018-01-04.html#使用32比特的nop指令隐藏一条16比特指令"  > 使用32比特的NOP指令隐藏一条16比特指令？</a></li>
-  <li><a href="2017-10-26.html#使用编译参数在汇编代码中选择性地使用rvc压缩指令" > 使用编译参数在汇编代码中选择性地使用 RVC 压缩指令 </a></li>
-  <li><a href="2018-01-18.html#使用pma来控制物理内存区间内对非对齐的内存操作核原子操作的控制" > 使用PMA来控制物理内存区间内对非对齐的内存操作核原子操作的控制 </a></li>
-  <li><a href="2017-10-12.html#sifive召集工具链的版本测试贡献者"       > SiFive 召集工具链的版本测试贡献者 </a></li>
-  <li><a href="2017-07-20.html#提议向risc-v-b扩展指令集bit操作扩展添加选择mux指令" > 提议向 RISC-V B 扩展指令集（bit操作扩展）添加选择（MUX）指令 </a></li>
-  <li><a href="2017-09-28.html#突破-vipt-缓存的容量限制"               > 突破 VIPT 缓存的容量限制 </a></li>
-  <li><a href="2018-02-01.html#为risc-v添加进程间隔离表"               > 为 RISC-V 添加进程间隔离表 </a></li>
-  <li><a href="2018-02-01.html#为rocket和boom添加预取机制"             > 为 Rocket 和 BOOM 添加预取机制 </a></li>
-  <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
-  <li><a href="2017-09-14.html#现有gcc编译器支持的编译目标类型"         > 现有 GCC 编译器支持的编译目标类型 </a></li>
-  <li><a href="2018-02-15.html#已被支持的硬件性能监视功能"              > 已被支持的硬件性能监视功能 </a></li>
-  <li><a href="2017-12-07.html#有副作用的nop要不要被定义成非法指令"      > 有副作用的 NOP 要不要被定义成非法指令？ </a></li>
-  <li><a href="2017-12-07.html#由硬件控制的页表ad标志位引发的思考"       > 由硬件控制的页表A/D标志位引发的思考 </a></li>
-  <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
-  <li><a href="2017-10-26.html#在反汇编中使用原始机器指令和机器寄存器"   > 在反汇编中使用原始机器指令和机器寄存器 </a></li>
-  <li><a href="2017-10-12.html#在lrsc之间应禁止所有中断"               > 在 LR/SC 之间应禁止所有中断 </a></li>
-  <li><a href="2017-09-28.html#在rv32系统中如何设定64位的时间比较寄存器timecmp" > 在 RV32 系统中，如何设定64位的时间比较寄存器 timecmp </a></li>
-  <li><a href="2017-08-03.html#直接缓存操作explicit-cache-control指令提案第3版-第4版" > 直接缓存操作(explicit cache control)指令提案(第3版, 第4版) </a></li>
+  <li> RISC-V
+    <ul>
+      <li><a href="2017-12-21.html#彻底分离用户态u和系统态s的内存页表"     > 彻底分离用户态(U)和系统态(S)的内存页表 </a></li>
+      <li><a href="2017-08-31.html#csr操作和边界barrier"                  > CSR操作和边界(Barrier) </a></li>
+      <li><a href="2018-02-15.html#到底什么是一个-hart"                   > 到底什么是一个 hart? </a></li>
+      <li><a href="2017-11-23.html#多核如何启动"                          > 多核如何启动 </a></li>
+      <li><a href="2017-08-03.html#多中断时的响应顺序"                     > 多中断时的响应顺序 </a></li>
+      <li><a href="2017-09-28.html#ecall和ebreak的返回地址"               > ecall 和 ebreak 的返回地址 </a></li>
+      <li><a href="2017-07-20.html#explicit-cache-instruction-重启讨论"   > Explicit Cache instruction 重启讨论 </a></li>
+      <li><a href="2017-09-28.html#发生缺页中断时的-stval-值"              > 发生缺页中断时的 stval 值 </a></li>
+      <li><a href="2017-07-06.html#合并auipc和jalr来实现长跳转"            > 合并 AUIPC 和 JALR 来实现长跳转 </a></li>
+      <li><a href="2017-11-09.html#mcycle-minsret-和-mtime-三个跟效能和时间有关的csr" > mcycle, minsret 和 mtime （三个跟效能和时间有关的CSR） </a></li>
+      <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
+      <li><a href="2017-12-07.html#risc-v-内存模型草案"                   > RISC-V 内存模型草案 </a></li>
+      <li><a href="2018-01-04.html#如何支持semi-host"                     > 如何支持semi-host </a></li>
+      <li><a href="2018-01-04.html#使用32比特的nop指令隐藏一条16比特指令"  > 使用32比特的NOP指令隐藏一条16比特指令？</a></li>
+      <li><a href="2018-01-18.html#使用pma来控制物理内存区间内对非对齐的内存操作核原子操作的控制" > 使用PMA来控制物理内存区间内对非对齐的内存操作核原子操作的控制 </a></li>
+      <li><a href="2017-07-20.html#提议向risc-v-b扩展指令集bit操作扩展添加选择mux指令" > 提议向 RISC-V B 扩展指令集（bit操作扩展）添加选择（MUX）指令 </a></li>
+      <li><a href="2018-02-01.html#为risc-v添加进程间隔离表"               > 为 RISC-V 添加进程间隔离表 </a></li>
+      <li><a href="2017-07-20.html#为什么要定义x5为可选链接寄存器alternative-link-register" > 为什么要定义x5为可选链接寄存器(alternative link register) </a></li>
+      <li><a href="2017-12-07.html#有副作用的nop要不要被定义成非法指令"      > 有副作用的 NOP 要不要被定义成非法指令？ </a></li>
+      <li><a href="2017-12-07.html#由硬件控制的页表ad标志位引发的思考"       > 由硬件控制的页表A/D标志位引发的思考 </a></li>
+      <li><a href="2017-08-03.html#原子操作atomic-operation与临界区critical-section" > 原子操作(atomic operation)与临界区(critical section) </a></li>
+      <li><a href="2017-10-12.html#在lrsc之间应禁止所有中断"               > 在 LR/SC 之间应禁止所有中断 </a></li>
+      <li><a href="2017-09-28.html#在rv32系统中如何设定64位的时间比较寄存器timecmp" > 在 RV32 系统中，如何设定64位的时间比较寄存器 timecmp </a></li>
+      <li><a href="2017-08-03.html#直接缓存操作explicit-cache-control指令提案第3版-第4版" > 直接缓存操作(explicit cache control)指令提案(第3版, 第4版) </a></li>
+     </ul>
+  </li>
+  <li> Rocket-Chip
+    <ul>
+      <li><a href="2017-12-07.html#axi4deinterleaver的用途"              > AXI4Deinterleaver 的用途 </a></li>
+      <li><a href="2017-11-23.html#控制rocket处理器中定点除法器的延时"      > 控制 Rocket 处理器中定点除法器的延时 </a></li>
+      <li><a href="2017-11-09.html#利用fpga加速cycle-accurate-rtl级硬件仿真" > 利用 FPGA 加速 cycle-accurate RTL 级硬件仿真 </a></li>
+      <li><a href="2018-02-01.html#为rocket和boom添加预取机制"             > 为 Rocket 和 BOOM 添加预取机制 </a></li>
+      <li><a href="2018-02-15.html#已被支持的硬件性能监视功能"              > 已被支持的硬件性能监视功能 </a></li>
+    </ul>
+  </li>
+  <li> 工具链
+    <ul>
+      <li><a href="2017-08-31.html#到底riscv-unknown-elf是不是bare-metal的交叉编译器" > 到底 riscv**-unknown-elf 是不是 bare-metal 的交叉编译器？ </a></li>
+      <li><a href="2017-12-21.html#gcc能够利用特定处理器的loadstore延迟优化程序吗" > GCC 能够利用特定处理器的 load/store 延迟优化程序吗？ </a></li>
+      <li><a href="2017-08-17.html#基于gp寄存器的链接时优化机制"            > 基于gp寄存器的链接时优化机制 </a></li>
+      <li><a href="2017-10-26.html#破坏执行中函数调用和函数返回严格配对的主要原因" > 破坏执行中函数调用和函数返回严格配对的主要原因 </a></li>
+      <li><a href="2017-11-23.html#rv32e的编译器参数"                     > RV32E 的编译器参数 </a></li>
+      <li><a href="2017-10-26.html#使用编译参数在汇编代码中选择性地使用rvc压缩指令" > 使用编译参数在汇编代码中选择性地使用 RVC 压缩指令 </a></li>
+      <li><a href="2017-09-14.html#现有gcc编译器支持的编译目标类型"         > 现有 GCC 编译器支持的编译目标类型 </a></li>
+      <li><a href="2017-10-26.html#在反汇编中使用原始机器指令和机器寄存器"   > 在反汇编中使用原始机器指令和机器寄存器 </a></li>
+    </ul>
+  </li>
+  <li> 其他
+    <ul>
+      <li><a href="2018-02-01.html#对一个in-order处理添加10的面积能达到一个ooo处理器90的性能" > 对一个 in-order 处理添加10%的面积能达到一个 OoO 处理器90%的性能？ </a></li>
+      <li><a href="2017-08-31.html#关于多核缓存一致性具体实现的讨论"        > 关于多核缓存一致性具体实现的讨论 </a></li>
+      <li><a href="2017-09-28.html#突破-vipt-缓存的容量限制"               > 突破 VIPT 缓存的容量限制 </a></li>
+    </ul>
+  </li>
   </ul>
 
 </details>

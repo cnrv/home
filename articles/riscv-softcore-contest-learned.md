@@ -13,7 +13,7 @@ RISC-V基金会官方举办的RISC-V软核大赛在RISC-V Summit上公布。
 
 ----
 
-以下是大赛的榜眼*顾长怡*同学的新的和体会。
+以下是大赛的榜眼*顾长怡*同学的心得和体会。
 
 这次CPU比赛的第一名好像是个瑞士人。他是Spinal HDL 的专家。Spinal HDL我不了解，我觉得可能是和 Chisel
 差不多的一类设计语言。他用Spinal HDL 设计了VexRISCV 系列的 CPU core，
@@ -36,7 +36,7 @@ OCD, 直接就可以从串口载入elf文件，也是为了可移植性。
 更方便一些。这样CPU就可以和rest of the circuit 运行在同一个频率上。同时我也用的 von neumann 结构，这样
 对软件的要求也少一些。（第一名好像是harvard 结构）
 
-总的感觉，我觉得这次比赛时间太紧，又要完成很多要求，比如zephyr porting 就要花不少的时间。所以很多人可能没有时间，就让我这个我这个家伙忝列衣冠了。
+总的感觉，我觉得这次比赛时间太紧，又要完成很多要求，比如zephyr porting 就要花不少的时间。所以很多人可能没有时间，就让我这个家伙忝列衣冠了。
 
 下一步，我打算完善对 compress 指令的支持，如果可能，再提高一下performance. 献丑啦
 
@@ -51,3 +51,10 @@ PulseRain Technology 总部位于美国加州圣地亚哥市。该公司专注�
 
 另外，上面提到著作拙作《Building Embedded Systems, Programmable Hardware》是他在2016出版的一本书，其在亚马逊的链接是[https://amzn.com/148421918X](https://www.amazon.com/Building-Embedded-Systems-Programmable-Hardware/dp/148421918X)。顾先生同时也希望这本书能在国内出版。
 
+----
+
+最后，特别奖获得者Olof Kindgren @OlofKindgren 在Twitter上也展示了它bitserial CPU的解码部分，你能看懂吗？
+
+> I want to write a bit about SERV, but as that will likely never happen, I thought I could at least share how the immediates are decoded as an example of one fun part of doing bitserial and saving resources. Consider it also an open challenge to make it more optimized :)
+
+![Olof BitSerial Decoder](/assets/images/articles/serv_bitserial.jpg)

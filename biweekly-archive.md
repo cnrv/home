@@ -4,6 +4,7 @@ layout: default
 
 ## RISC-V双周简报存档
 
+- 第0x24弹(2018-12-11): [RISC-V峰会胜利召开](bi-week-rpts/2018-12-11)
 - 第0x23弹(2018-11-18): [RISC-V Reader中文版出炉](bi-week-rpts/2018-11-18)
 - 第0x22弹(2018-10-14): [比特嘉楠双双使用RISC-V](bi-week-rpts/2018-10-14)
 - 第0x21弹(2018-09-30): [国内RISC-V上下游企业成立产业联盟](bi-week-rpts/2018-09-30)

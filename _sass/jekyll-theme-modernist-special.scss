@@ -1,15 +1,14 @@
 @import "rouge-base16-dark";
 
 html {
-  background:#6C7989;
-  background: #6C7989 linear_gradient(#6C7989, #434B55) fixed;
+  background:#FFF;
 }
 
 body {
   font-stretch:ultra-condensed;
   padding:50px 0;
   margin:0;
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Noto Serif SC', serif, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   color:#555;
   font-weight:600;
   background:inline-image('checker.png') fixed;

@@ -62,6 +62,7 @@ layout: default
   <li><a href="2017-12-07.html#risc-v-的-j-extension-group"           > RISC-V 的 J extension group </a></li>
   <li><a href="2017-11-09.html#risc-v基金会的会员过百"                 > RISC-V 基金会的会员过百 </a></li>
   <li><a href="2017-08-03.html#risc-v教育专题邮件列表成立"             > RISC-V 教育专题邮件列表成立 </a></li>
+  <li><a href="2018-03-16.html#risc-v调试标准公开征求意见45天"         > RISC-V 调试标准公开征求意见45天 </a></li>
   <li><a href="2017-08-03.html#risc-v中文书"                          > RISC-V 中文书 </a></li>
   <li><a href="2017-08-17.html#rv32e工具链支持"                       > RV32E 工具链支持 </a></li>
   <li><a href="2017-07-20.html#rv8-更新"                              > rv8 更新 </a></li>
@@ -103,6 +104,7 @@ layout: default
       <li><a href="2017-09-28.html#mtval-控制寄存器的取值和意图"           > mtval 控制寄存器的取值和意图 </a></li>
       <li><a href="2018-03-02.html#rdcycle的意义"                         > RDCYCLE的意义 </a></li>
       <li><a href="2017-12-07.html#risc-v-内存模型草案"                   > RISC-V 内存模型草案 </a></li>
+      <li><a href="2018-03-16.html#risc-v微控制器规范microprocessor-profile" > RISC-V 微控制器规范（microprocessor profile） </a></li>
       <li><a href="2018-01-04.html#如何支持semi-host"                     > 如何支持semi-host </a></li>
       <li><a href="2018-01-04.html#使用32比特的nop指令隐藏一条16比特指令"  > 使用32比特的NOP指令隐藏一条16比特指令？</a></li>
       <li><a href="2018-01-18.html#使用pma来控制物理内存区间内对非对齐的内存操作核原子操作的控制" > 使用PMA来控制物理内存区间内对非对齐的内存操作核原子操作的控制 </a></li>
@@ -116,6 +118,7 @@ layout: default
       <li><a href="2017-10-12.html#在lrsc之间应禁止所有中断"               > 在 LR/SC 之间应禁止所有中断 </a></li>
       <li><a href="2017-09-28.html#在rv32系统中如何设定64位的时间比较寄存器timecmp" > 在 RV32 系统中，如何设定64位的时间比较寄存器 timecmp </a></li>
       <li><a href="2017-08-03.html#直接缓存操作explicit-cache-control指令提案第3版-第4版" > 直接缓存操作(explicit cache control)指令提案(第3版, 第4版) </a></li>
+      <li><a href="2018-03-16.html#直接缓存操作explicit-cache-control指令提案" > 直接缓存操作(explicit cache control)指令提案(第5版) </a></li>
      </ul>
   </li>
   <li> Rocket-Chip
@@ -164,20 +167,24 @@ layout: default
   <li><a href="2017-09-14.html#gcc规定函数栈默认对齐16字节"           > GCC 规定函数栈默认对齐16字节 </a></li>
   <li><a href="2017-09-14.html#gcc将主动忽略所有非标准的扩展指令"      > GCC 将主动忽略所有非标准的扩展指令 </a></li>
   <li><a href="2018-03-02.html#risc-v-gdb-patch-v2"                 > GDB patch v2 </a></li>
+  <li><a href="2018-03-16.html#risc-v-的-gdb-port-进入主线"         > GDB port 进入主线 </a></li>
   <li><a href="2018-01-04.html#glibc-port-v3"                       > Glibc port v3 </a></li>
   <li><a href="2018-01-18.html#glibc-的-risc-v-port-v4"             > Glibc port v4 </a></li>
   <li><a href="2018-02-01.html#glibc-的risc-v-port-合并主线"         > Glibc 合并主线 </a></li>
   <li><a href="2017-11-23.html#gnu-mcu-eclipse-版本更新"             > GNU MCU Eclipse 版本更新 </a></li>
   <li><a href="2018-03-02.html#即将到来新的一轮rocket-chip变量名变更"  > 即将到来新的一轮 Rocket-Chip 变量名变更 </a></li>
+  <li><a href="2018-03-16.html#libffi-的risc-v-port-合併主线"        > libffi port 合併主线 </a></li>
   <li><a href="2017-10-12.html#llvm-进度更新"                       > LLVM 进度更新 </a></li>
   <li><a href="2018-01-18.html#lowrisc-发布带100m以太网支持的第5版"  > lowRISC 发布带100M以太网支持的第5版 </a></li>
   <li><a href="2017-08-17.html#lowrisc修复tag缓存并行错误"           > lowRISC 修复 Tag 缓存并行错误 </a></li>
   <li><a href="2017-09-28.html#musl的动态链接库后缀定义"             > MUSL 的动态链接库后缀定义 </a></li>
+  <li><a href="2018-03-16.html#openjdk-zero-的-risc-v-port"        > OpenJDK Zero 的 RISC-V port </a></li>
   <li><a href="2017-12-07.html#qemu-的risc-v-port-加入了针对priv-110的支持及针对smp的支持" > QEMU 的 risc-v port 加入了针对 priv 1.10 的支持及针对 SMP 的支持 </a></li>
   <li><a href="2018-01-04.html#qemu-port-v1"                        > QEMU port v1 </a></li>
   <li><a href="2018-01-18.html#qemu的-risc-v-port-v2-和-v3"         > QEMU port v2 和 v3 </a></li>
   <li><a href="2018-02-15.html#qemu-port-v4-and-v5"                 > QEMU port v4 和 v5 </a></li>
-  <li><a href="2018-03-02.html#qemu-patch-v7"                       > QEMU patch v7 </a></li>
+  <li><a href="2018-03-02.html#qemu-patch-v7"                       > QEMU port v7 </a></li>
+  <li><a href="2018-03-16.html#risc-v-的-qemu-port-进入主线"         > QEMU port 进入主线 </a></li>
   <li><a href="2017-08-17.html#release完成之前禁止acquire"           > Release 完成之前禁止 Acquire </a></li>
   <li><a href="2017-11-09.html#risc-v-port-进入-linux-next-"          > RISC-V Linux port 进入 linux-next !!! </a></li>
   <li><a href="2017-07-06.html#risc-v-linux第四版"                    > RISC-V Linux port 第四版 </a></li>
@@ -228,6 +235,8 @@ layout: default
   <li><a href="2017-10-26.html#carrv论文发布"                       > CARRV 论文发布 </a></li>
   <li><a href="2018-01-04.html#另一个chisel的学习资料-berkeley-的-generator-bootcamp" > chisel的学习资料：Berkeley 的 Generator Bootcamp </a></li>
   <li><a href="2017-10-26.html#chisel-的学习资料chisel-learning-journey" > Chisel 的学习资料：Chisel Learning Journey </a></li>
+  <li><a href="2018-03-16.html#胡同学的大道至简——risc-v架构之魂系列文章" > 胡同学的《大道至简——RISC-V架构之魂》系列文章 </a></li>
+  <li><a href="2018-03-16.html#lwn-上介绍-risc-v-和-risc-v-fedora-port-的系列文章" > LWN 上介绍 RISC-V 和 RISC-V Fedora port 的系列文章 </a></li>
   <li><a href="2017-12-21.html#micahel-clark-的-risc-v-qemu-part-1-privileged-isa-v110-hifive1-and-virtio" > Micahel Clark 的 RISC-V QEMU Part 1: Privileged ISA v1.10, HiFive1 and VirtIO </a></li>
   <li><a href="2017-08-17.html#palmer的all-aboard系列"                                          > Palmer 的 All Aboard blog </a></li>
   <li><a href="2017-09-28.html#all-aboard-blog-part1-整理"                                      > Palmer 的 All aboard part 1 </a></li>

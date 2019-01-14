@@ -8,21 +8,6 @@ layout: default
 
 ----
 
-## RISC-V Day 2018 Shanghai 系列报道
-
-- 2018-06-13: [Greenwaves GAP8: RISC-V + AI助力PULP打造小型自主飞行智能无人机](/articles/crazyfile-gap8)
-- 2018-06-25: [为什么你要来上海参加RISC-V Day](/articles/why-come-to-join-risc-v-day-shanghai)
-
-## 特别活动
-
-- 2018-06-23: [RISC-V Day 2018 Shanghai学生参会资助计划（第二轮）](/articles/risc-v-day-2018-shanghai-student-sponorship-v2)
-- 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划（第一轮）](/articles/risc-v-day-2018-shanghai-student-sponorship)
-
-## 实时报道
-
-- 2018-05-09: [2018 RISC-V巴塞罗那 Workshop特别报道 (1)](/articles/riscv-workshop-barcelona-special-rpt-day1)
-- 2018-05-10: [2018 RISC-V巴塞罗那 Workshop特别报道 (2)](/articles/riscv-workshop-barcelona-special-rpt-day2)
-
 ## RISC-V双周简报
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
@@ -49,6 +34,21 @@ layout: default
 - 第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)
 - 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
 - [往期存档](biweekly-archive)
+
+## RISC-V Day 2018 Shanghai 系列报道
+
+- 2018-06-13: [Greenwaves GAP8: RISC-V + AI助力PULP打造小型自主飞行智能无人机](/articles/crazyfile-gap8)
+- 2018-06-25: [为什么你要来上海参加RISC-V Day](/articles/why-come-to-join-risc-v-day-shanghai)
+
+## 特别活动
+
+- 2018-06-23: [RISC-V Day 2018 Shanghai学生参会资助计划（第二轮）](/articles/risc-v-day-2018-shanghai-student-sponorship-v2)
+- 2018-06-09: [RISC-V Day 2018 Shanghai学生参会资助计划（第一轮）](/articles/risc-v-day-2018-shanghai-student-sponorship)
+
+## 实时报道
+
+- 2018-05-09: [2018 RISC-V巴塞罗那 Workshop特别报道 (1)](/articles/riscv-workshop-barcelona-special-rpt-day1)
+- 2018-05-10: [2018 RISC-V巴塞罗那 Workshop特别报道 (2)](/articles/riscv-workshop-barcelona-special-rpt-day2)
 
 ----
 

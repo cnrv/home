@@ -62,6 +62,7 @@ layout: default
 
 - 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
 - 2018-05-05: [给开源架构添点儿柴](articles/cold-boiling-water)
+- 2019-01-24: [SoC自主可控分级标准](zzkk)
 
 ----
 

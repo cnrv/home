@@ -55,6 +55,7 @@ layout: default
 ## 干货
 
 - 2018-10-24: [SiFive TileLink规格书1.7.1(草案) 的中文翻译](articles/tl-spec-zh-translate)
+- 2019-11-09: [Spike模拟Linux 5.3教程](articles/spike-linux)
 
 ----
 

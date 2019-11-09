@@ -1,6 +1,8 @@
 Spike模拟Linux 5.3教程
 ===
 
+作者：[Liboya-CB](https://github.com/Liboya-CB), 2019年11月。
+
 ### 相关工具版本说明
 
 * riscv-gnu-toolchain: [7833a53](https://github.com/riscv/riscv-gnu-toolchain/tree/7833a53f8b0d0edb2bec0bb9a177685ae75570d5)

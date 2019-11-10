@@ -34,6 +34,7 @@ layout: default
 - 第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)
 - 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
 - [往期存档](biweekly-archive)
+- [内容索引](bi-week-rpts/bi-week-rpts-index)
 
 ## RISC-V Day 2018 Shanghai 系列报道
 

@@ -41,6 +41,7 @@ layout: default
 - 第0x10弹(2018-02-01): [走在“时尚的前沿”](bi-week-rpts/2018-02-01) [\[繁体\]](bi-week-rpts/2018-02-01.tc)
 - 第0x0f弹(2018-01-18): [Google开源RISC-V CPU](bi-week-rpts/2018-01-18) [\[繁体\]](bi-week-rpts/2018-01-18.tc)
 - [往期存档](biweekly-archive)
+- [内容索引](bi-week-rpts/bi-week-rpts-index)
 
 ----
 

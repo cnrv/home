@@ -8,6 +8,33 @@ layout: default
 
 ----
 
+## RISC-V双周简报
+
+国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
+
+- **第0x25弹(2019-01-14): [上海继续支持RISC-V研发企业](bi-week-rpts/2019-01-14)**
+- 第0x24弹(2018-12-11): [RISC-V峰会胜利召开](bi-week-rpts/2018-12-11)
+- 第0x23弹(2018-11-18): [RISC-V Reader中文版出炉](bi-week-rpts/2018-11-18)
+- 第0x22弹(2018-10-14): [比特嘉楠双双使用RISC-V](bi-week-rpts/2018-10-14)
+- 第0x21弹(2018-09-30): [国内RISC-V上下游企业成立产业联盟](bi-week-rpts/2018-09-30)
+- 第0x20弹(2018-09-16): [华米和嘉楠发布基于RISC-V的自研芯片](bi-week-rpts/2018-09-16)
+- 第0x1f弹(2018-09-01): [一晚上写个RISC-V处理器玩玩](bi-week-rpts/2018-09-01)
+- 第0x1e弹(2018-08-17): [RISC-V新创企业拟融资上亿元](bi-week-rpts/2018-08-17)
+- 第0x1d弹(2018-08-03): [印度首个可运行Linux的RISC-V芯片成功流片](bi-week-rpts/2018-08-03)
+- 第0x1c弹(2018-07-20): [上海发布支持RISC-V相关政策](bi-week-rpts/2018-07-20)
+- 第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)
+- 第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)
+- 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)
+- 第0x18弹(2018-05-25): [RISC-V Day Shanghai等你来玩](bi-week-rpts/2018-05-25)
+- 第0x17弹(2018-05-11): [从点子到芯片？](bi-week-rpts/2018-05-11)
+- 第0x16弹(2018-04-27): [RISC-V引领敏捷硬件风潮](bi-week-rpts/2018-04-27)
+- 第0x15弹(2018-04-13): [第八届Workshop会议议程公布](bi-week-rpts/2018-04-13)
+- 第0x14弹(2018-03-30): [宗师获图灵奖实质名归](bi-week-rpts/2018-03-30) [\[繁体\]](bi-week-rpts/2018-03-30.tc)
+- 第0x13弹(2018-03-16): [想把事情做简单可不是那么简单的事情](bi-week-rpts/2018-03-16) [\[繁体\]](bi-week-rpts/2018-03-16.tc)
+- 第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)
+- 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
+- [往期存档](biweekly-archive)
+
 ## RISC-V Day 2018 Shanghai 系列报道
 
 - 2018-06-13: [Greenwaves GAP8: RISC-V + AI助力PULP打造小型自主飞行智能无人机](/articles/crazyfile-gap8)
@@ -23,25 +50,12 @@ layout: default
 - 2018-05-09: [2018 RISC-V巴塞罗那 Workshop特别报道 (1)](/articles/riscv-workshop-barcelona-special-rpt-day1)
 - 2018-05-10: [2018 RISC-V巴塞罗那 Workshop特别报道 (2)](/articles/riscv-workshop-barcelona-special-rpt-day2)
 
-## RISC-V双周简报
+----
 
-国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
+## 干货
 
-- **第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)**
-- 第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)
-- 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)
-- 第0x18弹(2018-05-25): [RISC-V Day Shanghai等你来玩](bi-week-rpts/2018-05-25)
-- 第0x17弹(2018-05-11): [从点子到芯片？](bi-week-rpts/2018-05-11)
-- 第0x16弹(2018-04-27): [RISC-V引领敏捷硬件风潮](bi-week-rpts/2018-04-27)
-- 第0x15弹(2018-04-13): [第八届Workshop会议议程公布](bi-week-rpts/2018-04-13)
-- 第0x14弹(2018-03-30): [宗师获图灵奖实质名归](bi-week-rpts/2018-03-30) [\[繁体\]](bi-week-rpts/2018-03-30.tc)
-- 第0x13弹(2018-03-16): [想把事情做简单可不是那么简单的事情](bi-week-rpts/2018-03-16) [\[繁体\]](bi-week-rpts/2018-03-16.tc)
-- 第0x12弹(2018-03-02): [看看AI和RISC-V碰撞出的火花](bi-week-rpts/2018-03-02) [\[繁体\]](bi-week-rpts/2018-03-02.tc)
-- 第0x11弹(2018-02-15): [跑Linux的CPU一次来俩](bi-week-rpts/2018-02-15) [\[繁体\]](bi-week-rpts/2018-02-15.tc)
-- 第0x10弹(2018-02-01): [走在“时尚的前沿”](bi-week-rpts/2018-02-01) [\[繁体\]](bi-week-rpts/2018-02-01.tc)
-- 第0x0f弹(2018-01-18): [Google开源RISC-V CPU](bi-week-rpts/2018-01-18) [\[繁体\]](bi-week-rpts/2018-01-18.tc)
-- [往期存档](biweekly-archive)
-- [内容索引](bi-week-rpts/bi-week-rpts-index)
+- 2018-10-24: [SiFive TileLink规格书1.7.1(草案) 的中文翻译](articles/tl-spec-zh-translate)
+- 2019-11-09: [Spike模拟Linux 5.3教程](articles/spike-linux)
 
 ----
 
@@ -49,6 +63,7 @@ layout: default
 
 - 2017-10-12: [RISC-V 双周简报问卷调查结果分析](articles/2017-10-12-questionaire)
 - 2018-05-05: [给开源架构添点儿柴](articles/cold-boiling-water)
+- 2019-01-24: [SoC自主可控分级标准](zzkk)
 
 ----
 

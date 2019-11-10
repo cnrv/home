@@ -7,7 +7,7 @@ cache:
     - $HOME/.cache
 
 sudo: false
-rvm: 2.2
+rvm: 2.3
 env:
   global:
   - secure: tbbfviUOghXi1Pbrppwe6YU+dTAnPzx84+nKgfkdscM7jagJPRkDYuJMV8AA+akmXWH2toAhA9IK/bKcRbgh2U6peuJaHDYiY+ZldkIKaSjj2wLSEICtXBnSMb1G0rPeQNYzNHx1bHfzYYyCrAvDVTXwBigDbtNU5wEjQf/G9FNpF+qoOPDnWranpxw+fh9uRoxmhQ8nDR+D51Cp7OJHOehD//Ju+2Xvj3BiHocZfcwz2uotpM6MO8OHLqsU1RKUeLaX0hvDQfs8F7sgIrBUTwljkAVDMA5nb8oej1VkLxEYH6v0yDPpebPHtgSk4SJ/q5JsYiPeJOnj/7rUEgZMRR4oRA2ctj+hZh37RKJI4NMk0kHtpf/TJfY39T/54DDG5pUK4p5R5SAOpq4KJEBtBErgAbpdfJ2ntF9V6tb7LKVwbhQGcQGAie0zg6k/B+jpc+MfP2qDpKBFJvp5Io3Y2whul+fxZJhmMSJhBtXWdTVQP6RcstsrKP4ibdZwOrNo1ytubQHWBqnbV6HWVUy9s64O+lMh8PJeNbJ4p9biuHK/3HSp9MQATRlqAn0RgE9QTTcWR6a8TO7UbjLVc+M9aA4tCkhFJ5xsIAbuViy/79JLrzglGA7dTK544QAIh62H0cHq4zZ7MR/kzW9GPlPB5Gf8QpxurSTufI6p1bMAPVM=

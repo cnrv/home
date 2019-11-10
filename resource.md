@@ -113,6 +113,7 @@ layout: default
 + Linux distribution
   - [Debian](https://wiki.debian.org/RISC-V#What_is_a_Debian_port.3F):Debian RISC-V port
   - [Fedora](https://fedoraproject.org/wiki/Architectures/RISC-V/Bootstrapping):Fedora RISC-V port
+  - [Fedora:bootstrap](https://github.com/rwmjones/fedora-riscv-bootstrap):Fedora RISC-V complation scripts
 
 ## 开发工具
 
@@ -206,6 +207,8 @@ layout: default
 + 书籍
   - David Patterson John Hennessy著：[Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 
++ Blog
+  - Nitish Srivastava: [Adding custom instruction to RISCV ISA and running it on gem5 and spike](https://nitish2112.github.io/post/adding-instruction-riscv/)
 
 ## 其他
 

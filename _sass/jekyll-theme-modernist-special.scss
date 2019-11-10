@@ -1,23 +1,24 @@
 @import "rouge-base16-dark";
 
 html {
-  background:#6C7989;
-  background: #6C7989 linear_gradient(#6C7989, #434B55) fixed;
+  background:#FFF;
 }
 
 body {
+  font-stretch:ultra-condensed;
   padding:50px 0;
   margin:0;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Serif SC', serif, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   color:#555;
-  font-weight:300;
+  font-weight:600;
   background:inline-image('checker.png') fixed;
 }
 
 .wrapper {
   width:750px;
   margin:0 auto;
-  background:#DEDEDE;
+  background-image: url(/assets/images/newpaper-bg.jpg);
+  background-repeat: repeat;
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
@@ -56,6 +57,7 @@ header {
     line-height:1.2;
     color:#069;
     text-shadow:rgba(#fff, 0.9) 0 1px 0;
+    text-align:left;
   }
 
   &.without-description h1 {
@@ -170,6 +172,8 @@ h1, h2, h3, h4, h5, h6 {
   padding:0;
   margin:0 0 20px;
   line-height:1.2;
+  font-weight:900;
+  text-align:center;
 }
 
 p, ul, ol, table, pre, dl {

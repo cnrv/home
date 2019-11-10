@@ -4,6 +4,16 @@ layout: default
 
 ## RISC-V双周简报存档
 
+- 第0x25弹(2019-01-14): [上海继续支持RISC-V研发企业](bi-week-rpts/2019-01-14)
+- 第0x24弹(2018-12-11): [RISC-V峰会胜利召开](bi-week-rpts/2018-12-11)
+- 第0x23弹(2018-11-18): [RISC-V Reader中文版出炉](bi-week-rpts/2018-11-18)
+- 第0x22弹(2018-10-14): [比特嘉楠双双使用RISC-V](bi-week-rpts/2018-10-14)
+- 第0x21弹(2018-09-30): [国内RISC-V上下游企业成立产业联盟](bi-week-rpts/2018-09-30)
+- 第0x20弹(2018-09-16): [华米和嘉楠发布基于RISC-V的自研芯片](bi-week-rpts/2018-09-16)
+- 第0x1f弹(2018-09-01): [一晚上写个RISC-V处理器玩玩](bi-week-rpts/2018-09-01)
+- 第0x1e弹(2018-08-17): [RISC-V新创企业拟融资上亿元](bi-week-rpts/2018-08-17)
+- 第0x1d弹(2018-08-03): [印度首个可运行Linux的RISC-V芯片成功流片](bi-week-rpts/2018-08-03)
+- 第0x1c弹(2018-07-20): [上海发布支持RISC-V相关政策](bi-week-rpts/2018-07-20)
 - 第0x1b弹(2018-07-08): [RISC-V Day Shanghai精彩回顾](bi-week-rpts/2018-07-06)
 - 第0x1a弹(2018-06-22): [RISC-V Day Shanghai即将举行，纪念版T恤不容错过](bi-week-rpts/2018-06-22)
 - 第0x19弹(2018-06-08): [RISC-V Day Shanghai议程公布](bi-week-rpts/2018-06-08)

@@ -15,6 +15,7 @@ layout: default
 CNRV社区将会不定期举办Chisel挑战赛，寻找最优电路下的最优表达。
 
 - **CH001**: [MuxN](/challenge/ch001-mux-n)
+- **CH002**: [Asynchronous FIFO](/challenge/ch002-async-fifo)
 
 有任何问题请邮件至[群头](mailto:xfguo@xfguo.org).
 

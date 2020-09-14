@@ -8,7 +8,19 @@ layout: default
 
 ----
 
-## RISC-V双周简报
+![CNRV Chisel Challenge](/assets/images/challenge/ch-logo.png)
+
+## CNRV Chisel挑战赛
+
+CNRV社区将会不定期举办Chisel挑战赛，寻找最优电路下的最优表达。
+
+- **CH001**: [MuxN](/challenge/ch001-mux-n)
+
+有任何问题请邮件至[群头](mailto:xfguo@xfguo.org).
+
+----
+
+## RISC-V双周简报(已经停更)
 
 国内的RISC-V爱好者利用Github协作的方式，以双周简报的方式为大家带来最新的RISC-V相关咨询，同时在微信公众号和CNRV站点上发布。内容覆盖RISC-V邮件列表、行业新闻、项目进展以及各类点评。也欢迎大家关注CNRV公众号获取最新信息。
 

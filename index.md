@@ -2,6 +2,19 @@
 layout: default
 ---
 
+
+## RISC-V国际基金会现已登陆B站（哔哩哔哩）
+
+[详情请戳](articles/20210512-riscv-bilibili)
+
+账号是：RISCV国际基金会，URL是：
+
+https://space.bilibili.com/1121469705/video
+
+目前已经将 RISC-V 国际基金会在油管上的视频全部上传了。请大家多多关注，一键三连！
+
+----
+
 ## 关于
 
 本站点希望能够为国内的RISC-V爱好者和Chisel开发者提供便利。

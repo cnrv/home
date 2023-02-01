@@ -1,1 +1,1 @@
-CNRV website powered by Github Pages.
+CNRV website.

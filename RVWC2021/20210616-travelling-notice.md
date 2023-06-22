@@ -52,5 +52,5 @@ https://www.bagevent.com/event/7534263
 ### 关于 RISC-V 峰会的提问
 
 请联系组织方代表： 吴伟
-微信号： fangzhang1024 (添加时请标注“RISC-V峰会”)
+微信号： lazyparser (添加时请标注“RISC-V峰会”)
 邮箱： wuwei2016@iscas.ac.cn

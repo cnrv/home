@@ -1,15 +1,21 @@
 title: CNRV
 description: 关注RISC-V和Chisel以及开源IC和EDA在中国的发展
+lang: zh-CN
 show_downloads: false
 google_analytics: UA-102898438-1
-theme: 
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - no_intra_emphasis
-    - fenced_code_blocks
-    - autolink
-    - tables
-    - strikethrough
-    - superscript
-    - with_to_data
+github_url: https://github.com/cnrv
+repository: cnrv/home
+markdown: kramdown
+
+# Friend links shown in the footer. Remove the list to hide the row.
+friend_links:
+  - name: 甲辰计划
+    url: https://rv2036.org
+  - name: HelloGCC / OSDT
+    url: https://hellogcc.org
+  - name: HelloLLVM
+    url: https://hellollvm.org
+  - name: 松竹梅计划
+    url: https://songzhumei-project.org
+  - name: PLCT Lab
+    url: https://plctlab.github.io

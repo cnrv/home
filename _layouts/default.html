@@ -1,21 +1,14 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "zh-CN" }}">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }} - CNRV</title>
-    <meta name="description" content="CNRV - 爱好者组建的中文RISC-V社群">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}CNRV</title>
+    <meta name="description" content="{{ page.description | default: 'CNRV - 爱好者组建的中文RISC-V社群' }}">
     <meta name="keywords" content="RISC-V riscv chisel 精简指令集 RISC 处理器 CPU 体系结构 中文 社区 CNRV">
-
-
-    <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <!-- Baidu Stat -->
     <script>
@@ -23,50 +16,51 @@
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?d838e23c0ea6ac87b1ec5f7fff94c3d0";
-      var s = document.getElementsByTagName("script")[0]; 
+      var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
     </script>
   </head>
   <body>
-    <div class="wrapper">
-      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <h1><a href="//cnrv.io">{{ site.title | default: site.github.repository_name }}</a></h1>
-        {% if site.description or site.github.project_tagline %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% endif %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        <ul>
-        {% if site.show_downloads %}
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        {% endif %}
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <img class="brand-logo" src="{{ '/assets/images/cnrv.png' | relative_url }}" alt="CNRV">
+          <span class="brand-tagline">{{ site.description }}</span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>首页</a>
+          <a href="{{ '/biweekly-archive.html' | relative_url }}"{% if page.url == '/biweekly-archive.html' %} aria-current="page"{% endif %}>双周简报</a>
+          <a href="{{ '/papers.html' | relative_url }}"{% if page.url == '/papers.html' %} aria-current="page"{% endif %}>文献</a>
+          <a href="{{ '/resource.html' | relative_url }}"{% if page.url == '/resource.html' %} aria-current="page"{% endif %}>资源</a>
+          <a class="icon-link" href="{{ site.github_url }}" title="GitHub" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2.1c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+            <span class="sr-only">GitHub</span>
+          </a>
+        </nav>
+      </div>
+    </header>
 
-      {{ content }}
+    <main class="wrap">
+      <article class="markdown-body{% if page.url == '/' %} news-stream{% endif %}">
+        {{ content }}
+      </article>
+    </main>
 
-      </section>
-    </div>
-    <footer>
-    {% if site.github.is_project_page %}
-      <p>沪ICP备16018559号-3</p>
-    {% endif %}
-      <p>由<a href="{{ site.github.owner_url }}">CNRV编辑部</a>维护</p>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-row">
+          <span>© {{ site.time | date: "%Y" }} CNRV · 由<a href="{{ site.github_url }}">CNRV编辑部</a>维护</span>
+          <span>沪ICP备16018559号-3</span>
+          <a href="https://github.com/{{ site.repository }}" rel="noopener">网站源码</a>
+        </div>
+        {% if site.friend_links %}
+        <div class="footer-row">
+          <span class="footer-label">社区友链</span>
+          {% for link in site.friend_links %}<a href="{{ link.url }}" rel="noopener">{{ link.name }}</a>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
     </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
